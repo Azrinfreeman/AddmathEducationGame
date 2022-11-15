@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ca971d697f6ea6c4380858fd21dffc88
+guid: ab0d44bf250bb094aaa7ecb72fc9f5c9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 722, y: 337, z: 724, w: 381}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -129,22 +129,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1.0 (1)_0
+      name: owlSmart_0
       rect:
         serializedVersion: 2
-        x: 718
-        y: 331
-        width: 480
-        height: 370
+        x: 66
+        y: 44
+        width: 231
+        height: 329
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a966a7635c3d5a44a8b97f8d961c878
-      internalID: 52642495
+      spriteID: df36eff5cce1be64e87dfdf2d586a107
+      internalID: 1208255950
       vertices: []
       indices: 
       edges: []
@@ -153,14 +153,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      1.0 (1)_0: 52642495
+      owlSmart_0: 1208255950
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
