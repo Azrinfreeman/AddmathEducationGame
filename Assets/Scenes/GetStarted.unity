@@ -778,7 +778,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 622403615}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1527523616}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlayerInformation
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &622403615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1521,6 +1533,7 @@ GameObject:
   - component: {fileID: 1527523614}
   - component: {fileID: 1527523613}
   - component: {fileID: 1527523612}
+  - component: {fileID: 1527523616}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1616,6 +1629,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1527523616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527523611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391a57438ac53e64cb9544e0f63f3ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665349684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,7 +1952,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 971798256}
   m_HandleRect: {fileID: 971798255}
   m_Direction: 0
-  m_Value: -0.000000052840985
+  m_Value: 0
   m_Size: 0.3185705
   m_NumberOfSteps: 0
   m_OnValueChanged:
