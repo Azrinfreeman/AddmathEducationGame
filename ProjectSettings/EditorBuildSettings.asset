@@ -9,6 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/GetStarted.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/AfterLogin/MainMenu.unity
+    guid: 962fa8e327ae6554aac02c17025850cd
+  - enabled: 1
     path: Assets/Scenes/GameMenu.unity
     guid: e7d928be12a1aa44eae1c84f75ef6260
+  - enabled: 1
+    path: Assets/Scenes/BadgesPage.unity
+    guid: a7a428aa5cc52cb4e85f21c010e0c4d2
+  - enabled: 1
+    path: Assets/Scenes/LoginPage.unity
+    guid: 26850665b665e81488f239151dd72528
+  - enabled: 1
+    path: Assets/Scenes/Lessons/LearningPage.unity
+    guid: 6202eab311d0c194990cc5f1b51d256b
+  - enabled: 1
+    path: Assets/Scenes/PlayerInformation.unity
+    guid: 3279370a60c7f5346834096eb230bcd5
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/EasyQuizz.unity
+    guid: 876e99b46ae599841851cd816becafae
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/HardQuiz.unity
+    guid: f0f89bf683438fe42b2671faaf56c327
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/MediumQuiz.unity
+    guid: 57b821deb91767a42a9ff0c05ad911f6
+  - enabled: 1
+    path: Assets/Scenes/Quizzes/Quizzes.unity
+    guid: e81a490bd4a9a584992e5a8d3d5cbf5c
   m_configObjects: {}
