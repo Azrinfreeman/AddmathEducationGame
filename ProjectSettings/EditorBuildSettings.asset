@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameMenu.unity
     guid: e7d928be12a1aa44eae1c84f75ef6260
   - enabled: 1
-    path: Assets/Scenes/BadgesPage.unity
+    path: Assets/Scenes/Badges/BadgesPage.unity
     guid: a7a428aa5cc52cb4e85f21c010e0c4d2
   - enabled: 1
     path: Assets/Scenes/LoginPage.unity
