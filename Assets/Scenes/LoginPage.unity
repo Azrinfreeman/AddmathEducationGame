@@ -334,8 +334,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -300}
-  m_SizeDelta: {x: 710.0427, y: 363.7183}
+  m_AnchoredPosition: {x: 0, y: -414}
+  m_SizeDelta: {x: 710.0427, y: 178.564}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &151559854
 MonoBehaviour:
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SIMPLE MATHEMATIC FOR PRIMARY
+  m_text: FUN MATH
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25af45535db720b47b3d4be530125bcc, type: 2}
   m_sharedMaterial: {fileID: -2922223846274059151, guid: 25af45535db720b47b3d4be530125bcc, type: 2}
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

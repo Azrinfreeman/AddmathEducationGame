@@ -17,6 +17,9 @@ public class SceneController : MonoBehaviour
         
     }
 
+    public void QuitApp(){
+        Application.Quit();
+    }
     
     IEnumerator delaySceneLoad(string scenename){
         yield return new WaitForSeconds(0.4f);

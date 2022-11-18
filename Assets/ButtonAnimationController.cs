@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 public class ButtonAnimationController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public Animator animator;
+    private Animator animator;
+
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,17 @@ public class ButtonAnimationController : MonoBehaviour, IPointerDownHandler, IPo
     }
 
    public void OnPointerDown(PointerEventData eventData){
- animator.SetTrigger("isClicking");   
+
+    animator.SetTrigger("isClicking");
+ 
+
 }
  
     public void OnPointerUp(PointerEventData eventData){
- animator.SetTrigger("isClicking");
+
+    animator.SetTrigger("isClicking");
+
+   
+
 }
 }

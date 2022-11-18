@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Loading/LoadingScene.unity
+    guid: 60eec3f1c16facd48a18c300caccde1c
+  - enabled: 1
     path: Assets/Scenes/GetStarted.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/PlayerInformation.unity
+    guid: 3279370a60c7f5346834096eb230bcd5
+  - enabled: 1
+    path: Assets/Scenes/LoginPage.unity
+    guid: 26850665b665e81488f239151dd72528
   - enabled: 1
     path: Assets/Scenes/AfterLogin/MainMenu.unity
     guid: 962fa8e327ae6554aac02c17025850cd
@@ -18,14 +27,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Badges/BadgesPage.unity
     guid: a7a428aa5cc52cb4e85f21c010e0c4d2
   - enabled: 1
-    path: Assets/Scenes/LoginPage.unity
-    guid: 26850665b665e81488f239151dd72528
-  - enabled: 1
     path: Assets/Scenes/Lessons/LearningPage.unity
     guid: 6202eab311d0c194990cc5f1b51d256b
-  - enabled: 1
-    path: Assets/Scenes/PlayerInformation.unity
-    guid: 3279370a60c7f5346834096eb230bcd5
   - enabled: 1
     path: Assets/Scenes/Quizzes/EasyQuizz.unity
     guid: 876e99b46ae599841851cd816becafae
