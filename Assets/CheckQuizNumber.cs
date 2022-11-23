@@ -29,10 +29,10 @@ public class CheckQuizNumber : MonoBehaviour
             slider = GameObject.Find("Slider").GetComponent<Slider>();
             text.text = textLabel;
 
-            slider.minValue = int.Parse(quizNumber);
+            slider.minValue = 1;
             slider.maxValue = numberofQuizzes;
 
-            slider.value = slider.minValue;
+            slider.value = int.Parse(quizNumber);
 
     }
 
