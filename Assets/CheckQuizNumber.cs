@@ -20,6 +20,12 @@ public class CheckQuizNumber : MonoBehaviour
         
     }
 
+    public int GetNumberOfQuiz(){
+        int quiz = numberofQuizzes;
+
+        return quiz;
+    }
+
     public void setupPage(){
             quizNumber = transform.GetChild(0).name;
             numberofQuizzes =  transform.childCount;
