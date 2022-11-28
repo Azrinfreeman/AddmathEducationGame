@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+
 public class CheckQuizNumber : MonoBehaviour
 {
     public int numberofQuizzes;
@@ -20,12 +21,7 @@ public class CheckQuizNumber : MonoBehaviour
         
     }
 
-    public int GetNumberOfQuiz(){
-        int quiz = numberofQuizzes;
-
-        return quiz;
-    }
-
+    
     public void setupPage(){
             quizNumber = transform.GetChild(0).name;
             numberofQuizzes =  transform.childCount;
@@ -39,6 +35,7 @@ public class CheckQuizNumber : MonoBehaviour
             slider.maxValue = numberofQuizzes;
 
             slider.value = int.Parse(quizNumber);
+        
 
     }
 

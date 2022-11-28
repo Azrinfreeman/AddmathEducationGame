@@ -14,11 +14,13 @@ public class SceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 
     public void QuitApp(){
         Application.Quit();
+        
+        
     }
     
     IEnumerator delaySceneLoad(string scenename){
@@ -32,4 +34,5 @@ public class SceneController : MonoBehaviour
         
         
     }
+    
 }
