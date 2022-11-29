@@ -16,7 +16,7 @@ public class QuizController : MonoBehaviour
     {
         check = GetComponent<CheckQuizNumber>();
         
-        Invoke("GetNumber", 1);
+        Invoke("GetNumber", 0.5f);
 
         Debug.Log("score: "+PlayerPrefs.GetInt("QuizScoreEasy"));
         
