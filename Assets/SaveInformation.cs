@@ -45,7 +45,9 @@ public class SaveInformation : MonoBehaviour
         Age = int.Parse(PlayerAgeTMP.text);
 
         Debug.Log(PlayerName + Gender + Age);
-        LoadingStart.instance.SaveDate();
+       // LoadingStart.instance.SaveDate();
+        //save data player
+        PlayerPrefs.SetInt("firstTime", 1);
         Saveinfos();
 
         StartCoroutine(loadGame("MainMenu"));
