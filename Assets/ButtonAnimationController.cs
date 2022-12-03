@@ -5,12 +5,14 @@ using UnityEngine.EventSystems;
 public class ButtonAnimationController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     private Animator animator;
-
+    [SerializeField]
+    private AudioSource soundSFX;
   
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class ButtonAnimationController : MonoBehaviour, IPointerDownHandler, IPo
    public void OnPointerDown(PointerEventData eventData){
 
     animator.SetTrigger("isClicking");
- 
+    //soundSFX.Play();
 
 }
  

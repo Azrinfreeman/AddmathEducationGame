@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     string scenename;
+    
+    [SerializeField]
+    private AudioSource soundSFX;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +34,7 @@ public class SceneController : MonoBehaviour
     }
 
     public void loadScene(string scenename){
+        soundSFX.Play();
         StartCoroutine(delaySceneLoad(scenename));
         
         

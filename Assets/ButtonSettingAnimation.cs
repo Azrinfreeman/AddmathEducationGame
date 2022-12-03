@@ -6,11 +6,13 @@ public class ButtonSettingAnimation : MonoBehaviour
 {
 
     public Animator animator;
-
+    [SerializeField]
+    private AudioSource soundSFX;
     public bool hasClicked;
     // Start is called before the first frame update
     void Start()
     {
+        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
         animator = GameObject.Find("Dropdowns").GetComponent<Animator>();
     }
 
@@ -28,6 +30,7 @@ public class ButtonSettingAnimation : MonoBehaviour
             animator.SetBool("isClicking", false);
             hasClicked = false;
         }
+        soundSFX.Play();
 
     }
 }

@@ -11,7 +11,8 @@ public class TimerController : MonoBehaviour
 
     public bool isSwitch;
 
-
+    [SerializeField]
+    private AudioSource warningSFX;
     public Transform timeoutGameobject;
     public Transform prompted;
     // Start is called before the first frame update
@@ -21,7 +22,8 @@ public class TimerController : MonoBehaviour
         text = transform.GetChild(2).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         prompted = transform.parent.transform.parent.GetChild(7).GetComponent<Transform>();
         timeoutGameobject = transform.parent.transform.parent.GetChild(8).GetComponent<Transform>();
-
+        warningSFX = GameObject.Find("warningSFX").GetComponent<AudioSource>();
+       
 //        prompted = transform.parent.GetChild(0).GetComponent<GameObject>();
   //      timeoutGameobject = GameObject.Find("TimeUp").GetComponent<GameObject>();
 
@@ -30,6 +32,7 @@ public class TimerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (timer > 0)
         {
             timer -= Time.deltaTime;
@@ -44,9 +47,13 @@ public class TimerController : MonoBehaviour
         }
         minit = Mathf.FloorToInt(timer/60);
         seconds = Mathf.FloorToInt(timer % 60);
+        
+        if(minit <=0 && seconds >=0 && seconds < 10){
+        text.text = "0:0"+seconds.ToString();
+            if(!warningSFX.isPlaying){
 
-        if(minit <=0 && seconds < 10){
-        text.text = "0:0"+seconds.ToString();            
+            warningSFX.Play(); 
+            }
         }else if (minit >= 1 && seconds < 10){
         text.text = minit+":0"+seconds.ToString();
         }else{
