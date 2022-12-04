@@ -6,6 +6,8 @@ public class WeightScale : MonoBehaviour
 {
 
     public int weight;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +21,16 @@ public class WeightScale : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("afasgas");
+       
         if(other.gameObject.tag == "weight"){
-            other.gameObject.GetComponent<ScaleCounterController>().startingWeight += weight;
+            //other.gameObject.GetComponent<ScaleCounterController>().startingWeight += weight;
         }
     }
 
     private void OnCollisionExit2D(Collision2D other) {
-        Debug.Log("afasgas");
+        
         if(other.gameObject.tag == "weight"){
-            other.gameObject.GetComponent<ScaleCounterController>().startingWeight -= weight;
+          //  other.gameObject.GetComponent<ScaleCounterController>().startingWeight -= weight;
         }
     }
 }
