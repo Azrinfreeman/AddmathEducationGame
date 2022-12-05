@@ -19,17 +19,15 @@ public class WeightScale : MonoBehaviour
     {
         
     }
-
-    private void OnCollisionEnter2D(Collision2D other) {
-       
+    private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "weight"){
-            //other.gameObject.GetComponent<ScaleCounterController>().startingWeight += weight;
+            BallController.instance.Balls[transform.GetSiblingIndex()] = true;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other) {
-        
+    private void OnTriggerExit2D(Collider2D other) {
         if(other.gameObject.tag == "weight"){
+            BallController.instance.Balls[transform.GetSiblingIndex()] = false;
           //  other.gameObject.GetComponent<ScaleCounterController>().startingWeight -= weight;
         }
     }

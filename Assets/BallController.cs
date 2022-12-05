@@ -6,25 +6,27 @@ public class BallController : MonoBehaviour
 {
     public static BallController instance;
 
+    public bool[] Balls;
+    public int num;
+
+
     private void Awake() {
         instance = this;
     }
 
-    public int ballCount;
- 
-    public bool[] inContainer;
+   
     // Start is called before the first frame update
     void Start()
     {
-        ballCount = gameObject.transform.GetChild(2).gameObject.transform.childCount;
-        inContainer = new bool[ballCount];
-        
+       num = transform.GetChild(2).transform.childCount;
+       Balls = new bool[num];
     }
 
+    
     // Update is called once per frame
     void Update()
     {
-       
+    
 
     }
 }

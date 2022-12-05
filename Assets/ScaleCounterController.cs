@@ -5,45 +5,66 @@ using TMPro;
 public class ScaleCounterController : MonoBehaviour
 {
 
-    
-    public int startingWeight =0;
-    public TextMeshProUGUI text;
+    public Scale scale1;
+    public Scale scale2;
+
+    public int count = 0;
+    bool isChecking= true;
+    //public TextMeshProUGUI text;
     // Start is called before the first frame update
     void Start()
     {
-        startingWeight = 0;
-        text = transform.GetChild(0).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+       scale1 = transform.GetChild(0).GetComponent<Scale>();
+       scale2 = transform.GetChild(1).GetComponent<Scale>();
     }
 
+
+    public void Checking(){
+        for(int i =0; i < BallController.instance.num;i ++){
+            if(BallController.instance.Balls[i]){
+                count++;
+            }
+        }
+
+        if(count != BallController.instance.num){
+            count =0;
+            isChecking = true;
+        }else{
+            isChecking = false;
+            Debug.Log("perfect");
+        }
+    }
+
+    public void Confirming(){
+        if(count >0){
+            if(scale1.weight > 0){
+                if(scale1.weight == scale2.weight){
+                    Debug.Log("same weight");
+                }else {
+                    Debug.Log("Different weight");
+                }
+            }else if (scale2.weight > 0){
+                if(scale1.weight == scale2.weight){
+                    Debug.Log("same weight");
+                }else {
+                    Debug.Log("Different weight");
+                }
+            }
+        }
+    }
     // Update is called once per frame
     void Update()
     {
-        text.text = startingWeight.ToString() + " Kg ";
-    }
+        if(isChecking){
 
-   private void OnTriggerEnter2D(Collider2D other) {
-     if(other.gameObject.tag == "item"){
-
-        startingWeight += other.gameObject.GetComponent<WeightScale>().weight;
-        BallController.instance.inContainer[other.gameObject.transform.GetSiblingIndex()]=true;
-        //other.gameObject.GetComponent<WeightScale>().inContainer = true;
-
-        //other.gameObject.GetComponent<BoxCollider2D>().enabled = false;
-       
+        Checking();
         }
-   }
 
-    private void OnTriggerStay2D(Collider2D other) {
-        
-    }
-    private void OnTriggerExit2D(Collider2D other) {
-         if(other.gameObject.tag == "item"){
+        Confirming();
 
-        startingWeight -= other.gameObject.GetComponent<WeightScale>().weight;
-        text.text = startingWeight.ToString() + "Kg";
-        }
-        
     }
+
+
 
 
 }
