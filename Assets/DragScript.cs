@@ -13,7 +13,7 @@ public class DragScript : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     
-
+    public bool isBall =false;
     private void Awake()
     {
         canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
@@ -31,6 +31,7 @@ public class DragScript : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
         canvasGroup.alpha = .6f;
         canvasGroup.blocksRaycasts = false;
         Destroy(gameObject.GetComponent<Rigidbody2D>());
+        
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
        
     }
@@ -49,11 +50,21 @@ public class DragScript : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDr
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         gameObject.AddComponent<Rigidbody2D>();
+        if(isBall){
+        
         setRealisticGravity();
+        }else {
+            SetNoGravity();
+        }
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
 
     }
 
+    public void SetNoGravity(){
+            gameObject.GetComponent<Rigidbody2D>().mass = 1;
+            gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+            
+    }
     public void setRealisticGravity(){
         gameObject.GetComponent<Rigidbody2D>().mass = 120;
         gameObject.GetComponent<Rigidbody2D>().gravityScale = 19.62f;

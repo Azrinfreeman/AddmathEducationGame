@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/GameMenu.unity
     guid: e7d928be12a1aa44eae1c84f75ef6260
   - enabled: 1
+    path: Assets/Scenes/Games/AddingGame.unity
+    guid: 35f5f51afff92e848bb7e2e827525858
+  - enabled: 1
+    path: Assets/Scenes/Games/AddingGae/Level1.unity
+    guid: d71544cc39f0bd740b82ac17b44c32a2
+  - enabled: 1
     path: Assets/Scenes/Badges/BadgesPage.unity
     guid: a7a428aa5cc52cb4e85f21c010e0c4d2
   - enabled: 1

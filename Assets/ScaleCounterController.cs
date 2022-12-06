@@ -10,12 +10,21 @@ public class ScaleCounterController : MonoBehaviour
 
     public int count = 0;
     bool isChecking= true;
+    bool isChecking2=false;
+
+    public Transform winPanel;
+    public Transform losePanel;
     //public TextMeshProUGUI text;
     // Start is called before the first frame update
     void Start()
     {
        scale1 = transform.GetChild(0).GetComponent<Scale>();
        scale2 = transform.GetChild(1).GetComponent<Scale>();
+
+       winPanel = transform.parent.transform.parent.GetChild(11).GetComponent<Transform>();
+       losePanel = transform.parent.transform.parent.GetChild(12).GetComponent<Transform>();
+
+       isChecking2 = false;
     }
 
 
@@ -29,29 +38,27 @@ public class ScaleCounterController : MonoBehaviour
         if(count != BallController.instance.num){
             count =0;
             isChecking = true;
+             isChecking2 = true;
         }else{
             isChecking = false;
-            Debug.Log("perfect");
+          
         }
     }
 
     public void Confirming(){
         if(count >0){
-            if(scale1.weight > 0){
-                if(scale1.weight == scale2.weight){
-                    Debug.Log("same weight");
-                }else {
-                    Debug.Log("Different weight");
-                }
-            }else if (scale2.weight > 0){
-                if(scale1.weight == scale2.weight){
-                    Debug.Log("same weight");
-                }else {
-                    Debug.Log("Different weight");
-                }
+            
+            if(scale1.weight < scale2.weight){
+                losePanel.gameObject.SetActive(true);
+            }else if (scale1.weight > scale2.weight){
+                losePanel.gameObject.SetActive(true);
+            }else if (scale1.weight == scale2.weight){
+                winPanel.gameObject.SetActive(true);
             }
+           
         }
     }
+    
     // Update is called once per frame
     void Update()
     {
@@ -60,8 +67,12 @@ public class ScaleCounterController : MonoBehaviour
         Checking();
         }
 
+    if(isChecking2){
         Confirming();
+        isChecking2 = false;
 
+    }
+        
     }
 
 
