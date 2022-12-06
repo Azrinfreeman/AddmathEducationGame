@@ -6,6 +6,8 @@ TagManager:
   tags:
   - weight
   - item
+  - algo
+  - Arrow
   layers:
   - Default
   - TransparentFX
