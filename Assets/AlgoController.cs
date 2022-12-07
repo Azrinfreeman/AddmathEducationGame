@@ -8,8 +8,9 @@ public class AlgoController : MonoBehaviour
     public int numInput;
     public bool isVisible = false;
     
+    public int countingChild = 0;
     public int checking = 0;
-   
+    
     public int inputPosition = 0;
 
     public bool[] isAvailable;
@@ -40,36 +41,27 @@ public class AlgoController : MonoBehaviour
 
      private void OnTriggerEnter2D(Collider2D other) {
         
-        
+        //change to while
         if(other.gameObject.tag == "Arrow"){
-              Debug.Log("enter");
-            for(int i = 0; i < numInput; i++){
-                checking = 0; // check parent
-                isVisible = false;
-                Debug.Log(isAvailable[i]);
-                for(int l = 0; l < 4; l++){ // check childeren is visible or not
-                //check if one of the children is active or not
-                    if(!input[l].transform.GetChild(l).gameObject.activeInHierarchy){
-                        isVisible = true;
-                    }else{
-                        checking = 1;
-                    }
-
-                    if(isVisible){
-                        break;
-                    }
-                }
-                if(checking == 1){
+            
+            int i =0;
+            while(i < numInput){
+                if(!input[i].transform.gameObject.activeInHierarchy){
+                    checking = 1;
                     inputPosition = i;
                     break;
                 }
-               
+                i++;
             }
+
+
 
             Debug.Log(checking + " checking ");
             if(checking >0){
                 
                 Debug.Log(inputPosition + " Input Postion");
+                input[inputPosition].transform.gameObject.SetActive(true);
+                    
                 if(other.gameObject.GetComponent<AlgoProperty>().name == "right"){
                     input[inputPosition].transform.GetChild(0).gameObject.SetActive(true);
                 }else if(other.gameObject.GetComponent<AlgoProperty>().name == "left"){
@@ -89,7 +81,7 @@ public class AlgoController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) {
         if(other.gameObject.tag == "Arrow"){
-            Debug.Log("exit");
+            //Debug.Log("exit");
         }
     }
 }
