@@ -6,27 +6,28 @@ public class AlgoController : MonoBehaviour
 {
     public Transform[] input;
     public int numInput;
-    public bool isVisible = false;
-    
-    public int countingChild = 0;
     public int checking = 0;
     
     public int inputPosition = 0;
 
-    public bool[] isAvailable;
+    public string[] storeInput;
+
+    public Transform stickman; 
+    
     // Start is called before the first frame update
     void Start()
     {
         
-        numInput = transform.GetChild(1).transform.childCount;;
+        numInput = transform.GetChild(1).transform.childCount;
+        storeInput = new string[numInput];
         input = new Transform[numInput];
-        isAvailable = new bool[numInput];
+        stickman = GameObject.Find("stickman").GetComponent<Transform>();
         checking = 0;
       
 
         for(int i = 0 ; i< numInput; i ++){
             input[i] = transform.GetChild(1).transform.GetChild(i).GetComponent<Transform>();
-            isAvailable[i] = false;
+            
         }
     }
 
@@ -38,6 +39,66 @@ public class AlgoController : MonoBehaviour
     {
        
     }
+
+    public void RunTheProgram(){
+        for(int i = 0 ; i<numInput; i++){
+            
+            if(input[i].transform.gameObject.activeInHierarchy){
+                Debug.Log("Parent: "+ input[i].transform.name);
+                for(int l = 0; l < 4; l++){
+                    if(input[i].transform.GetChild(l).transform.gameObject.activeInHierarchy){
+                        
+                        if(l == 0){
+                            storeInput[i] = "right";
+                        }else if (l == 1){
+                            storeInput[i] = "left";
+                           
+
+                        }else if (l == 2){
+                            storeInput[i] = "up";
+                        }else if (l == 3){
+                            storeInput[i] = "down";
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    private void MoveRight(){
+        stickman.position = new Vector2(stickman.transform.position.x + 100, stickman.transform.position.y);
+    }
+
+    private void MoveLeft(){
+         stickman.position = new Vector2(stickman.transform.position.x - 100, stickman.transform.position.y);
+    }
+
+    private void MoveUp(){
+        stickman.position = new Vector2(stickman.transform.position.x, stickman.transform.position.y + 100);
+    }
+
+    private void MoveDown(){
+        stickman.position = new Vector2(stickman.transform.position.x, stickman.transform.position.y - 100);
+    }
+
+    public void PlayCorrectAnimation(){
+        for(int i =0; i < numInput;i++){
+            if(storeInput[i] != ""){
+                if(storeInput[i] == "right"){
+                    MoveRight();
+                }else if (storeInput[i] == "left"){
+                    MoveLeft();
+                }else if (storeInput[i] == "up"){
+                    MoveUp();
+                }else if (storeInput[i] == "down"){
+                    MoveDown();
+                }
+            }else {
+                break;
+            }
+        }
+    }
+
 
      private void OnTriggerEnter2D(Collider2D other) {
         
@@ -56,7 +117,7 @@ public class AlgoController : MonoBehaviour
 
 
 
-            Debug.Log(checking + " checking ");
+            
             if(checking >0){
                 
                 Debug.Log(inputPosition + " Input Postion");
