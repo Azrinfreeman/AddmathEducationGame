@@ -8,6 +8,10 @@ TagManager:
   - item
   - algo
   - Arrow
+  - pathway
+  - square
+  - circle
+  - triangle
   layers:
   - Default
   - TransparentFX

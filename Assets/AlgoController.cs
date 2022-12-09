@@ -6,20 +6,27 @@ public class AlgoController : MonoBehaviour
 {
     public Transform[] input;
     public int numInput;
+    public int numString;
     public int checking = 0;
     
     public int inputPosition = 0;
 
     public string[] storeInput;
 
-    public Transform stickman; 
-    
+    private Transform stickman; 
+
+    private AudioSource moveSound;
+    private Transform ResetButton;
+
+    public Transform loadingPanel;
     // Start is called before the first frame update
     void Start()
     {
-        
+        loadingPanel = GameObject.Find("Loading").GetComponent<Transform>();
+        ResetButton = transform.GetChild(3).GetComponent<Transform>();
+        moveSound = GameObject.Find("puzzleMoveSound").GetComponent<AudioSource>();
         numInput = transform.GetChild(1).transform.childCount;
-        storeInput = new string[numInput];
+        //storeInput = new string[numInput];
         input = new Transform[numInput];
         stickman = GameObject.Find("stickman").GetComponent<Transform>();
         checking = 0;
@@ -31,20 +38,30 @@ public class AlgoController : MonoBehaviour
         }
     }
 
-    public void CheckingTheInput(){
-        
-    }
+   
     // Update is called once per frame
     void Update()
     {
-       
+    
     }
 
     public void RunTheProgram(){
+
+        //get the only active child in parent 
+        for(int p = 0; p < numInput; p++){
+
+            if(input[p].transform.gameObject.activeInHierarchy){
+                numString++;
+            }
+        }
+        //assign the active number in storeInput array
+
+        storeInput = new string[numString];
+
         for(int i = 0 ; i<numInput; i++){
             
             if(input[i].transform.gameObject.activeInHierarchy){
-                Debug.Log("Parent: "+ input[i].transform.name);
+                
                 for(int l = 0; l < 4; l++){
                     if(input[i].transform.GetChild(l).transform.gameObject.activeInHierarchy){
                         
@@ -65,38 +82,71 @@ public class AlgoController : MonoBehaviour
 
         }
     }
+
+
+
     private void MoveRight(){
-        stickman.position = new Vector2(stickman.transform.position.x + 100, stickman.transform.position.y);
+        
+        stickman.localPosition = new Vector2(stickman.localPosition.x + 100f, stickman.localPosition.y);
     }
 
     private void MoveLeft(){
-         stickman.position = new Vector2(stickman.transform.position.x - 100, stickman.transform.position.y);
+   
+        stickman.localPosition = new Vector2(stickman.localPosition.x -100f, stickman.localPosition.y);
     }
 
     private void MoveUp(){
-        stickman.position = new Vector2(stickman.transform.position.x, stickman.transform.position.y + 100);
+        stickman.localPosition = new Vector2(stickman.localPosition.x, stickman.localPosition.y + 100);
     }
-
+  
     private void MoveDown(){
-        stickman.position = new Vector2(stickman.transform.position.x, stickman.transform.position.y - 100);
+        stickman.localPosition = new Vector2(stickman.localPosition.x, stickman.localPosition.y - 100);
     }
 
-    public void PlayCorrectAnimation(){
-        for(int i =0; i < numInput;i++){
+
+  
+
+    IEnumerator debugDelay(){
+
+        loadingPanel.GetComponent<AudioController>().isShowing();
+
+        yield return new WaitForSeconds(1.5f);
+
+        loadingPanel.GetComponent<AudioController>().isHiding();
+        yield return new WaitForSeconds(0.5f);
+
+       for(int i =0; i < storeInput.Length;i++){
+
+          
+       //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+            
             if(storeInput[i] != ""){
                 if(storeInput[i] == "right"){
                     MoveRight();
                 }else if (storeInput[i] == "left"){
-                    MoveLeft();
+                   MoveLeft();
                 }else if (storeInput[i] == "up"){
                     MoveUp();
                 }else if (storeInput[i] == "down"){
                     MoveDown();
                 }
+                if(!moveSound.isPlaying){
+                    moveSound.Play();
+                }
             }else {
                 break;
             }
+
         }
+    }
+    
+
+    
+    public void PlayCorrectAnimation(){
+     
+        StartCoroutine(debugDelay());
+        //gameObject.SetActive(false);
     }
 
 
@@ -104,7 +154,7 @@ public class AlgoController : MonoBehaviour
         
         //change to while
         if(other.gameObject.tag == "Arrow"){
-            
+            ResetButton.gameObject.SetActive(true);
             int i =0;
             while(i < numInput){
                 if(!input[i].transform.gameObject.activeInHierarchy){
