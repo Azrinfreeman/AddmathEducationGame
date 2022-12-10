@@ -366,7 +366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SUBTRACTION
+  m_text: ALGORITHM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -657,7 +657,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DIVITION
+  m_text: GAME NAME 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -820,16 +820,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1860279383}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: loadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: algoLvl1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &466162510
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ADDITION
+  m_text: GAME NAME 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -1707,7 +1707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MULTIPLICATION
+  m_text: GAME NAME 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -2778,6 +2778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391a57438ac53e64cb9544e0f63f3ef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundSFX: {fileID: 0}
 --- !u!1 &1880523523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2814,7 +2815,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -14, y: 0}
-  m_SizeDelta: {x: 85, y: 42}
+  m_SizeDelta: {x: 72.1481, y: 77.9836}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1880523525
 MonoBehaviour:
@@ -2836,7 +2837,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -359492788, guid: fe3e96862008e4848849411323bf0781, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33d927e3dc11ee747ae634dc1de3b97e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

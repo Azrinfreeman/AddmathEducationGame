@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class AlgoController : MonoBehaviour
 {
     public Transform[] input;
@@ -18,11 +18,20 @@ public class AlgoController : MonoBehaviour
     private AudioSource moveSound;
     private Transform ResetButton;
 
-    public Transform loadingPanel;
+    private Transform loadingPanel;
+    private Transform failPanel;
+    private Transform winPanel;
+    private Transform againPanel;
+    public Vector2 startPosition;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        againPanel = GameObject.Find("againPanel").GetComponent<Transform>();
         loadingPanel = GameObject.Find("Loading").GetComponent<Transform>();
+        failPanel = GameObject.Find("failPanel").GetComponent<Transform>();
+        winPanel = GameObject.Find("winPanel").GetComponent<Transform>();
         ResetButton = transform.GetChild(3).GetComponent<Transform>();
         moveSound = GameObject.Find("puzzleMoveSound").GetComponent<AudioSource>();
         numInput = transform.GetChild(1).transform.childCount;
@@ -42,7 +51,9 @@ public class AlgoController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        if(input[numInput-1].transform.gameObject.activeInHierarchy){
+            transform.GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 
     public void RunTheProgram(){
@@ -108,10 +119,11 @@ public class AlgoController : MonoBehaviour
 
     IEnumerator debugDelay(){
 
+        startPosition = new Vector2(stickman.localPosition.x , stickman.localPosition.y);
         loadingPanel.GetComponent<AudioController>().isShowing();
 
         yield return new WaitForSeconds(1.5f);
-
+        
         loadingPanel.GetComponent<AudioController>().isHiding();
         yield return new WaitForSeconds(0.5f);
 
@@ -130,10 +142,46 @@ public class AlgoController : MonoBehaviour
                     MoveUp();
                 }else if (storeInput[i] == "down"){
                     MoveDown();
-                }
+                }   
                 if(!moveSound.isPlaying){
                     moveSound.Play();
+                }   
+                
+                    Debug.Log("i = "+i +" length = "+ storeInput.Length);
+                if(i == storeInput.Length-1){
+                    yield return new WaitForSeconds(1.5f); // wait to get the isInside from sticknman
+
+                    if(!stickman.GetComponent<stickmanProperty>().isInside){
+                        Debug.Log(" notinside");
+                    yield return new WaitForSeconds(1.5f);
+                     stickman.localPosition = new Vector2(startPosition.x, startPosition.y);
+                     failPanel.GetComponent<AudioController>().isShowing();
+                     yield return new WaitForSeconds(2f);
+                     failPanel.GetComponent<AudioController>().isHiding();
+                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                     
+                    }else if(stickman.GetComponent<stickmanProperty>().isInside){
+                          Debug.Log(" insideWin");
+                            yield return new WaitForSeconds(1.5f);
+                          Debug.Log("istouching: "+stickman.GetComponent<stickmanProperty>().isTouchingTriangle);
+                        if(stickman.GetComponent<stickmanProperty>().isTouchingTriangle){
+                            winPanel.GetComponent<AudioController>().isShowing();
+                        }else if(stickman.GetComponent<stickmanProperty>().isTouchingCircle){
+                            winPanel.GetComponent<AudioController>().isShowing();
+                        }else if(stickman.GetComponent<stickmanProperty>().isTouchingSquare){
+                            winPanel.GetComponent<AudioController>().isShowing();
+                        }else{
+                            againPanel.GetComponent<AudioController>().isShowing();
+                            yield return new WaitForSeconds(2f);
+                            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                     
+                        }
+                   
+                     
+                    }
                 }
+
+                
             }else {
                 break;
             }
