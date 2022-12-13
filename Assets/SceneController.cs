@@ -33,15 +33,6 @@ public class SceneController : MonoBehaviour
         
     }
 
-    IEnumerator delayResetScene(){
-         yield return new WaitForSeconds(0.4f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void ResetScene(){
-        soundSFX.Play();
-        StartCoroutine(delayResetScene());
-    }
     public void loadScene(string scenename){
         soundSFX.Play();
         StartCoroutine(delaySceneLoad(scenename));

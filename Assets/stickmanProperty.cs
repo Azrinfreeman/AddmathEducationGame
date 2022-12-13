@@ -11,8 +11,6 @@ public class stickmanProperty : MonoBehaviour
     }
     public bool isInside;
 
-    private bool gotOut;
-
   
   public bool toTouchTriangle;
     public bool isTouchingTriangle;
@@ -32,8 +30,6 @@ public class stickmanProperty : MonoBehaviour
         
     }
   private void OnTriggerEnter2D(Collider2D other) {
-    if(!gotOut){
-      
     if(other.gameObject.tag == "pathway"){
         isInside = true;
         Debug.Log("enter2d");
@@ -58,15 +54,12 @@ public class stickmanProperty : MonoBehaviour
         isTouchingSquare = true;
       }
     }
-    }
-
   }
 
   private void OnTriggerExit2D(Collider2D other) {
     if(other.gameObject.tag == "pathway"){
         isInside = false;
         Debug.Log("exit2d");
-        gotOut = true;
     }
   }
 }

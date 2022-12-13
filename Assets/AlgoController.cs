@@ -22,14 +22,12 @@ public class AlgoController : MonoBehaviour
     private Transform failPanel;
     private Transform winPanel;
     private Transform againPanel;
-    private Transform indicator;
     public Vector2 startPosition;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //indicator = GameObject.Find("indicator").GetComponent<Transform>();
         againPanel = GameObject.Find("againPanel").GetComponent<Transform>();
         loadingPanel = GameObject.Find("Loading").GetComponent<Transform>();
         failPanel = GameObject.Find("failPanel").GetComponent<Transform>();
@@ -152,7 +150,7 @@ public class AlgoController : MonoBehaviour
                     Debug.Log("i = "+i +" length = "+ storeInput.Length);
                 if(i == storeInput.Length-1){
                     yield return new WaitForSeconds(1.5f); // wait to get the isInside from sticknman
-                       // indicator.localPosition = new Vector2(input[i].localPosition.x, indicator.localPosition.y);
+
                     if(!stickman.GetComponent<stickmanProperty>().isInside){
                         Debug.Log(" notinside");
                     yield return new WaitForSeconds(1.5f);
