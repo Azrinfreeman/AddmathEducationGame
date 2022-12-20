@@ -60,6 +60,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lessons/LearningPage.unity
     guid: 6202eab311d0c194990cc5f1b51d256b
   - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap1Lesson.unity
+    guid: ada3b509a41cf6e41a417d3db72c9078
+  - enabled: 1
     path: Assets/Scenes/Quizzes/EasyQuizz.unity
     guid: 876e99b46ae599841851cd816becafae
   - enabled: 1
