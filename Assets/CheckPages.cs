@@ -25,7 +25,7 @@ public class CheckPages : MonoBehaviour
     public void setupPage(){
             quizNumber = transform.GetChild(0).name;
             numberofPages =  transform.childCount;
-            textLabel = quizNumber+ " daripda "+ numberofPages + " subtopik";
+            textLabel = quizNumber+ " daripada "+ numberofPages + " mukasurat";
         
             text = GameObject.Find("textLabel").GetComponent<TextMeshProUGUI>();
             slider = GameObject.Find("Slider").GetComponent<Slider>();

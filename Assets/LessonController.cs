@@ -22,4 +22,14 @@ public class LessonController : MonoBehaviour
     {
         
     }
+
+    public void WriteKeyTahap1_2(){
+        PlayerPrefs.SetInt("Tahap1_2", 1);
+    }
+    public void WriteKeyTahap1_3(){
+        PlayerPrefs.SetInt("Tahap1_3", 1);
+    }
+    public void WriteKeyTahap1_4(){
+        PlayerPrefs.SetInt("Tahap1_4", 1);
+    }
 }

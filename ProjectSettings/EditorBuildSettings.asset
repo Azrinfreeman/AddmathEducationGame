@@ -63,6 +63,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lessons/Tahap1Lesson.unity
     guid: ada3b509a41cf6e41a417d3db72c9078
   - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity
+    guid: 46bc4d66df587a44b979cd213c3c4c33
+  - enabled: 1
     path: Assets/Scenes/Quizzes/EasyQuizz.unity
     guid: 876e99b46ae599841851cd816becafae
   - enabled: 1
