@@ -1506,7 +1506,6 @@ RectTransform:
   - {fileID: 1119294216}
   - {fileID: 219987761}
   - {fileID: 655602943}
-  - {fileID: 1182021802}
   m_Father: {fileID: 996065520}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5212,12 +5211,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 672777984}
+  m_Father: {fileID: 523263972}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 3.8373108, y: -0.0041503906}
   m_SizeDelta: {x: 249.46002, y: 247.7478}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &253042839
@@ -8798,7 +8797,6 @@ RectTransform:
   - {fileID: 704374776}
   - {fileID: 1326241517}
   - {fileID: 384081616}
-  - {fileID: 1318796581}
   m_Father: {fileID: 404100812}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9636,6 +9634,7 @@ RectTransform:
   - {fileID: 855008936}
   - {fileID: 1656715508}
   - {fileID: 672777984}
+  - {fileID: 253042838}
   m_Father: {fileID: 339430118}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9986,7 +9985,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.4, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10332,7 +10331,6 @@ RectTransform:
   - {fileID: 1835835611}
   - {fileID: 106167728}
   - {fileID: 1231061742}
-  - {fileID: 2087715396}
   m_Father: {fileID: 1439673234}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12313,7 +12311,6 @@ RectTransform:
   - {fileID: 701513149}
   - {fileID: 1595198133}
   - {fileID: 1941855968}
-  - {fileID: 253042838}
   m_Father: {fileID: 523263972}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14213,7 +14210,7 @@ GameObject:
   - component: {fileID: 768649937}
   - component: {fileID: 768649936}
   m_Layer: 5
-  m_Name: Image
+  m_Name: jam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14226,9 +14223,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768649934}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0173273, y: 1.0173273, z: 1.0173273}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 358365616}
@@ -14236,7 +14233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 6.895508, y: 6.8955383}
   m_SizeDelta: {x: 260.68604, y: 279.17444}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &768649936
@@ -14311,7 +14308,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16107,7 +16104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &882715914
 Animator:
   serializedVersion: 4
@@ -18723,6 +18720,7 @@ RectTransform:
   - {fileID: 930516541}
   - {fileID: 935574599}
   - {fileID: 404100812}
+  - {fileID: 1318796581}
   m_Father: {fileID: 785197198}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19019,6 +19017,7 @@ RectTransform:
   - {fileID: 1142444862}
   - {fileID: 809967451}
   - {fileID: 31464092}
+  - {fileID: 1182021802}
   m_Father: {fileID: 1892734145}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21709,7 +21708,7 @@ GameObject:
   - component: {fileID: 1182021804}
   - component: {fileID: 1182021803}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Jam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21722,12 +21721,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182021801}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 31464092}
+  m_Father: {fileID: 996065520}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
@@ -23952,12 +23951,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 458954466}
+  m_Father: {fileID: 982096825}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277.07, y: 289}
+  m_AnchoredPosition: {x: 277.0688, y: 288.99878}
   m_SizeDelta: {x: 249.46, y: 247.7478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318796582
@@ -26153,6 +26152,7 @@ RectTransform:
   - {fileID: 1595573555}
   - {fileID: 1468929660}
   - {fileID: 542519409}
+  - {fileID: 2087715396}
   m_Father: {fileID: 2108548695}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -36631,7 +36631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2078059778
 Animator:
   serializedVersion: 4
@@ -36829,12 +36829,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 542519409}
+  m_Father: {fileID: 1439673234}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 3.8372803, y: -0.004211426}
   m_SizeDelta: {x: 249.46002, y: 247.7478}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2087715397
