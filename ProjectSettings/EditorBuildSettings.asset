@@ -60,11 +60,44 @@ EditorBuildSettings:
     path: Assets/Scenes/Lessons/LearningPage.unity
     guid: 6202eab311d0c194990cc5f1b51d256b
   - enabled: 1
+    path: Assets/Scenes/Lessons/PrasekolahLesson.unity
+    guid: 6f688d55513a92c44bd40b8fc1321e97
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap2Lesson.unity
+    guid: eb66bb2c833312a4fa0d697709c1c0c6
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity
+    guid: 49acdd391226bff4a88fb683fd84da10
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity
+    guid: 335e32a67b8fa554c927f1ea31bde29a
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity
+    guid: 7c165809023f6c947ab83cf03c643e49
+  - enabled: 1
     path: Assets/Scenes/Lessons/Tahap1Lesson.unity
     guid: ada3b509a41cf6e41a417d3db72c9078
   - enabled: 1
     path: Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity
     guid: 46bc4d66df587a44b979cd213c3c4c33
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity
+    guid: 5699983583ec4544cb9a69013dcbf1e8
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity
+    guid: 3512a79145ec01049ad54f2683fdaab6
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity
+    guid: 666596f9b862da64dacfd67ddccc168e
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity
+    guid: 979498342f3c6854ea5eb5661a427c49
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap2/2 Luas.unity
+    guid: 322956b3fc181af4c962979aeb63fd57
+  - enabled: 1
+    path: Assets/Scenes/Lessons/Tahap2/3. isipadu.unity
+    guid: aef29e513fb9d9f47a9ab146c8c083a4
   - enabled: 1
     path: Assets/Scenes/Quizzes/EasyQuizz.unity
     guid: 876e99b46ae599841851cd816becafae
