@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class backgroundController : MonoBehaviour
 {
+   
     public bool isToNextLevel;
-    int level;
+    
     // Start is called before the first frame update
     void Start()
     {
-        level =  1;
+        
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class backgroundController : MonoBehaviour
             transform.localPosition = new Vector2(transform.localPosition.x, 10079);
 
             if(isToNextLevel){
-                level++;
+                loadLevel.instance.level++;
             }
         }
     }
