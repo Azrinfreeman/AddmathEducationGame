@@ -12,6 +12,7 @@ TagManager:
   - square
   - circle
   - triangle
+  - imageBorder
   layers:
   - Default
   - TransparentFX
