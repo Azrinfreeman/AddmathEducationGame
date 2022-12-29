@@ -21,8 +21,11 @@ public class DisplayKeys : MonoBehaviour
     }
 
     public void ShowAllKeys(){
-        Debug.Log(PlayerPrefs.GetString("PlayerName"));
-        Debug.Log(PlayerPrefs.GetString("PlayerGender"));
+        Debug.Log(PlayerPrefs.GetString("PlayerName_1"));
+        Debug.Log(PlayerPrefs.GetString("PlayerGender_1"));
+        Debug.Log("PlayerID: " +PlayerPrefs.GetInt("PlayerID_1"));
+        Debug.Log("PlayerTotal: " +PlayerPrefs.GetInt("PlayerTotal"));
+        
 
 
         Debug.Log(PlayerPrefs.GetInt("PlayerAge"));

@@ -10,6 +10,8 @@ public class SaveInformation : MonoBehaviour
     public string PlayerName;
     public string Gender;
     public int Age;
+    public int playerId =0;
+    public int playerTotal =0;
 
     public TMP_InputField PlayerNameTMP;
     public TMP_Dropdown PlayerGenderTMP;
@@ -21,6 +23,17 @@ public class SaveInformation : MonoBehaviour
         PlayerNameTMP = GameObject.Find("PlayerName").GetComponent<TMP_InputField>();
         PlayerGenderTMP = GameObject.Find("PlayerGender").GetComponent<TMP_Dropdown>();
         PlayerAgeTMP = GameObject.Find("PlayerAge").GetComponent<TMP_InputField>();
+
+        if(PlayerPrefs.GetInt("PlayerTotal") == 0){
+           // Debug.Log("masuk");
+            playerTotal = PlayerPrefs.GetInt("PlayerTotal");
+            playerTotal++;
+            playerId = playerTotal;
+        }else {
+            playerTotal = PlayerPrefs.GetInt("PlayerTotal");
+            playerTotal++;
+            playerId = playerTotal;
+        }
     }
 
     // Update is called once per frame
@@ -34,15 +47,18 @@ public class SaveInformation : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
     public void Saveinfos(){
-        PlayerPrefs.SetString("PlayerName", PlayerName);
-        PlayerPrefs.SetString("PlayerGender", Gender);
-        PlayerPrefs.SetInt("PlayerAge", Age);
+        PlayerPrefs.SetString("PlayerName_"+playerTotal, PlayerName);
+        PlayerPrefs.SetString("PlayerGender_"+playerTotal, Gender);
+        PlayerPrefs.SetInt("PlayerAge_"+playerTotal, Age);
+        PlayerPrefs.SetInt("PlayerID_"+playerTotal, playerId);
+        PlayerPrefs.SetInt("PlayerTotal", playerTotal);
     }
 
     public void GetAndSave(){
         PlayerName = PlayerNameTMP.text;
         Gender = PlayerGenderTMP.options[PlayerGenderTMP.value].text;
         Age = int.Parse(PlayerAgeTMP.text);
+        
 
         Debug.Log(PlayerName + Gender + Age);
        // LoadingStart.instance.SaveDate();
