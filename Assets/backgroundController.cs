@@ -24,7 +24,9 @@ public class backgroundController : MonoBehaviour
             transform.localPosition = new Vector2(transform.localPosition.x, 10079);
 
             if(isToNextLevel){
-                loadLevel.instance.level++;
+                //GamePraController.instance.level++;
+                GamePraController.instance.ToNextLevel();
+                GamePraController.instance.level++;
             }
         }
     }

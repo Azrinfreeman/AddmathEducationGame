@@ -21,14 +21,20 @@ public class DisplayKeys : MonoBehaviour
     }
 
     public void ShowAllKeys(){
-        Debug.Log(PlayerPrefs.GetString("PlayerName_1"));
-        Debug.Log(PlayerPrefs.GetString("PlayerGender_1"));
-        Debug.Log("PlayerID: " +PlayerPrefs.GetInt("PlayerID_1"));
+
+        for(int i = 1; i <= PlayerPrefs.GetInt("PlayerTotal"); i++){
+            //if(PlayerPrefs.GetInt("PlayerID_"+i) > 0){
+                Debug.Log(PlayerPrefs.GetString("PlayerName_"+i));
+                Debug.Log(PlayerPrefs.GetString("PlayerGender_"+i));
+                Debug.Log("PlayerID: " +PlayerPrefs.GetInt("PlayerID_"+i));
+        
+            //}
+        }
         Debug.Log("PlayerTotal: " +PlayerPrefs.GetInt("PlayerTotal"));
         
 
 
-        Debug.Log(PlayerPrefs.GetInt("PlayerAge"));
+//        Debug.Log(PlayerPrefs.GetInt("PlayerAge"));
         Debug.Log(PlayerPrefs.GetInt("firstTime"));
     }
 }

@@ -23,14 +23,14 @@ public class ButtonAnimationController : MonoBehaviour, IPointerDownHandler, IPo
 
    public void OnPointerDown(PointerEventData eventData){
 
-    animator.SetTrigger("isClicking");
+    //animator.SetTrigger("isClicking");
     //soundSFX.Play();
 
 }
  
     public void OnPointerUp(PointerEventData eventData){
 
-    animator.SetTrigger("isClicking");
+//    animator.SetTrigger("isClicking");
 
    
 

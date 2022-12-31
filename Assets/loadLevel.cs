@@ -10,17 +10,27 @@ public class loadLevel : MonoBehaviour
         instance = this;
     } 
     private TextMeshProUGUI text;
-    public int level;
+    
+
+    public bool isScore;
     // Start is called before the first frame update
     void Start()
     {
+       
+            
         text = GetComponent<TextMeshProUGUI>();    
-        level = 1;
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = "Tahap "+ level;
+        if(!isScore){
+            text.text = "Tahap "+ GamePraController.instance.level;
+        }else {
+            text.text = "Markah ="+ GamePraController.instance.score;
+        }
+        
     }
 }
