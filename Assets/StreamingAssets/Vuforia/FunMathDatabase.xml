@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="PerkaitanWaktu" size="1080.000000 763.000000" />
+    <ImageTarget name="RekodWaktu" size="1080.000000 763.000000" />
+    <ImageTarget name="SebutDanTulisWaktu" size="1080.000000 763.000000" />
+    <ImageTarget name="KenaliMinit" size="1080.000000 763.000000" />
+    <ImageTarget name="Isipadu" size="1080.000000 763.000000" />
+    <ImageTarget name="Luas" size="1080.000000 763.000000" />
     <ImageTarget name="perimeter" size="1080.000000 763.000000" />
   </Tracking>
 </QCARConfig>
