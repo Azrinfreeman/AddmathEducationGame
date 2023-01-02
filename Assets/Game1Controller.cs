@@ -36,6 +36,7 @@ public class Game1Controller : MonoBehaviour
     IEnumerator showWin(){
         yield return new WaitForSeconds(1.5f);
         winPanel.GetComponent<Animator>().SetBool("isClosing",false);
+        TimeGameController.instance.isStopping = true;
     }
     // Update is called once per frame
     void Update()
