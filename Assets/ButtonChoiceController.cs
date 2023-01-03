@@ -16,6 +16,9 @@ public class ButtonChoiceController : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         if(isCorrect){
             Game1Controller.instance.toCorrect++;
+            Game1Controller.instance.score++;
+        }else{
+            Game1Controller.instance.score--;
         }
         
         animator.SetBool("isEnding", true);

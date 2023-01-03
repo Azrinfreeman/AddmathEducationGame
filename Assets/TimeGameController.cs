@@ -55,10 +55,7 @@ public class TimeGameController : MonoBehaviour
         {   
             if(!isStopping){
                 timer -= Time.deltaTime;
-                if(!warningSFX.isPlaying){
-
-                    warningSFX.Play(); 
-                }
+                
             }
             
         }else{
@@ -76,7 +73,14 @@ public class TimeGameController : MonoBehaviour
         
         if(minit <=0 && seconds >=0 && seconds < 10){
         text.text = "0:0"+seconds.ToString();
-           
+        if(!isStopping){
+            if(!warningSFX.isPlaying){
+
+                warningSFX.Play(); 
+                }
+        }
+                
+            
         }else if (minit >= 1 && seconds < 10){
         text.text = minit+":0"+seconds.ToString();
         }else{

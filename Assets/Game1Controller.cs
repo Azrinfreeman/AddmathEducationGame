@@ -18,6 +18,7 @@ public class Game1Controller : MonoBehaviour
     public bool isEnding;
 
     public Transform winPanel;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
