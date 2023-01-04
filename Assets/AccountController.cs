@@ -12,8 +12,14 @@ public class AccountController : MonoBehaviour
         body = transform.GetChild(0).GetComponent<Transform>();
         //Account = transform.GetChild(0).transform.GetChild(0).GetComponent<Transform>();
 
-        Transform acc = Instantiate(Account, new Vector2(Account.position.x + 990f, Account.localPosition.y+822), Account.rotation);
-        acc.transform.SetParent(body);
+       
+
+        for(int i = 0; i < PlayerPrefs.GetInt("PlayerTotal"); i++){
+            Transform acc = Instantiate(Account, new Vector2(Account.position.x + (990f*i), Account.localPosition.y+822), Account.rotation);
+            acc.transform.SetParent(body);
+        }
+
+        Debug.Log(PlayerPrefs.GetInt("PlayerTotal"));;
     }
 
 
