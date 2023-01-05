@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 4925998196242571935}
   - component: {fileID: 4925998196242571936}
   - component: {fileID: 4925998196242571939}
+  - component: {fileID: 5255160063457783975}
   m_Layer: 5
   m_Name: ButtonStart
   m_TagString: Untagged
@@ -304,6 +305,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSFX: {fileID: 0}
+--- !u!114 &5255160063457783975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925998196242571933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8418807f4113385449f094369c23a7d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4925998196246050280
 GameObject:
   m_ObjectHideFlags: 0
