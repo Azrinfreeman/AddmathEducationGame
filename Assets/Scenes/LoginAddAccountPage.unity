@@ -1573,6 +1573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 0}
   Account: {fileID: 4925998196759894994, guid: 963d970ca2f221f4f8e723397f338a50, type: 3}
+  playerIDs: 
 --- !u!1 &1106139056
 GameObject:
   m_ObjectHideFlags: 0
