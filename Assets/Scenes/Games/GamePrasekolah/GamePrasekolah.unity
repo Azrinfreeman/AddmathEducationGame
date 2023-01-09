@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5474848947021845564, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: MainMenuGame
+      value: GameMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5474848947021845564, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -14925,7 +14925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa2ef7929c97dc419c1fe5fa708ac8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
+  isCorrect: 1
 --- !u!1 &1327349711
 GameObject:
   m_ObjectHideFlags: 0

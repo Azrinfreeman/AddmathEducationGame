@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class AudioController : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -21,7 +21,16 @@ public class AudioController : MonoBehaviour
     {
         
     }
+     IEnumerator loadGame(string scene){
 
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(scene);
+    }
+
+    public void LogOut(){
+
+        StartCoroutine(loadGame("LoginAddAccountPage"));
+    }
     public void isShowing(){
         animator.SetBool("isClosing", false);
         soundSFX.Play();

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginPage.unity
     guid: 26850665b665e81488f239151dd72528
   - enabled: 1
+    path: Assets/Scenes/LoginAddAccountPage.unity
+    guid: f9645201ecc5cfd479ce95b658228447
+  - enabled: 1
     path: Assets/Scenes/AfterLogin/MainMenu.unity
     guid: 962fa8e327ae6554aac02c17025850cd
   - enabled: 1
@@ -167,4 +170,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR/ARSebutDanTulisWaktu.unity
     guid: 8725e55c5fa24aa4abeb262273ed8522
+  - enabled: 1
+    path: Assets/Scenes/PenghargaanPage.unity
+    guid: d611b994ab132ea47a372647df3e02e6
   m_configObjects: {}

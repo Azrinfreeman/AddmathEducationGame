@@ -52,6 +52,9 @@ public class SaveInformation : MonoBehaviour
         PlayerPrefs.SetInt("PlayerAge_"+playerTotal, Age);
         PlayerPrefs.SetInt("PlayerID_"+playerTotal, playerId);
         PlayerPrefs.SetInt("PlayerTotal", playerTotal);
+
+        PlayerPrefs.SetString("PlayerName", PlayerName);
+        PlayerPrefs.SetString("PlayerGender", Gender);
     }
 
     public void GetAndSave(){

@@ -15,6 +15,7 @@ public class AccountController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         body = transform.GetChild(0).GetComponent<Transform>();
         //Account = transform.GetChild(0).transform.GetChild(0).GetComponent<Transform>();
         playerIDs = new int[PlayerPrefs.GetInt("PlayerTotal")];
@@ -28,7 +29,13 @@ public class AccountController : MonoBehaviour
             acc.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("PlayerGender_"+r);
             acc.GetChild(0).transform.GetChild(3).GetComponent<AssignID>().id = PlayerPrefs.GetInt("PlayerID_"+r);
             acc.GetChild(0).transform.GetChild(3).GetComponent<Button>().onClick.AddListener(() => GoToMainMenu());
-           
+            if(PlayerPrefs.GetString("PlayerGender_"+r) == "Male"){
+                
+            acc.GetChild(0).transform.GetChild(5).GetComponent<Transform>().gameObject.SetActive(true);
+            }else{
+            acc.GetChild(0).transform.GetChild(4).GetComponent<Transform>().gameObject.SetActive(true);
+                
+            }
             
         }
 

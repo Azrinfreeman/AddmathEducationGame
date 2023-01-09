@@ -23,7 +23,7 @@ public class GamePraController : MonoBehaviour
     {
         bubbleAnswer = new Transform[transform.GetChild(4).transform.childCount];
         questions = new Transform[transform.GetChild(6).transform.childCount];
-        EndPanel = transform.GetChild(12).GetComponent<Transform>();
+        EndPanel = transform.GetChild(13).GetComponent<Transform>();
         for(int i = 0; i < transform.GetChild(4).transform.childCount; i++){
             bubbleAnswer[i] = transform.GetChild(4).transform.GetChild(i).GetComponent<Transform>();
         }

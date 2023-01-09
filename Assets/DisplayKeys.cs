@@ -7,7 +7,7 @@ public class DisplayKeys : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //ShowAllKeys();
+        ShowAllKeys();
         //ClearAllKeys();
     }
 
