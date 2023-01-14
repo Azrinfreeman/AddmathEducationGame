@@ -181,6 +181,8 @@ MonoBehaviour:
   PlayerName: 
   Gender: 
   Age: 0
+  playerId: 0
+  playerTotal: 0
   PlayerNameTMP: {fileID: 0}
   PlayerGenderTMP: {fileID: 0}
   PlayerAgeTMP: {fileID: 0}
@@ -553,7 +555,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FILL IN THE INFORMATION
+  m_text: MASUKKAN MAKLUMAT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25af45535db720b47b3d4be530125bcc, type: 2}
   m_sharedMaterial: {fileID: -2922223846274059151, guid: 25af45535db720b47b3d4be530125bcc, type: 2}

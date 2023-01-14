@@ -761,6 +761,7 @@ GameObject:
   - component: {fileID: 426869382}
   - component: {fileID: 426869384}
   - component: {fileID: 426869383}
+  - component: {fileID: 426869385}
   m_Layer: 5
   m_Name: body
   m_TagString: Untagged
@@ -830,6 +831,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426869381}
   m_CullTransparentMesh: 1
+--- !u!114 &426869385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426869381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7137acb88e4424c4f915bd3c916a929d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &438818278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,7 +2260,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &873109176
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2264,7 +2277,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &886564181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,7 +4175,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &1621018393
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4179,7 +4192,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1621018394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4436,7 +4449,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1012894684}
   m_HandleRect: {fileID: 1012894683}
   m_Direction: 2
-  m_Value: 0.9999998
+  m_Value: 1
   m_Size: 0.7751498
   m_NumberOfSteps: 0
   m_OnValueChanged:

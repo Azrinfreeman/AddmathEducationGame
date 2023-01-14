@@ -7938,6 +7938,7 @@ GameObject:
   - component: {fileID: 207110399}
   - component: {fileID: 207110403}
   - component: {fileID: 207110402}
+  - component: {fileID: 207110404}
   m_Layer: 5
   m_Name: QuizController
   m_TagString: Untagged
@@ -8028,6 +8029,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   check: {fileID: 0}
   noPages: 
+--- !u!114 &207110404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207110398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &208436767
 GameObject:
   m_ObjectHideFlags: 0
@@ -30003,6 +30016,18 @@ MonoBehaviour:
           m_StringArgument: PrasekolahLesson
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 207110404}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: PrasekolahLevel1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &988116206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35186,7 +35211,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1214215191
 MonoBehaviour:
@@ -52997,9 +53022,9 @@ MonoBehaviour:
           m_StringArgument: 1. PengalamanPranombor
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 207110403}
-        m_TargetAssemblyTypeName: LessonController, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 207110404}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: PrasekolahLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

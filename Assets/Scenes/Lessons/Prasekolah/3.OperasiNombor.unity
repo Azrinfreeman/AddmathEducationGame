@@ -23568,7 +23568,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1361312772}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
@@ -23580,6 +23580,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: PrasekolahLesson
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1361312777}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: PrasekolahLevel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &988116206
@@ -29928,6 +29940,7 @@ GameObject:
   - component: {fileID: 1361312774}
   - component: {fileID: 1361312773}
   - component: {fileID: 1361312772}
+  - component: {fileID: 1361312777}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -30041,6 +30054,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1361312777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361312771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1361473609
 GameObject:
   m_ObjectHideFlags: 0
@@ -40254,6 +40279,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 3.OperasiNombor
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1361312777}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: PrasekolahLevel3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1839869252
