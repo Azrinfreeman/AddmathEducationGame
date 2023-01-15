@@ -4743,7 +4743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What lessons you want to learn today?
+  m_text: APA YANG ANDA MAHU BELAJAR UNTUK HARI INI?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25af45535db720b47b3d4be530125bcc, type: 2}
   m_sharedMaterial: {fileID: -2922223846274059151, guid: 25af45535db720b47b3d4be530125bcc, type: 2}

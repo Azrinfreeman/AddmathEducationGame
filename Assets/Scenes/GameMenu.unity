@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TAHAP 1
+  m_text: WHACK A MOLE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -2369,7 +2369,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What game would like to play today?
+  m_text: APA YANG ANDA MAHU BERMAIN UNTUK HARI INI?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 25af45535db720b47b3d4be530125bcc, type: 2}
   m_sharedMaterial: {fileID: -2922223846274059151, guid: 25af45535db720b47b3d4be530125bcc, type: 2}

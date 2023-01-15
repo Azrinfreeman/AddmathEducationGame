@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerInformation.unity
     guid: 3279370a60c7f5346834096eb230bcd5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoginPage.unity
     guid: 26850665b665e81488f239151dd72528
   - enabled: 1
@@ -173,4 +173,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PenghargaanPage.unity
     guid: d611b994ab132ea47a372647df3e02e6
+  - enabled: 1
+    path: Assets/Scenes/PlayerInformationMain.unity
+    guid: 602f29ae9cec1024693c1ce51f7565c1
   m_configObjects: {}
