@@ -68,13 +68,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Fuziness: 0.09
+    - _Fuziness: 0.08
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Range: 0.04
+    - _Range: 0.13
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorToRemove: {r: 0, g: 0.45882356, b: 0.19215688, a: 1}
+    - _ColorToRemove: {r: 0, g: 0.454902, b: 0.18039216, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
