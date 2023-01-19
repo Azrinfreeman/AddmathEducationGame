@@ -20431,7 +20431,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ANDA SUDAH MENGHABISKAN TOPIK MINIT DAN MASA
+  m_text: ANDA SUDAH MENGHABISKAN TOPIK ENGALAMAN PRANOMBOR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}

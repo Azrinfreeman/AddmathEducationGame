@@ -47,7 +47,7 @@ public class CheckLevelTahap2 : MonoBehaviour
             checkmark2.gameObject.SetActive(false);
         }
 
-        if(PlayerPrefs.GetInt("Level3Tahap3") == 1){
+        if(PlayerPrefs.GetInt("Level3Tahap2") == 1){
            // button3.enabled = true;
             checkmark3.gameObject.SetActive(true);
         }  else{

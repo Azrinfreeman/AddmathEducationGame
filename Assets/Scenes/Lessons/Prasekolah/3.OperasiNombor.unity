@@ -31323,7 +31323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "OPEARSI \nTAMBAH"
+  m_text: "OPERASI \nTAMBAH"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -38001,6 +38001,18 @@ PrefabInstance:
     - target: {fileID: 7465183784006074418, guid: 6e73bbfb9195cd04bbf86dd08188e962, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465183784006074418, guid: 6e73bbfb9195cd04bbf86dd08188e962, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0088
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465183784006074418, guid: 6e73bbfb9195cd04bbf86dd08188e962, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0088
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465183784006074418, guid: 6e73bbfb9195cd04bbf86dd08188e962, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0088
       objectReference: {fileID: 0}
     - target: {fileID: 7465183784006074418, guid: 6e73bbfb9195cd04bbf86dd08188e962, type: 3}
       propertyPath: m_LocalPosition.x
