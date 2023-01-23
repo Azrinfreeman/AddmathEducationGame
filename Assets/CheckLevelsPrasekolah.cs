@@ -29,7 +29,7 @@ public class CheckLevelsPrasekolah : MonoBehaviour
        
         
 
-        if(PlayerPrefs.GetInt("Level1Pra") == 1 ){
+        if(PlayerPrefs.GetInt("Level1Pra_"+PlayerPrefs.GetInt("PlayerID")) == 1 ){
            // button1.enabled = true;
             checkmark1.gameObject.SetActive(true);
            
@@ -37,7 +37,7 @@ public class CheckLevelsPrasekolah : MonoBehaviour
             //button1.enabled = false;
             checkmark1.gameObject.SetActive(false);
         }
-        if(PlayerPrefs.GetInt("Level2Pra") == 1){
+        if(PlayerPrefs.GetInt("Level2Pra_"+PlayerPrefs.GetInt("PlayerID")) == 1){
             //button2.enabled = true;
             checkmark2.gameObject.SetActive(true);
         }else {
@@ -45,7 +45,7 @@ public class CheckLevelsPrasekolah : MonoBehaviour
             checkmark2.gameObject.SetActive(false);
         }
 
-        if(PlayerPrefs.GetInt("Level3Pra") == 1){
+        if(PlayerPrefs.GetInt("Level3Pra_"+PlayerPrefs.GetInt("PlayerID")) == 1){
            // button3.enabled = true;
             checkmark3.gameObject.SetActive(true);
         }  else{

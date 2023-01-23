@@ -234,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0017051665, y: 91.31151}
-  m_SizeDelta: {x: 487.92, y: 78.4269}
+  m_AnchoredPosition: {x: 5.5955, y: 91.31152}
+  m_SizeDelta: {x: 803.5999, y: 78.4269}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &46670446
 MonoBehaviour:
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the information about the badge name
+  m_text: ANDA BERJAYA MENEROKA SEMUA BAHAGIAN DI DALAM APPLIKASI PEMBELAJARAN INI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -369,11 +369,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &83802274
 Animator:
   serializedVersion: 5
@@ -1596,11 +1596,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &457280102
 Animator:
   serializedVersion: 5
@@ -1656,8 +1656,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &519486446
 MonoBehaviour:
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: STAR BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3254779903
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2241,8 +2241,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0017051665, y: 91.31151}
-  m_SizeDelta: {x: 487.92, y: 78.4269}
+  m_AnchoredPosition: {x: 0.0364, y: 91.31152}
+  m_SizeDelta: {x: 828.3024, y: 78.4269}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &624244973
 MonoBehaviour:
@@ -2264,7 +2264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the information about the badge name
+  m_text: ANDA BERJAYA MENDAPAT SEMUA MARKAH YANG BETUL UNTUK SEMUA KUIZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -2273,7 +2273,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3254779903
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2500,10 +2500,10 @@ RectTransform:
   m_Father: {fileID: 2050617787}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -315}
-  m_SizeDelta: {x: 877.62, y: 744.8279}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -377.1189}
+  m_SizeDelta: {x: 877.62, y: -1243.1622}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &721555294
 GameObject:
@@ -2540,8 +2540,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &721555296
 MonoBehaviour:
@@ -2563,7 +2563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: SMART BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -2572,7 +2572,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 2533359615
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2772,8 +2772,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0017051665, y: 91.31151}
-  m_SizeDelta: {x: 487.92, y: 78.4269}
+  m_AnchoredPosition: {x: -0.0025415, y: 100.27}
+  m_SizeDelta: {x: 860.89, y: 61.7326}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &760049228
 MonoBehaviour:
@@ -2795,7 +2795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the information about the badge name
+  m_text: ANDA BERJAYA MENJAWAB SEMUA SOALAN DI GAME PRASEKOLAH DENGAN BETUL KESEMUANYA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -2804,7 +2804,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 2533359615
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3392,11 +3392,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &943167090
 Animator:
   serializedVersion: 5
@@ -3680,11 +3680,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &1074234235
 Animator:
   serializedVersion: 5
@@ -3740,8 +3740,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1087084329
 MonoBehaviour:
@@ -3763,7 +3763,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: ROCKET BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -3772,7 +3772,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3573547007
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3951,8 +3951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0017051665, y: 91.31151}
-  m_SizeDelta: {x: 487.92, y: 78.4269}
+  m_AnchoredPosition: {x: 9.62619, y: 91.31152}
+  m_SizeDelta: {x: 771.9412, y: 78.4269}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1197875475
 MonoBehaviour:
@@ -3974,7 +3974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the information about the badge name
+  m_text: ANDA BERJAYA MENJAWAB SOALAN KUIZ BAGI SEMUA TAHAP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -3983,7 +3983,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3573547007
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4837,7 +4837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4535056, g: 0.8018868, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5057,11 +5057,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &1412097613
 Animator:
   serializedVersion: 5
@@ -5245,11 +5245,11 @@ RectTransform:
   m_Father: {fileID: 719735862}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002533, y: 0.0005493164}
-  m_SizeDelta: {x: 877.63, y: 744.83}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 877.63, y: 665.8501}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!95 &1665938936
 Animator:
   serializedVersion: 5
@@ -5342,8 +5342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1686922448
 MonoBehaviour:
@@ -5365,7 +5365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: EXPLORER BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -5477,8 +5477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1721794327
 MonoBehaviour:
@@ -5500,7 +5500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: MEDAL BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -5509,7 +5509,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4211081215
+    rgba: 3154116607
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6016,8 +6016,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0017051665, y: 91.31151}
-  m_SizeDelta: {x: 487.92, y: 78.4269}
+  m_AnchoredPosition: {x: 2.0946, y: 91.31152}
+  m_SizeDelta: {x: 735.2888, y: 78.4269}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1834573494
 MonoBehaviour:
@@ -6039,7 +6039,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the information about the badge name
+  m_text: ANDA BERJAYA MENGHABISKAN PERMAINAN BAGI SEMUA TAHAP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -6048,7 +6048,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4127195135
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6543,8 +6543,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.0025634766, y: 184.00055}
-  m_SizeDelta: {x: 348.39, y: 54.7378}
+  m_AnchoredPosition: {x: 3.244, y: 162}
+  m_SizeDelta: {x: 610.2832, y: 54.7378}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1899470489
 MonoBehaviour:
@@ -6566,7 +6566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BADGE NAME
+  m_text: WINNER BADGE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
   m_sharedMaterial: {fileID: 8368996239656605022, guid: c2a969a3560a8dd42afa00ee9c8b546c, type: 2}
@@ -6575,7 +6575,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4127195135
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -6965,8 +6965,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000013468554, y: 25.222137}
-  m_SizeDelta: {x: 678.2776, y: 109.0245}
+  m_AnchoredPosition: {x: -5.7965, y: 25.222168}
+  m_SizeDelta: {x: 866.04, y: 109.0245}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2007883272
 MonoBehaviour:
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ANDA BERJAYA MENGHABISKAN KESEMUA TOPIK DI APPLIKASI INI
+  m_text: ANDA BERJAYA MENGGUNAKAN APPLIKASI PEMBELAJARAN INI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -6997,7 +6997,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4211081215
+    rgba: 3154116607
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

@@ -6,6 +6,9 @@ public class LoadScore : MonoBehaviour
 {
     public QuizController quiz;
 
+    public bool pra;
+    public bool t1;
+    public bool t2;
     private TextMeshProUGUI text;
     // Start is called before the first frame update
     void Start()
@@ -13,7 +16,17 @@ public class LoadScore : MonoBehaviour
         quiz = GameObject.Find("QuizController").GetComponent<QuizController>();
         text = GetComponent<TextMeshProUGUI>();
 
-        text.text = "SCORE: "+quiz.score.ToString() +" / 10";    
+        text.text = "SCORE: "+quiz.score.ToString() +" / " + CheckQuizNumber.instance.numberofQuizzes;
+
+        if(quiz.score == CheckQuizNumber.instance.numberofQuizzes){
+            if(pra){
+
+            }else if (t1){
+
+            }else if (t2){
+
+            }
+        }    
     }
 
     // Update is called once per frame

@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class CheckQuizNumber : MonoBehaviour
 {
+    public static CheckQuizNumber instance;
+
+    private void Awake() {
+        instance = this;
+    }
     public int numberofQuizzes;
     
     public string quizNumber;

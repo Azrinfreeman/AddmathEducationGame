@@ -47,6 +47,10 @@ public class GamePraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(score < 0){
+            score = 0;
+        }
         if(level > 10){
             Destroy(backgroundImage[0].GetComponent<Rigidbody2D>());
             Destroy(backgroundImage[1].GetComponent<Rigidbody2D>());

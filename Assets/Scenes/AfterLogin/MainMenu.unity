@@ -571,6 +571,7 @@ GameObject:
   - component: {fileID: 85543086}
   - component: {fileID: 85543087}
   - component: {fileID: 85543088}
+  - component: {fileID: 85543089}
   m_Layer: 5
   m_Name: Option (1)
   m_TagString: Untagged
@@ -708,6 +709,18 @@ MonoBehaviour:
           m_StringArgument: GameMenu
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &85543087
 Animator:
   serializedVersion: 5
@@ -741,6 +754,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSFX: {fileID: 0}
+--- !u!114 &85543089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85543081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &117010341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,7 +2726,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &814352934
 GameObject:
@@ -3601,6 +3626,7 @@ GameObject:
   - component: {fileID: 1089122165}
   - component: {fileID: 1089122166}
   - component: {fileID: 1089122167}
+  - component: {fileID: 1089122168}
   m_Layer: 5
   m_Name: Option
   m_TagString: Untagged
@@ -3738,6 +3764,18 @@ MonoBehaviour:
           m_StringArgument: LearningPage
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &1089122166
 Animator:
   serializedVersion: 5
@@ -3771,6 +3809,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSFX: {fileID: 0}
+--- !u!114 &1089122168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089122160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1153929976
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,6 +3971,7 @@ GameObject:
   - component: {fileID: 1169690924}
   - component: {fileID: 1169690923}
   - component: {fileID: 1169690922}
+  - component: {fileID: 1169690928}
   m_Layer: 5
   m_Name: Option (5)
   m_TagString: Untagged
@@ -4053,6 +4104,18 @@ MonoBehaviour:
           m_StringArgument: PenghargaanPage
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1169690926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4091,6 +4154,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169690920}
   m_CullTransparentMesh: 1
+--- !u!114 &1169690928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169690920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181883130
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,6 +4181,7 @@ GameObject:
   - component: {fileID: 1181883135}
   - component: {fileID: 1181883136}
   - component: {fileID: 1181883137}
+  - component: {fileID: 1181883138}
   m_Layer: 5
   m_Name: Option (3)
   m_TagString: Untagged
@@ -4243,6 +4319,18 @@ MonoBehaviour:
           m_StringArgument: BadgesPage
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &1181883136
 Animator:
   serializedVersion: 5
@@ -4276,6 +4364,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSFX: {fileID: 0}
+--- !u!114 &1181883138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181883130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1212296736
 GameObject:
   m_ObjectHideFlags: 0
@@ -4907,6 +5007,7 @@ GameObject:
   - component: {fileID: 1432233508}
   - component: {fileID: 1432233510}
   - component: {fileID: 1432233511}
+  - component: {fileID: 1432233512}
   m_Layer: 5
   m_Name: Option (2)
   m_TagString: Untagged
@@ -5044,6 +5145,18 @@ MonoBehaviour:
           m_StringArgument: Quizzes
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &1432233510
 Animator:
   serializedVersion: 5
@@ -5077,6 +5190,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSFX: {fileID: 0}
+--- !u!114 &1432233512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432233504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1467997309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6281,6 +6406,7 @@ GameObject:
   - component: {fileID: 1952124210}
   - component: {fileID: 1952124212}
   - component: {fileID: 1952124211}
+  - component: {fileID: 1952124213}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6438,6 +6564,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1952124213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952124204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1975461363
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,6 +6878,7 @@ GameObject:
   - component: {fileID: 2127651545}
   - component: {fileID: 2127651544}
   - component: {fileID: 2127651543}
+  - component: {fileID: 2127651549}
   m_Layer: 5
   m_Name: Option (6)
   m_TagString: Untagged
@@ -6859,6 +6998,18 @@ MonoBehaviour:
           m_StringArgument: CreditPage
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 85543089}
+        m_TargetAssemblyTypeName: WriteKeys, Assembly-CSharp
+        m_MethodName: menu6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2127651546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6910,3 +7061,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127651541}
   m_CullTransparentMesh: 1
+--- !u!114 &2127651549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127651541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c5846082636ca941883d046f3ce055b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

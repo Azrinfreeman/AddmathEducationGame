@@ -31,7 +31,7 @@ public class CheckLevelTahap1 : MonoBehaviour
     void Update() {
         
     
-        if(PlayerPrefs.GetInt("Level1Tahap1") == 1 ){
+        if(PlayerPrefs.GetInt("Level1Tahap1_"+PlayerPrefs.GetInt("PlayerID")) == 1 ){
            // button1.enabled = true;
             checkmark1.gameObject.SetActive(true);
            
@@ -39,7 +39,7 @@ public class CheckLevelTahap1 : MonoBehaviour
             //button1.enabled = false;
             checkmark1.gameObject.SetActive(false);
         }
-        if(PlayerPrefs.GetInt("Level2Tahap1") == 1){
+        if(PlayerPrefs.GetInt("Level2Tahap1_"+PlayerPrefs.GetInt("PlayerID")) == 1){
             //button2.enabled = true;
             checkmark2.gameObject.SetActive(true);
         }else {
@@ -47,7 +47,7 @@ public class CheckLevelTahap1 : MonoBehaviour
             checkmark2.gameObject.SetActive(false);
         }
 
-        if(PlayerPrefs.GetInt("Level3Tahap1") == 1){
+        if(PlayerPrefs.GetInt("Level3Tahap1_"+PlayerPrefs.GetInt("PlayerID")) == 1){
            // button3.enabled = true;
             checkmark3.gameObject.SetActive(true);
         }  else{
@@ -55,7 +55,7 @@ public class CheckLevelTahap1 : MonoBehaviour
             checkmark3.gameObject.SetActive(false);
         }
 
-        if(PlayerPrefs.GetInt("Level4Tahap1") == 1){
+        if(PlayerPrefs.GetInt("Level4Tahap1_"+PlayerPrefs.GetInt("PlayerID")) == 1){
            // button3.enabled = true;
             checkmark4.gameObject.SetActive(true);
         }  else{
