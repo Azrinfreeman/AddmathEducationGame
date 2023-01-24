@@ -960,6 +960,7 @@ GameObject:
   - component: {fileID: 229222751}
   - component: {fileID: 229222753}
   - component: {fileID: 229222752}
+  - component: {fileID: 229222754}
   m_Layer: 5
   m_Name: body
   m_TagString: Untagged
@@ -1029,6 +1030,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229222750}
   m_CullTransparentMesh: 1
+--- !u!95 &229222754
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229222750}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5704841d1aabc27468b4a2cd39a6c430, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &252176572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2222,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 0
 --- !u!114 &595569773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2984,6 +3008,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 0
 --- !u!114 &893506648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4470,7 +4497,6 @@ GameObject:
   - component: {fileID: 1312788583}
   - component: {fileID: 1312788586}
   - component: {fileID: 1312788587}
-  - component: {fileID: 1312788582}
   - component: {fileID: 1312788584}
   - component: {fileID: 1312788585}
   m_Layer: 5
@@ -4480,26 +4506,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1312788582
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312788581}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9fa8a122f630fc3488c370c79c9864dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!224 &1312788583
 RectTransform:
   m_ObjectHideFlags: 0

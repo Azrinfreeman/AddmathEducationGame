@@ -662,7 +662,7 @@ GameObject:
   - component: {fileID: 338619323}
   - component: {fileID: 338619322}
   m_Layer: 5
-  m_Name: GameObject (1)
+  m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1305,8 +1305,9 @@ GameObject:
   - component: {fileID: 679140381}
   - component: {fileID: 679140380}
   - component: {fileID: 679140382}
+  - component: {fileID: 679140383}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,6 +1392,26 @@ MonoBehaviour:
   checkmark2: {fileID: 0}
   button3: {fileID: 0}
   checkmark3: {fileID: 0}
+--- !u!95 &679140383
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679140378}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b9507e97361b224186c2c2785dd5faa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &694061194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1518,7 +1539,7 @@ GameObject:
   - component: {fileID: 711277534}
   - component: {fileID: 711277533}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2470,7 +2491,7 @@ GameObject:
   - component: {fileID: 1064641964}
   - component: {fileID: 1064641963}
   m_Layer: 5
-  m_Name: GameObject (2)
+  m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
