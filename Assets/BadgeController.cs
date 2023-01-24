@@ -11,7 +11,9 @@ public class BadgeController : MonoBehaviour
     {
         block = new Transform[transform.childCount];
         badges = new Transform[transform.childCount];
-
+       // PlayerPrefs.SetInt("High1_"+PlayerPrefs.GetInt("PlayerID"),1);
+       // PlayerPrefs.SetInt("High2_"+PlayerPrefs.GetInt("PlayerID"),1);
+       // PlayerPrefs.SetInt("High3_"+PlayerPrefs.GetInt("PlayerID"),1);
         for(int i =0; i < transform.childCount; i++){
             badges[i] = transform.GetChild(i).GetComponent<Transform>();
             block[i] = transform.GetChild(i).transform.GetChild(1).GetComponent<Transform>();
@@ -45,5 +47,16 @@ public class BadgeController : MonoBehaviour
             block[3].gameObject.SetActive(false);
             badges[3].GetComponent<Image>().color = new Color32(116,206,0,255);
         }   
+
+        //fifth badge
+        if(PlayerPrefs.GetInt("High1_"+PlayerPrefs.GetInt("PlayerID")) == 1 && PlayerPrefs.GetInt("High2_"+PlayerPrefs.GetInt("PlayerID")) == 1 && PlayerPrefs.GetInt("High3_"+PlayerPrefs.GetInt("PlayerID")) == 1 ){
+            block[4].gameObject.SetActive(false);
+            badges[4].GetComponent<Image>().color = new Color32(116,206,0,255);
+        }
+
+        if(PlayerPrefs.GetInt("PraGameKuiz_"+PlayerPrefs.GetInt("PlayerID")) == 1){
+            block[5].gameObject.SetActive(false);
+            badges[6].GetComponent<Image>().color = new Color32(116,206,0,255);
+        }
     }
 }

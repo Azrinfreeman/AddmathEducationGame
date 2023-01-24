@@ -20,11 +20,11 @@ public class LoadScore : MonoBehaviour
 
         if(quiz.score == CheckQuizNumber.instance.numberofQuizzes){
             if(pra){
-
+                PlayerPrefs.SetInt("High1_"+PlayerPrefs.GetInt("PlayerID"),1);
             }else if (t1){
-
+ PlayerPrefs.SetInt("High2_"+PlayerPrefs.GetInt("PlayerID"),1);
             }else if (t2){
-
+ PlayerPrefs.SetInt("High3_"+PlayerPrefs.GetInt("PlayerID"),1);
             }
         }    
     }
