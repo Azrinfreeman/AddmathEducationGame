@@ -52618,6 +52618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 0
 --- !u!114 &1837698136
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10019,6 +10019,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 0
 --- !u!114 &595569773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15298,6 +15301,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 1
 --- !u!114 &893506648
 MonoBehaviour:
   m_ObjectHideFlags: 0

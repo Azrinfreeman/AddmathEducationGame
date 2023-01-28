@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/PlayerInformation.unity
     guid: 3279370a60c7f5346834096eb230bcd5
   - enabled: 0
-    path: Assets/Scenes/LoginPage.unity
+    path: 
     guid: 26850665b665e81488f239151dd72528
   - enabled: 1
     path: Assets/Scenes/LoginAddAccountPage.unity
@@ -171,9 +171,21 @@ EditorBuildSettings:
     path: Assets/Scenes/AR/ARSebutDanTulisWaktu.unity
     guid: 8725e55c5fa24aa4abeb262273ed8522
   - enabled: 1
+    path: Assets/Scenes/AR/Pra/ARApaItuTambah.unity
+    guid: 6fcb7744662bcef44b41e485b6253d25
+  - enabled: 1
     path: Assets/Scenes/PenghargaanPage.unity
     guid: d611b994ab132ea47a372647df3e02e6
   - enabled: 1
     path: Assets/Scenes/PlayerInformationMain.unity
     guid: 602f29ae9cec1024693c1ce51f7565c1
+  - enabled: 1
+    path: Assets/Scenes/AR/Pra/AROperasiTambahGunaObjek.unity
+    guid: 4233a6a2828d2b349977548127df25b3
+  - enabled: 1
+    path: Assets/Scenes/AR/Pra/AROperasiTambahGunaJari.unity
+    guid: 281b15bdbb069d54d8041011b6149f2f
+  - enabled: 1
+    path: Assets/Scenes/AR/Pra/AROperasiTambahGunaNombor.unity
+    guid: 38cbc1c38c935154cb161d25ac8383e8
   m_configObjects: {}

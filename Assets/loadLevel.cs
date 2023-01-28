@@ -16,7 +16,7 @@ public class loadLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+    
             
         text = GetComponent<TextMeshProUGUI>();    
         
@@ -32,5 +32,8 @@ public class loadLevel : MonoBehaviour
             text.text = "Markah ="+ GamePraController.instance.score;
         }
         
+        if(GamePraController.instance.score >=120){
+            PlayerPrefs.SetInt("PraGameKuiz_"+PlayerPrefs.GetInt("PlayerID"), 1);
+        }
     }
 }

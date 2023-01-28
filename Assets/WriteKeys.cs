@@ -16,6 +16,8 @@ public class WriteKeys : MonoBehaviour
         
     }
 
+    
+
     //Kuiz
 
     public void Kuiz0(){
