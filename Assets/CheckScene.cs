@@ -62,6 +62,26 @@ public class CheckScene : MonoBehaviour
                 //the scene is already loaded
                 canvas.SetActive(false);
                 
+            }else if (scene.name == "ARApaItuTambah")
+            {
+                //the scene is already loaded
+                canvas.SetActive(false);
+                
+            }else if (scene.name == "AROperasiTambahGunaJari")
+            {
+                //the scene is already loaded
+                canvas.SetActive(false);
+                
+            }else if (scene.name == "AROperasiTambahGunaObjek")
+            {
+                //the scene is already loaded
+                canvas.SetActive(false);
+                
+            }else if (scene.name == "AROperasiTambahGunaNombor")
+            {
+                //the scene is already loaded
+                canvas.SetActive(false);
+                
             }
            
             else

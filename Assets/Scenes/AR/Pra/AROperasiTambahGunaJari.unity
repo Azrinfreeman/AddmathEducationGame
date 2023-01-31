@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bda385b0633c474aa2e92b7e2247278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: ARIsipadu
+  name: AROperasiTambahGunaJari
   currentScene:
     m_Handle: 0
 --- !u!1 &1492818420
