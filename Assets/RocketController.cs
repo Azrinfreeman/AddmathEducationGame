@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-public class RocketController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class RocketController : MonoBehaviour
 {
 
     public Rigidbody2D rocket;
     public Transform fuel;
     public Vector3 move;
     public int playerSpeed = 3;
-    public bool buttonPressed;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,36 +19,40 @@ public class RocketController : MonoBehaviour, IPointerDownHandler, IPointerUpHa
     }
 
 
- 
-public void OnPointerDown(PointerEventData eventData){
-     buttonPressed = true;
-}
- 
-public void OnPointerUp(PointerEventData eventData){
-    buttonPressed = false;
-}
+  
 
 
 
     public void MoveRight(){
-        if(buttonPressed){
+      
             
         rocket.velocity = new Vector2(10f * playerSpeed, rocket.velocity.y );
         //rocket.Move(move * (Time.deltaTime * playerSpeed));
-        }
+        
     }
 
+    public void Stop(){
+        rocket.velocity = new Vector2(0f * playerSpeed, rocket.velocity.y );
+    }
 
     public void MoveLeft(){
-        if(buttonPressed){
+        
             rocket.velocity = new Vector2(-10f * playerSpeed, rocket.velocity.y );
-        }
+        
     }
     // Update is called once per frame
     void Update()
     {
-        if(buttonPressed){
-            
+
+        if(!ButtonController.instance.isRight && !ButtonController.instance.isLeft){
+            Stop();
+        }
+        if(ButtonController.instance.isRight){
+            MoveRight();
+        }
+
+        if(ButtonController.instance.isLeft){
+            MoveLeft();
         }
     }
 }
