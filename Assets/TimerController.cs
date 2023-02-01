@@ -4,6 +4,12 @@ using UnityEngine;
 using TMPro;
 public class TimerController : MonoBehaviour
 {
+    public static TimerController instance;
+
+    private void Awake() {
+        instance = this;
+    }
+    public bool isStopping;
     public float timer = 10.0f;
     TextMeshProUGUI text;
     public float minit;
@@ -35,7 +41,10 @@ public class TimerController : MonoBehaviour
         
         if (timer > 0)
         {
-            timer -= Time.deltaTime;
+            if(!isStopping){
+                timer -= Time.deltaTime;
+                
+            }
         }else{
             if(!isSwitch){
             Debug.Log(isSwitch);
@@ -50,9 +59,12 @@ public class TimerController : MonoBehaviour
         
         if(minit <=0 && seconds >=0 && seconds < 10){
         text.text = "0:0"+seconds.ToString();
-            if(!warningSFX.isPlaying){
+        
+            if(!isStopping){
+                if(!warningSFX.isPlaying){
 
-            warningSFX.Play(); 
+                warningSFX.Play(); 
+                }
             }
         }else if (minit >= 1 && seconds < 10){
         text.text = minit+":0"+seconds.ToString();
