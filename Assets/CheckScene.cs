@@ -8,10 +8,23 @@ public class CheckScene : MonoBehaviour
     public string name;
 
     public Scene currentScene;
+
+    public AudioSource bgMusic;
     // Start is called before the first frame update
+
+    public void StopMusic(){
+        bgMusic.Stop();
+    }
+
+    public void StartMusic(){
+        if(!bgMusic.isPlaying){
+            
+        bgMusic.Play();
+        }
+    }
     void Start()
     {
-
+        bgMusic = GameObject.Find("bgMusic").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,67 +38,68 @@ public class CheckScene : MonoBehaviour
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-             
+             StopMusic();
             }
             else if (scene.name == "ARIsipadu")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-              
+              StopMusic();
             }
             else if (scene.name == "ARLuas")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-               
+               StopMusic();
             }
             else if (scene.name == "ARPerimeter")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-            
+                StopMusic();
             }
             else if (scene.name == "ARPerkaitanWaktu")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }
             else if (scene.name == "ARRekodWaktu")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-               
+               StopMusic();
             }
             else if (scene.name == "ARSebutDanTulisWaktu")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }else if (scene.name == "ARApaItuTambah")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }else if (scene.name == "AROperasiTambahGunaJari")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }else if (scene.name == "AROperasiTambahGunaObjek")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }else if (scene.name == "AROperasiTambahGunaNombor")
             {
                 //the scene is already loaded
                 canvas.SetActive(false);
-                
+                StopMusic();
             }
            
             else
             {
+                StartMusic();
                 canvas.SetActive(true);
             }
           
