@@ -68,10 +68,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Fuziness: 0.09
+    - _Fuziness: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Range: 0.12
+    - _Range: 0.18
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorToRemove: {r: 0.2705882, g: 0.4313726, b: 0.1333333, a: 1}

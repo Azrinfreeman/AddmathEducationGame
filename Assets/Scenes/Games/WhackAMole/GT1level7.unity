@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 11:0o0 MALAM
+  m_text: 11:00 MALAM
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -3390,6 +3390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdc44d3c2a957da458bc9a297bb0d811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStopping: 0
   timer: 30
   minit: 0
   seconds: 0
@@ -8847,6 +8848,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quiz: {fileID: 0}
+  pra: 0
+  t1: 0
+  t2: 0
 --- !u!114 &1881521449
 MonoBehaviour:
   m_ObjectHideFlags: 0
