@@ -6607,7 +6607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9018861, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.9018861, b: 0, a: 0.6156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7538,7 +7538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.06666667, g: 0.28627452, b: 0.30588236, a: 0.70980394}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7762,7 +7762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9018861, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.9018861, b: 0, a: 0.6156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9310,7 +9310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9018861, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.9018861, b: 0, a: 0.6156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10685,7 +10685,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1020915709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca0c7a60daabc9948b158a5099f45aa4, type: 3}
+  m_Script: {fileID: 11500000, guid: be1e2e5b8fb42c645bc1b8f1884d032b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
@@ -14540,7 +14540,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: GERAKKAN PEMAIN KEPADA JAWAPAN YANG BETUL DENGAN MENGGUNAKAN ALGORITHM
-    DENGAN MENARIK ANAK PANAH KE DALAM KOTAK DI BAWAH, SETERUNYA MENEKAN RUN.
+    DENGAN MENARIK ANAK PANAH KE DALAM KOTAK DI BAWAH, SETERUSNYA MENEKAN RUN.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -16535,7 +16535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.09487361, g: 0.4575916, b: 0.49056602, a: 1}
+  m_Color: {r: 0.06666667, g: 0.28627452, b: 0.30588236, a: 0.70980394}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -19028,7 +19028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9018861, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.9018861, b: 0, a: 0.6156863}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

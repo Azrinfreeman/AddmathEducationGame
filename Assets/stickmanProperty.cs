@@ -61,5 +61,25 @@ public class stickmanProperty : MonoBehaviour
         isInside = false;
         Debug.Log("exit2d");
     }
+
+    if(other.gameObject.tag == "triangle"){
+      Debug.Log("triangle");
+      if(toTouchTriangle){
+        
+      isTouchingTriangle = false;
+      }
+    }
+
+    if(other.gameObject.tag == "circle"){
+      if (toTouchCircle){
+        isTouchingCircle = false;
+      }
+    }
+
+    if(other.gameObject.tag == "square"){
+      if (toTouchSquare){
+        isTouchingSquare = false;
+      }
+    }
   }
 }
