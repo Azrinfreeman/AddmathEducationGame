@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerInformation.unity
     guid: 3279370a60c7f5346834096eb230bcd5
-  - enabled: 0
-    path: 
-    guid: 26850665b665e81488f239151dd72528
   - enabled: 1
     path: Assets/Scenes/LoginAddAccountPage.unity
     guid: f9645201ecc5cfd479ce95b658228447

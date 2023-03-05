@@ -861,9 +861,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: Your Gender
       m_Image: {fileID: 0}
-    - m_Text: Male
+    - m_Text: Lelaki
       m_Image: {fileID: 0}
-    - m_Text: Female
+    - m_Text: Perempuan
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
