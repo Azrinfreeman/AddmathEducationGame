@@ -188,9 +188,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR/Pra/AROperasiTambahGunaNombor.unity
     guid: 38cbc1c38c935154cb161d25ac8383e8
-  - enabled: 1
-    path: Assets/Scenes/AR/Pra/ARApaItuTambah_1.unity
-    guid: e42c65456cc0c834988ee2b6c110fcf0
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b54e286d6af72f3498dedc1541d44437, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 78d5e4095e477da4db0a2ba1a8a05d4d, type: 2}
