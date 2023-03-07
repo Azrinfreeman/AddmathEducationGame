@@ -23,23 +23,26 @@ public class AccountController : MonoBehaviour
 
         for(int i = 0; i < PlayerPrefs.GetInt("PlayerTotal"); i++){
             int  r =  i+1; 
-            Transform acc = Instantiate(Account, new Vector2(Account.position.x + (990f*i), Account.localPosition.y+822), Account.rotation);
+            
+            Transform acc = Instantiate(Account, new Vector2(Account.position.x + (990f*i), Account.localPosition.y+622), Account.rotation);
             acc.transform.SetParent(body);
             acc.GetChild(0).transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("PlayerName_"+r);
+            
             acc.GetChild(0).transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetString("PlayerGender_"+r);
+            acc.GetChild(0).transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = PlayerPrefs.GetInt("PlayerAge_"+r).ToString() + " Tahun";
             acc.GetChild(0).transform.GetChild(3).GetComponent<AssignID>().id = PlayerPrefs.GetInt("PlayerID_"+r);
             acc.GetChild(0).transform.GetChild(3).GetComponent<Button>().onClick.AddListener(() => GoToMainMenu());
             if(PlayerPrefs.GetString("PlayerGender_"+r) == "Male"){
                 
-            acc.GetChild(0).transform.GetChild(5).GetComponent<Transform>().gameObject.SetActive(true);
-            }else{
             acc.GetChild(0).transform.GetChild(4).GetComponent<Transform>().gameObject.SetActive(true);
+            }else{
+            acc.GetChild(0).transform.GetChild(5).GetComponent<Transform>().gameObject.SetActive(true);
                 
             }
             
         }
 
-        Debug.Log(PlayerPrefs.GetInt("PlayerTotal"));
+        //Debug.Log(PlayerPrefs.GetInt("PlayerTotal"));
     }
     IEnumerator loadGame(string scene){
 
@@ -54,7 +57,7 @@ public class AccountController : MonoBehaviour
         PlayerPrefs.SetString("PlayerName",PlayerPrefs.GetString("PlayerName_"+EventSystem.current.currentSelectedGameObject.GetComponent<AssignID>().id));
         PlayerPrefs.SetString("PlayerGender",PlayerPrefs.GetString("PlayerGender_"+EventSystem.current.currentSelectedGameObject.GetComponent<AssignID>().id));
         
-        Debug.Log(PlayerPrefs.GetString("PlayerName"));
+        //Debug.Log(PlayerPrefs.GetString("PlayerName"));
         StartCoroutine(loadGame("MainMenu"));
     }
     
