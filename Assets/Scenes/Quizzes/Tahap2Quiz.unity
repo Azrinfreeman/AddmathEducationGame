@@ -3158,7 +3158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DO YOU WANT TO RESTART OR QUIZ THE QUIZ?
+  m_text: ADAKAH ANDA INGIN MAIN SEMULA ATAU KELUAR ?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -8759,6 +8759,7 @@ GameObject:
   - component: {fileID: 410962452}
   - component: {fileID: 410962451}
   - component: {fileID: 410962450}
+  - component: {fileID: 410962453}
   m_Layer: 5
   m_Name: C
   m_TagString: Untagged
@@ -8869,6 +8870,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410962448}
   m_CullTransparentMesh: 1
+--- !u!114 &410962453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410962448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9a1244b174d134caf41611da884210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctButton: {fileID: 0}
+  selectedButtonController: {fileID: 0}
 --- !u!1 &423010002
 GameObject:
   m_ObjectHideFlags: 0
@@ -13040,7 +13055,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -14796,7 +14811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hitung perimeter segi empat sama teserbut.
+  m_text: Hitung perimeter segi empat sama tersebut.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}
   m_sharedMaterial: {fileID: -125823884585405237, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}
@@ -14829,7 +14844,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -17737,6 +17752,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 922176605}
     m_Modifications:
+    - target: {fileID: 5474848946910255904, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: ADAKAH ANDA INGIN BERHENTI MENJAWAB ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848946910255904, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_fontSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848946910255904, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848946910255935, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 858.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848946910255935, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00060225
+      objectReference: {fileID: 0}
     - target: {fileID: 5474848947021845564, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -17860,6 +17895,18 @@ PrefabInstance:
     - target: {fileID: 5474848947084000899, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947165894030, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: YA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947279986415, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: KELUAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947404497330, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: TIDAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
@@ -18577,7 +18624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'SCORE : '
+  m_text: 'MARKAH : '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -22512,6 +22559,7 @@ GameObject:
   - component: {fileID: 1081491960}
   - component: {fileID: 1081491959}
   - component: {fileID: 1081491958}
+  - component: {fileID: 1081491961}
   m_Layer: 5
   m_Name: D
   m_TagString: Untagged
@@ -22622,6 +22670,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081491956}
   m_CullTransparentMesh: 1
+--- !u!114 &1081491961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081491956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9a1244b174d134caf41611da884210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctButton: {fileID: 0}
+  selectedButtonController: {fileID: 0}
 --- !u!1 &1088975775
 GameObject:
   m_ObjectHideFlags: 0
@@ -25908,7 +25970,6 @@ GameObject:
   - component: {fileID: 1241534477}
   - component: {fileID: 1241534476}
   - component: {fileID: 1241534475}
-  - component: {fileID: 1241534474}
   m_Layer: 5
   m_Name: C
   m_TagString: Untagged
@@ -25937,20 +25998,6 @@ RectTransform:
   m_AnchoredPosition: {x: -208.13158, y: -110.24097}
   m_SizeDelta: {x: 379.654, y: 137.0871}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1241534474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241534472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9a1244b174d134caf41611da884210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctButton: {fileID: 0}
-  selectedButtonController: {fileID: 0}
 --- !u!114 &1241534475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37628,7 +37675,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -38653,7 +38700,6 @@ GameObject:
   - component: {fileID: 1761388358}
   - component: {fileID: 1761388357}
   - component: {fileID: 1761388356}
-  - component: {fileID: 1761388359}
   m_Layer: 5
   m_Name: A
   m_TagString: Untagged
@@ -38764,20 +38810,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761388354}
   m_CullTransparentMesh: 1
---- !u!114 &1761388359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761388354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9a1244b174d134caf41611da884210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctButton: {fileID: 0}
-  selectedButtonController: {fileID: 0}
 --- !u!1 &1765825501
 GameObject:
   m_ObjectHideFlags: 0
@@ -39951,7 +39983,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hitung perimeter segi empat tepat teserbut.
+  m_text: Hitung perimeter segi empat tepat tersebut.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}
   m_sharedMaterial: {fileID: -125823884585405237, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}
@@ -39984,7 +40016,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -40357,7 +40389,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: cdae16b5e81a06c46a06c5017b56eee5, type: 3}
     - target: {fileID: 5474848946910255904, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_text
-      value: FINISH ANSWERING THE QUESTION AND SUBMIT?
+      value: SELESAI MENJAWAB DAN HANTAR ?
       objectReference: {fileID: 0}
     - target: {fileID: 5474848946910255935, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -40543,9 +40575,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474848947165894030, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: YA
+      objectReference: {fileID: 0}
     - target: {fileID: 5474848947279986414, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947279986415, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: HANTAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947404497330, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: TIDAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
@@ -41061,7 +41105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: KELUAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -44039,7 +44083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RESTART
+  m_text: MAIN SEMULA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -45181,7 +45225,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

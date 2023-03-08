@@ -2482,7 +2482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: TIDAK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -11134,7 +11134,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: RESTART
+  m_text: MAIN SEMULA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
   m_sharedMaterial: {fileID: -7285080315962563316, guid: de3b94f8015e9a3469abe9573f948c72, type: 2}
@@ -13601,9 +13601,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474848947165894030, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: YA
+      objectReference: {fileID: 0}
     - target: {fileID: 5474848947279986415, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
       propertyPath: m_text
       value: KELUAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474848947404497330, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
+      propertyPath: m_text
+      value: TIDAK
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d0a619d9688fc4c81f0bc8f20740ec, type: 3}
@@ -33761,7 +33769,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "-Tekan pada icon ini untuk \nmasuk ke ruang AR"
+  m_text: "-Tekan pada ikon ini untuk \nmasuk ke ruang AR"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}
   m_sharedMaterial: {fileID: -125823884585405237, guid: 12c9b14e794e0a44c8ff4b29db305491, type: 2}

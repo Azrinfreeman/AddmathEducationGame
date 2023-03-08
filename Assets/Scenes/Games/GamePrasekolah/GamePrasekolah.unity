@@ -17488,7 +17488,7 @@ MonoBehaviour:
   bubbleAnswer: []
   questions: []
   EndPanel: {fileID: 0}
-  level: 9
+  level: 1
   score: 0
   backgroundImage:
   - {fileID: 126373203}
