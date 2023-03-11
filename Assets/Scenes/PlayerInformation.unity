@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your Gender
+  m_text: Jantina Anda
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 477783793e6c68f47938f46e7d118a75, type: 2}
   m_sharedMaterial: {fileID: -913862557408122310, guid: 477783793e6c68f47938f46e7d118a75, type: 2}
