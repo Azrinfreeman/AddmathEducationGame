@@ -65,6 +65,8 @@ For Android evaluation, use a compatible Unity Android toolchain and camera-equi
 
 The [AR scene collection](Assets/Scenes/AR/) references the `FunMathDatabase` image-target database. Its [XML definition](Assets/StreamingAssets/Vuforia/FunMathDatabase.xml) declares eleven targets, including `ApaItuOperasiTambah`, `KenaliMinit`, `Luas`, `Isipadu`, and `perimeter`; the paired `.dat` file is also tracked.
 
+See the [AR target guide](docs/AR_TARGETS.md) for all eleven scene-to-target mappings and links to the included marker-card folders.
+
 Prepare the matching marker artwork and suitable lighting before a device demo. Merely having the scene and database files does not demonstrate successful target detection. Review the configured Vuforia license in an authorized local setup; this documentation does not replace, validate, or disclose its key values.
 
 ## Data and validation status
