@@ -1,0 +1,567 @@
+[
+  {
+    "path": "Assets/Scenes/Badges/BadgesPage.unity",
+    "originalExisted": true,
+    "sha256": "1a53b88b7a16c6623b6c0a6a746f4f65239ae63cc3c7e8ad014702abd4053620"
+  },
+  {
+    "path": "Assets/Scenes/CreditPage.unity",
+    "originalExisted": true,
+    "sha256": "5ae435cd03f98444205bb1d60e98e2adc319f0b9e861ebd3be78cfdeba6338fa"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/PrasekolahLesson.unity",
+    "originalExisted": true,
+    "sha256": "c4dea08bc488144c4fce7261cf0444fdc05f68a1b4df42e8454f3dd4c7c88992"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1Lesson.unity",
+    "originalExisted": true,
+    "sha256": "d99bf29cce052d7d335708d471fcc82e068a165d2a0dc0332dde008874b8cf37"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap2Lesson.unity",
+    "originalExisted": true,
+    "sha256": "9759c99890837208864199d6d6dc7f24e3559e1140f2836312ee3bf68fcf4a95"
+  },
+  {
+    "path": "Assets/Scenes/PenghargaanPage.unity",
+    "originalExisted": true,
+    "sha256": "87d2e023523e1869773b7c9fa3fce896f2244a25fdb8d40f35a6d574da75f628"
+  },
+  {
+    "path": "Assets/UI/Editor/PathRewardReview.cs",
+    "originalExisted": false,
+    "sha256": "929988404d37fda1c05858f4e4c53395aa4ba717509cd5a9b7d3501fd8258f1b"
+  },
+  {
+    "path": "Assets/UI/Editor/PathRewardReview.cs.meta",
+    "originalExisted": false,
+    "sha256": "80d69093fae0d6694b3d4171ae7da48ddb464e7c70f9bdca55932fb689b879c8"
+  },
+  {
+    "path": "Assets/UI/Editor/PlaygroundUIBuilder.cs",
+    "originalExisted": true,
+    "sha256": "7d69f1041e795d488fcc32d321995a46505eef08197ca790939901f7e6cd6762"
+  },
+  {
+    "path": "Assets/UI/Fonts/Fredoka SDF.asset",
+    "originalExisted": true,
+    "sha256": "7b6ece77ca31ecb95f9606069ec12244935fa408dfe02131dae49dcecc4d0914"
+  },
+  {
+    "path": "Assets/UI/Runtime/BadgeShelf.cs",
+    "originalExisted": true,
+    "sha256": "9fdb2d8a6aa84029362645281db3d92bb9ea6fabfed34dbf713de2ec679d8cb9"
+  },
+  {
+    "path": "Assets/UI/Runtime/LessonPathLayout.cs",
+    "originalExisted": false,
+    "sha256": "435290856d11320268cb421fa7ce2690c51468e3eb06d667f2e93c6521e3a157"
+  },
+  {
+    "path": "Assets/UI/Runtime/LessonPathLayout.cs.meta",
+    "originalExisted": false,
+    "sha256": "7c67f86f0da8621ea8e815b9b9f2e7ad4835368d26219349fd2cb972a59ed2f4"
+  },
+  {
+    "path": "Assets/UI/Runtime/RewardScreenLayout.cs",
+    "originalExisted": false,
+    "sha256": "6a490223349f70bc8652446759166f499cb222585535474702d5c58ba06d96df"
+  },
+  {
+    "path": "Assets/UI/Runtime/RewardScreenLayout.cs.meta",
+    "originalExisted": false,
+    "sha256": "79e34a771db13f1e7a807b4eb8683f734aec9ab16822bd50242f582e11f98577"
+  },
+  {
+    "path": "UI_REVAMP_PLAN.md",
+    "originalExisted": true,
+    "sha256": "3fdf59c1b0f192dc6d5266f48d6d867685931a61cec3803cce4ef16d8d033760"
+  },
+  {
+    "path": "UI_REVAMP_PLAN.notes.md",
+    "originalExisted": true,
+    "sha256": "9826ff98c14cfcd20f9a8758d4d6fe0196ba6361865d1d4e53589cbfc93eadc1"
+  },
+  {
+    "path": "docs/tutorial/kids-ui-revamp.html",
+    "originalExisted": true,
+    "sha256": "2c93bade78065a29946aad63d91ff187bc7c62d2414f31cc65779806e6b42fc3"
+  },
+  {
+    "path": "docs/tutorial/kids-ui-revamp.md",
+    "originalExisted": true,
+    "sha256": "c4928cbf8dbc8bdf75d9890eac511def1eec4ae4d493f63f1f0cebf322382cc0"
+  },
+  {
+    "path": "docs/tutorial/review/playground/migration.tsv",
+    "originalExisted": true,
+    "sha256": "1785bdde0dd6016f3673eaec35c1f57425946e0c77c880b1b68f6eec5e4663f5"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-reward-migration.tsv",
+    "originalExisted": false,
+    "sha256": "cbe2c8b3cd0173b1757669fbc6e6a07aa01629ca73f794071e12a36219d1b0c9"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-1024x768-0-details.png",
+    "originalExisted": false,
+    "sha256": "e0473dc5e21947d3493a6eefe6fa3769b84f51c073e7d05322a1b72bf7f7ea97"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "11e87839b38cd18864a93acde86eb5695850439afa170e25090d85ad303c85ee"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-1024x768-1-details.png",
+    "originalExisted": false,
+    "sha256": "1f3516aec0976239bb5a8ee500dd5fd1be76ad76ff3208f6b2c1591efeff72d1"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "f7aeaee26294ccf68dfd64f6adae68d65cba66b2b438897bd049587c2855f89a"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-360x800-0-details.png",
+    "originalExisted": false,
+    "sha256": "e0b2f7e63a16372611a33317e3870bcf86aa68d2e0f654f8cac968d7aa3b61b6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "2c8f5f8515a43de3823f32a2727ad857617f333db89e3912e20132fb04acf143"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-360x800-1-details.png",
+    "originalExisted": false,
+    "sha256": "2f9c0dd8f21a7db881085a23156c6bb991ac870b82bfdb0778c4ce3a827975db"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "54ef16c3e2746ff1b1f510b2c56a1f3323fe6ce681fcbe608b0ce46aac5c8671"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-540x960-0-details.png",
+    "originalExisted": false,
+    "sha256": "f0d3bf063d5c49f82532f35a81ef3fc7da7f8e15c5bf7006b4e8ad44d9928bc8"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "219065cdd7e5dfe952433ca6c70a27a629d855b7c6e84873623449b06f2be03e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-540x960-1-details.png",
+    "originalExisted": false,
+    "sha256": "75238de18b568c70ea83a75f0dbb39f6864e7c69abe91f8bb9db830dc513512c"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "a8b71539ce97b9547ba26789054ac1fffea5c9cff5a74b9276f3d71b9b14dfdd"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-768x1024-0-details.png",
+    "originalExisted": false,
+    "sha256": "62b2fc06ce54629756539520620bebb280c5ef2e086bed27e7e42e9cc64b4272"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "74cf584a310e231d84c3e6120b7d2387ce963243d749f9f071f1caf13e47b5c7"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-768x1024-1-details.png",
+    "originalExisted": false,
+    "sha256": "957e3c4de36d61e3fc0909a2a495af9fa452add1eebb59198963b9a65cc760c6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "53383fc26506b0e2d72cfe0fd0f09b99fd36683c7e7ae09a5abbcb20dd8b314f"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-800x360-0-details.png",
+    "originalExisted": false,
+    "sha256": "deb96a7075077cf12bad27016995bd29fdff75d7c73937e2eff395338e6d7ad6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "17bdb15b2dd6ad5d6e8880cc3a5c2fe1cb4d5190bd248891a2baec1adc899bf2"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-800x360-1-details.png",
+    "originalExisted": false,
+    "sha256": "aca9a5a322c7da2057f68693a747e50ff40a17c690bcff9c8e7de4f3b32290dc"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "3b5da5e6268109d94f5133c00ca710983779bff6450a5ab090ffe26ea16fe0b3"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-960x540-0-details.png",
+    "originalExisted": false,
+    "sha256": "c9371b12647c18ab6ef9205394e2677ef33526dfad51f43414fd70cef724f8b2"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "8ca5bbbb0172cc55dff495d24218657f23c64a02ef8247c3c3743496d379d1a6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-960x540-1-details.png",
+    "originalExisted": false,
+    "sha256": "a75ac833679aaeafea23e7046b82543b38217488717bd93f625fe3e771198d38"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/BadgesPage-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "ef6919fb5354a73091bd14f0b10588887b663da31793d2d9a1e506af35530d29"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "6bb0b7defaa2df7e5eea3760df890585aa76ca2105fe6f3764aca58ac3e00e23"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "87f82ce43987bbe6a351dc938d1e9c977c209eb1180876c8fb7a9f9b38c7735b"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "7c1a379ed8bc5c37fe6a3c6a6a495b6f1f93235fe4ff81861e54f2dd2ae32e34"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "df95184cae8aff493515ae1876f4adfc3e326b5da0d00419662e1644cda57ed8"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "342043853ba009390912ccbd8ec8feaba2463dc1800cc9ab856dc3e235ef85c5"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "fce5ecff4e74a5cc55f98900e95138bf1a99d5c217e5fe43b47c1d50f1a68b86"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "82b76594e6d8d844912c0da779c4ed38373c63d8d8a6d294f87b23dbbb98f41e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "5566a1ffb4af380a639774bfd78339d19c53d83db651955fd20d92ef68a55ba1"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "a31d09a66ecdb39bb03b81702e69b1d2b8f46c89d77e4bfbcd25344a87043094"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "686803b46d01d8da1694f5afe47699244dbdab264b4f835b29a0f9f215154224"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "6aa68f6c821466b5b192e006a275be1d6323cceac0e71fd8095f2ddf68309de8"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/CreditPage-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "eee07880b58fda9a4a94a49e47ffb4829c2d4e165e16ad56348513bc70f1803c"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "4532254e1e27892b099e0cbd959c0f6d3bf1282ba611426e4fd2dc222210eaa6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "26300597a50785fa0b2c897b917c91043e78a0922dff00aa9e04a0a9f35c1011"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "786ec5e52ac79e65c2f415d92a2fc1474b900a064815aa7dc25126c6df0cacbd"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "f7a47a25dabfde0e968e9f679fbd80ea9e35dbd4fb5531b95e79fc79ba173ff8"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "898d6fb2027f2435a2cb93ee5ef3ad5eb13ddf8edf38fd82bde04a2eccf6b14e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "517129cd843dc58e2b8a346d25dab020a1f5ebdacd84e5ca14e335a67c2b247f"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "22cbfea1bab3897eadab145be55f169bf6d87ca3455c95d3baf2a673c3bf8265"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "5ed6b862138a633a9d4672f02173e74a1dc47eb9d66889b08d7d251b93603657"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "8b0ca3954af83fae6fd82880e1e4d780d13048fde8d3a5a1640fd3027f964576"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "3dc198e5ce598fc773d720c19d4117751cf99879d664e6f0dd6904bef1a5d501"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "5bcf76cb1a4bd7ec3e853d9339eac574f46ba801e341b0e484aa0185736802c5"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PenghargaanPage-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "62d037cbc77f11a1cdba8b63424d15af9b2f9078eb060fd1f6d8c80580424944"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "fc602d095a59e0e8adc9ebeb7a9765e48a8948abbd0625f99f5ab3e1bb33503e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "2a244538557665eb4a4eb2140774ae9d10c39093a175dd43e451cc5f919c4dd7"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "a687d86c38c746fecfb1a71afbfc431ddb5def3ee35e37edc538e691a7cb57e9"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "81c00b0b2d5b29876f48c1b25873cda0dd58525ca74808248563c28e3505cc2b"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "043f5e39cf1bc46ef018e0b9d62e83a16fd97b1724685353fb44846c4c2bf84a"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "4e387708d621dbc3b1006ad59c7238df779fa74fd4ede1ca4412e665574881a7"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "6c06624443f94a714c28499e51db66e0594494c8268223005d4b30fbcf1b502f"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "021d303368690f3119509f9aa6debf3c1e6dc88209be38c71f587c4e418c173c"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "c89c278fbd9d12dacdcc6afeb55d17ca6b887e9aca0a49de4aa679dbb16146cb"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "d64a2fe2e69813dcbe0ad90a096cbd28e3640b307602586b9e285b628b66f340"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "795a84039805ecf7cfa360f25fb8903a9ec2da13995ed9e95cf7a44dadf2fd35"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/PrasekolahLesson-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "bbac80b703f10cf2d84fdb51033290b3e6123e775bf3070b268ed4c90b20185f"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "251606fc9f8d89cfe4d0750b0b5f9c0a5c7fc2afcc438d98da6d2db753bfdcf1"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "c119b23bf9dd93c15b24e6d301dbe1a8a31f051aa24e89a8e8791a9b2af9e6f8"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "c2fd227ad63d570e3e0fd13636443c8c9baccde0c2704a29171ea45b1412c69b"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "47a3fe56644242c1e392a0805b122350fd969865c1d691a8f31df04d5f73dd14"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "d381f0e6f4d450e01db9ad4a5fb7b52acc7056ef9332e4034d4bf6444cfd2a62"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "bfdb04ada32d2eb95be84f94677229aea3691d036de87505a45347a99c8493c6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "9c6a4fe5a3965df171424d2eaf71e41b04eb79b23c79152da0b20763c7713f96"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "06b3da79111b96025726124b3876d8e393126c9b2172e1177ecaf174a663e0d6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "bdb96f9553d48b5ae55eed7559838a1dd60bc4fb7eabd89b05bc9f5564d72977"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "d64e109572c93ebfcfc6df7e9bf94b7931776468f548041c9631c37022fc41da"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "03ec9cb6757aa1ba4efa122fdc2336ca932ac25f5fb791b5ea0b065e0e377e45"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap1Lesson-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "a29d9ab50e9179a8756cae37ca832afd494d980b49723d4778abfcfb4e37b828"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-1024x768-0.png",
+    "originalExisted": false,
+    "sha256": "33648a98793d8cc27c171572071a4aa39b4104b450c332824304e438e15a165b"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-1024x768-1.png",
+    "originalExisted": false,
+    "sha256": "bafcc63cd3fdd5e69165d6551c88c5f952ee6ce29615e07bc0ad7d3f38171466"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-360x800-0.png",
+    "originalExisted": false,
+    "sha256": "0f622167c4a19f32ab20475f3c0f13c26baafec6237b7909d13cfc33f97511c3"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-360x800-1.png",
+    "originalExisted": false,
+    "sha256": "5d687938b00bc4a4d6fa03a3ad29762e058e9f60cff39e06691a632aab39c44e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-540x960-0.png",
+    "originalExisted": false,
+    "sha256": "c67b65d374660f47278c4e067cfbdd6f12f72773846708948c0a6599983546e6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-540x960-1.png",
+    "originalExisted": false,
+    "sha256": "8ac54f7eafd291b5e93b740e0dccfa0537aa418dfee20208398b5d863d48a152"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-768x1024-0.png",
+    "originalExisted": false,
+    "sha256": "c7a89488d4a14a76ac6b1410f756534b283d783dceb80bb3018da65be8333093"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-768x1024-1.png",
+    "originalExisted": false,
+    "sha256": "ef402fb2c028862c1f5ec92c113bda0ed1c3998084c65149c3ddb9a94d3cac77"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-800x360-0.png",
+    "originalExisted": false,
+    "sha256": "2046831a18b9fd8fbf26e49d5f128417bf63ddced9ea6e4f3abc3c21c21ce2bf"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-800x360-1.png",
+    "originalExisted": false,
+    "sha256": "950270adc83ff0b2e23dc05bbb46a2d96e14439786c1df02b0de20f25a90990d"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-960x540-0.png",
+    "originalExisted": false,
+    "sha256": "9b01a3109c1d99a7ff0f91cb7fdc4d4e1ea5e23dae17e9c050937983f94015a5"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/Tahap2Lesson-960x540-1.png",
+    "originalExisted": false,
+    "sha256": "8e808390aa551052ff331e821c8e5e93279252e32801100b1214eb7aa9d3e349"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/checks-first-run.tsv",
+    "originalExisted": false,
+    "sha256": "701f444a7acc8debe0724e2e3a108c8bf48de145738019d9e2b4b199215b1fd1"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/checks-landscape-refinement.tsv",
+    "originalExisted": false,
+    "sha256": "cdc840944dfd4add5409528cd6e26efea6180508f3061c5443417055f48d16d2"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/checks-second-run.tsv",
+    "originalExisted": false,
+    "sha256": "b7a3684decc08c3c6f6e3e074d99c85e56e97a13ed91c0031b58ea997622e57d"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/checks-tablet-caption.tsv",
+    "originalExisted": false,
+    "sha256": "657038b0267b824137fa9b2b361e7c7172a3d6d9456ff4e2fc3c0ef3ec2af374"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/checks.tsv",
+    "originalExisted": false,
+    "sha256": "550fb6c27c24b9da90bcf5522f0172e5ef899482f8b5c3421746fe30868eae42"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/gallery.html",
+    "originalExisted": false,
+    "sha256": "e776029361aea7cd92eca440db805be5b8c3993e40026e6880c31e0a5547d4ec"
+  },
+  {
+    "path": "docs/tutorial/review/playground/path-rewards/tutorial-section-preview.html",
+    "originalExisted": false,
+    "sha256": "4b6533040a2f3267a520e7367261f90d04e5c914e1de1c2b36e9190bc0e75057"
+  },
+  {
+    "path": "docs/tutorial/ui-scene-audit.tsv",
+    "originalExisted": true,
+    "sha256": "4f1ea2e0364ed03134e3fb2fe9fe035347792250ebf627b412d0a4623e9b38b4"
+  }
+]

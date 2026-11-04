@@ -1,0 +1,732 @@
+[
+  {
+    "path": "Assets/Plugins/Android/AdventureVoice.androidlib/src/com/funmath/ui/SpeechPlaybackListener.java",
+    "originalExisted": false,
+    "sha256": "40caac99fd3f07c5b515c1460c44c20a92def894ae4e4c79dbdc295e8ea66289"
+  },
+  {
+    "path": "Assets/Scenes/AfterLogin/MainMenu.unity",
+    "originalExisted": true,
+    "sha256": "5f4f3209175ec295146807f3f3bc7151abe06a929a935cfb05935307c6ffeaf1"
+  },
+  {
+    "path": "Assets/Scenes/Badges/BadgesPage.unity",
+    "originalExisted": true,
+    "sha256": "00404bc2812fea72f00f39ced4a61507574e457a96c8990bb7f687a1f87043b5"
+  },
+  {
+    "path": "Assets/Scenes/CreditPage.unity",
+    "originalExisted": true,
+    "sha256": "c67843438f5618741cd401ca674deed96a22a775bf0f5df6faa472ac9e5d8549"
+  },
+  {
+    "path": "Assets/Scenes/GameMenu.unity",
+    "originalExisted": true,
+    "sha256": "69d8151014d4523a8fd65b362638abee70dfdc6c13edc63f2b27da6443b90c0b"
+  },
+  {
+    "path": "Assets/Scenes/Games/AddingGae/Level1.unity",
+    "originalExisted": true,
+    "sha256": "049c77d4b23c6ca3a86411b5365f13f303f30ec4d98d43324d859978980e4af5"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity",
+    "originalExisted": true,
+    "sha256": "91ed4c617cdf180263a10494c1c4e2e55f3c4cceb981f563ee9b3454ae93f432"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl10.unity",
+    "originalExisted": true,
+    "sha256": "69df418b716ccab6bc28f8ba73cd2a4c9357cfbeacfc0a68bb014c966ec704bc"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl2.unity",
+    "originalExisted": true,
+    "sha256": "10a07b3fad7a13459796d5a4ed87abe817b4ec17ba35ee4ca23c7bea50080b6e"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl3.unity",
+    "originalExisted": true,
+    "sha256": "215b0d4726c7f86ae2ccb95c59a8c18cc863b0018f2191f3790b34142019a0bd"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl4.unity",
+    "originalExisted": true,
+    "sha256": "514637650c9ced7aa98bc54b3872d28f29c13e9a3470195dd9cac5257ebb1c06"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl5.unity",
+    "originalExisted": true,
+    "sha256": "99ddf3963f7e9afeb4915dea2bbe5624375c5ec64f42f9e71460331729041d43"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl6.unity",
+    "originalExisted": true,
+    "sha256": "23fc848dcd4da5559936140a072f2764045d26409c45bc453b7f417819c36e6f"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity",
+    "originalExisted": true,
+    "sha256": "7029de3dd397edcc6f1351a9459893aafb71b66a4bb69cf4f9cfd06d7b78c1d6"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity",
+    "originalExisted": true,
+    "sha256": "ec3ffa9d8c9e9870e6e6627d15257c86b1cf784988a0a9296e772d39cf07939c"
+  },
+  {
+    "path": "Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity",
+    "originalExisted": true,
+    "sha256": "1b22eef2c8eb7aaf41994fccecefaba1badb73cc5e53a8e8fdc0b131de66c8e0"
+  },
+  {
+    "path": "Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity",
+    "originalExisted": true,
+    "sha256": "49a98901c17bddbed2d9a2bf11c91ce6144f60101af3e883d8cced87b77712d3"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level10.unity",
+    "originalExisted": true,
+    "sha256": "7199fee3510ca72269dfb00f88f018cff73f9e1e649b6600fc0dbe188c598765"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level2.unity",
+    "originalExisted": true,
+    "sha256": "1cef8397df388fddc585918535d458a0e420fdcb6a83be5e7da8ccef5eaf2004"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level3.unity",
+    "originalExisted": true,
+    "sha256": "cb11ccc11199a6fbd31a39a187c9c312296fff75c9bbd249d8b0c229bdbb86a7"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level4.unity",
+    "originalExisted": true,
+    "sha256": "623ef3d0ab6ec824c8ad7fe259e4e6fbab42939d9705548750f095ab97bc05aa"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level5.unity",
+    "originalExisted": true,
+    "sha256": "0c1e901908cb6cf0fb3fdbcff54d92242444b406353b0b379e65192c1a8506c7"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level6.unity",
+    "originalExisted": true,
+    "sha256": "50c44fbad6b63aa5124e0812264b58a1d020e0f2969333564cdd6fa0b0d95e36"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level7.unity",
+    "originalExisted": true,
+    "sha256": "d16c12f6878e02fe0867b6592c6be1d32dc7e1e256a6daa16712480773f67972"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level8.unity",
+    "originalExisted": true,
+    "sha256": "fbd9bbf4ac056f25728fa45edfa93622420391d87c859215a9b5c83a64d8dd22"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GT1level9.unity",
+    "originalExisted": true,
+    "sha256": "d64f256c3462430616a7e8545e5d8cbcf96ef67560edbc3b5fc27b040a107722"
+  },
+  {
+    "path": "Assets/Scenes/Games/WhackAMole/GameTahap1.unity",
+    "originalExisted": true,
+    "sha256": "73a5e0ebd7852d91a6e6241cb666214082899089221b39bf2efca033058a1dd0"
+  },
+  {
+    "path": "Assets/Scenes/GetStarted.unity",
+    "originalExisted": true,
+    "sha256": "db60bdefe2f803f1f0f2cac54a305544cd0308625143b604b78b02285ffe0f8f"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/LearningPage.unity",
+    "originalExisted": true,
+    "sha256": "d1af8ccdd71f22fdc4373c61d7514286dafd6dfc1f6a88620d7beb55493e316b"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity",
+    "originalExisted": true,
+    "sha256": "1d8dc55a8e1cb530288c9187fc098d348cceefa1f6345c298d0a2682108545f6"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity",
+    "originalExisted": true,
+    "sha256": "2e3a03ed77cc64b87a781ea6d83d305f06e51377a6e568fa69ecb5c67c88a6c7"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity",
+    "originalExisted": true,
+    "sha256": "87a0f3093bcc953746842241cb7a12bbf4f0dba222781319e97ee78d2e1f91e2"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/PrasekolahLesson.unity",
+    "originalExisted": true,
+    "sha256": "07286559d94de814002c51ae88f2782778a5fa586738b394f54483ecb37d4dc8"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity",
+    "originalExisted": true,
+    "sha256": "a44fa2dc787dd84768406ee3cee5852d8e2a3e0af4d62d80bc8d8a0072bcb833"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity",
+    "originalExisted": true,
+    "sha256": "8f1532c62f7589b7f894813fa4294d120a57c1400fa090e12112df3423a88739"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity",
+    "originalExisted": true,
+    "sha256": "2ec1ed369c59e480465063db3c3eabe9d9329a7a0c3b78dcf3e481a4780c8798"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity",
+    "originalExisted": true,
+    "sha256": "344324e2c0f07d219aa1524f1d54c2920560456dafcda8fd295de3e31a9a4ebd"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap1Lesson.unity",
+    "originalExisted": true,
+    "sha256": "397196b928b64a9ef627deeed562056a921c26e4055348733414669797a3ac46"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity",
+    "originalExisted": true,
+    "sha256": "46a3d8c2ebbd21771cac6733e58c0c4308e88813cc5909f1a8b5f5202f063fae"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap2/2 Luas.unity",
+    "originalExisted": true,
+    "sha256": "8463b68c96deafad1f636ece20499bc0f40704576dcadc7b7f04716cbdbe17a1"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap2/3. isipadu.unity",
+    "originalExisted": true,
+    "sha256": "c724bc356696298000155a08fc7d0afbae7a68bc93505ce462646832e3547555"
+  },
+  {
+    "path": "Assets/Scenes/Lessons/Tahap2Lesson.unity",
+    "originalExisted": true,
+    "sha256": "f094f8914d03c6d2cd879d1af620edbd937e9258707bacfed4acd5fb7cdf574a"
+  },
+  {
+    "path": "Assets/Scenes/Loading/LoadingScene.unity",
+    "originalExisted": true,
+    "sha256": "e188e0f2b14354d19d6f2fc985a85217ec53d31e9aa291435f4cadbdede3fc6a"
+  },
+  {
+    "path": "Assets/Scenes/LoginAddAccountPage.unity",
+    "originalExisted": true,
+    "sha256": "f80441173abe405ded2d223bff1ea24d0c3732af9f25a1afca64c945616f7b82"
+  },
+  {
+    "path": "Assets/Scenes/PenghargaanPage.unity",
+    "originalExisted": true,
+    "sha256": "bc7c48998b53a2d3788f41e0e3ef758c2e0270eb32df2a388dc5049710c44047"
+  },
+  {
+    "path": "Assets/Scenes/PlayerInformation.unity",
+    "originalExisted": true,
+    "sha256": "96fbd76dc47045d03b1fbf737720656f65a5464ddaa96b8ee27d806e38d3d6d0"
+  },
+  {
+    "path": "Assets/Scenes/PlayerInformationMain.unity",
+    "originalExisted": true,
+    "sha256": "41dd4078253a9db735216655eff03127a501618725d972535f67616d6b392f0a"
+  },
+  {
+    "path": "Assets/Scenes/Quizzes/PrasekolahQuiz.unity",
+    "originalExisted": true,
+    "sha256": "794d281716a997824274a48ce90640f96080c571c1976b93a132346c9725df91"
+  },
+  {
+    "path": "Assets/Scenes/Quizzes/Quizzes.unity",
+    "originalExisted": true,
+    "sha256": "6740265a09254afb9565da87cad8a3cb47bc7d16691183fd220ae0a272c398ac"
+  },
+  {
+    "path": "Assets/Scenes/Quizzes/Tahap1Quiz.unity",
+    "originalExisted": true,
+    "sha256": "40579348aa7013081f9d494270f0981a2b768aaa56602a1c6d876344943d223a"
+  },
+  {
+    "path": "Assets/Scenes/Quizzes/Tahap2Quiz.unity",
+    "originalExisted": true,
+    "sha256": "738ec585457f2e146baac3cf6cb9eacdf9e1d2406717bbfc1c2f766fc32a6ecc"
+  },
+  {
+    "path": "Assets/UI/Animation.meta",
+    "originalExisted": false,
+    "sha256": "5b31f38fc3d176e5838806067f38377c7d995f38cb0966708c6149162941a39a"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds.meta",
+    "originalExisted": false,
+    "sha256": "9dd3b375ba40fb0f448f34148b1a46337533785d7a95178f4c4d196f127e4e46"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Explore.anim",
+    "originalExisted": false,
+    "sha256": "6436041b8f6ed173bee09d0029743645750b67b307bb03df59bede37b47496f0"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Explore.anim.meta",
+    "originalExisted": false,
+    "sha256": "215776cab8748651a2fd0a29a66611ee4839320ce7958b5f8c96451879070b23"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Focus.anim",
+    "originalExisted": false,
+    "sha256": "1ecafd1e128d60ce6dd003b6855b340c6097837e2cd9e4a6cee1bd75df965ec8"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Focus.anim.meta",
+    "originalExisted": false,
+    "sha256": "da1b923c17780cfa538ba6e6b00a693c2e09252f668cb173023a708eac7b5bc3"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Playground.controller",
+    "originalExisted": false,
+    "sha256": "e5d75dab077f0e67115dc6298d640876bd41009cf482f956d0618dc48e2b1d0a"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Playground.controller.meta",
+    "originalExisted": false,
+    "sha256": "334adf7018b61ac9c39a0430d62b2b0c7f3705ee4cd32661bb4ad312ddb72ca4"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Still.anim",
+    "originalExisted": false,
+    "sha256": "cfd3d6e378bab86fe0e55291214f8b8c4cc11822b31e555adc2c4dcf39ff5dfd"
+  },
+  {
+    "path": "Assets/UI/Animation/Backgrounds/Still.anim.meta",
+    "originalExisted": false,
+    "sha256": "ea558e82c8c2f8a5638a90041188f86724f9c68372a8d11d42bfb3f74ae0d804"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds.meta",
+    "originalExisted": false,
+    "sha256": "3c5f38403ce0d117afebb931fc5806b0094ed4f53a9dd5aadbb74f199e9298c9"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/BookGarden.png",
+    "originalExisted": false,
+    "sha256": "ad231eba8a8b71989fdc22c88cc5fae1a107d69fca1ad147f587584b22aa03d4"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/BookGarden.png.meta",
+    "originalExisted": false,
+    "sha256": "ffafa45f54f0f1ed7f0bca208ae1cd69d929624aef1dc89a64ec6e1e7857a9d7"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Cloud.png",
+    "originalExisted": false,
+    "sha256": "559f9b25ac78fd26f235e6d345dc7d376b364b94c0bd9432373780c428c3c3c0"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Cloud.png.meta",
+    "originalExisted": false,
+    "sha256": "c319da171e9e9103e053a838ece23f7ccec97b6fe0df6cd271c09d6249b45ddb"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Garden.png",
+    "originalExisted": false,
+    "sha256": "678e31d97dcde0f6adc418f2408c797bfe037591643548b6d59566d3286653f0"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Garden.png.meta",
+    "originalExisted": false,
+    "sha256": "0bc6f45bf9bcc543a408321d65026495f997665640cefc8015fde821e9a25558"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Hill.png",
+    "originalExisted": false,
+    "sha256": "b1e32582041a541eecae404d3e12d816469d878ae7367ab82498327e63271fe3"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Hill.png.meta",
+    "originalExisted": false,
+    "sha256": "6d5d934537c519a7cfc03fedd6b9444e4acf8d9dd3c2be8a5c238f679158c432"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/README.md",
+    "originalExisted": false,
+    "sha256": "e2438bc219ccd7206072a591bec31d5c528da3e1026bd227f08d374c0fd82ed0"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/README.md.meta",
+    "originalExisted": false,
+    "sha256": "455aeb9d186a0462f957c5c2f464b8c9a32c6a8595afb18cf2a258c82cb55fdb"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/ShapePavilion.png",
+    "originalExisted": false,
+    "sha256": "640437be099ea13831dc91fd983821aa08c30d1dd02db5dace004b2e4e580b58"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/ShapePavilion.png.meta",
+    "originalExisted": false,
+    "sha256": "5d7bdafd4654f4ee33b44fd1d470adbddfb9b562f022bf8a86628823bd5721b2"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/StickerTree.png",
+    "originalExisted": false,
+    "sha256": "e91baf6b615bb06905dc3601787ee050baafebe08d7193e7fa1a31d1025c6236"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/StickerTree.png.meta",
+    "originalExisted": false,
+    "sha256": "afba069009e667e17831f23cc7ed8a52d1b061e23ff03f664a5e1e103fa81076"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Sun.png",
+    "originalExisted": false,
+    "sha256": "9bc6448a09229e0dc07a22e5a6c17faa0120ebcb712e8398d0065ce63444bdbc"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/Sun.png.meta",
+    "originalExisted": false,
+    "sha256": "cef04330eaa2ed671d7f6d89ed9dc46d38859b9806333bffcc07e681393fa13e"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/ToyWorkshop.png",
+    "originalExisted": false,
+    "sha256": "cd4468504883d10202e5603f32c1f926083bd3e5ea2828957b5d0dd37f29baaf"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/ToyWorkshop.png.meta",
+    "originalExisted": false,
+    "sha256": "265272b9ca308e3bf96c1b93c974349bcdad6fa8aee62799e01f3c6057d7d968"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/generate_art.py",
+    "originalExisted": false,
+    "sha256": "e18c5ea96fde070ff23c874d36674670a45f4e140141db23ad11707994f0f84b"
+  },
+  {
+    "path": "Assets/UI/Art/Backgrounds/generate_art.py.meta",
+    "originalExisted": false,
+    "sha256": "4d4359001b3c041ec37843fe784f344ab95007dce73394c0833d2f4d8440294d"
+  },
+  {
+    "path": "Assets/UI/Editor/PlaygroundReview.cs",
+    "originalExisted": false,
+    "sha256": "63af7611ad56a3d52533adeefb2f902551183e95feffc91000adfaf2f2cec59b"
+  },
+  {
+    "path": "Assets/UI/Editor/PlaygroundReview.cs.meta",
+    "originalExisted": false,
+    "sha256": "5270990cd257a5dadb66cc22d4c02b0ab7989498c45d346c6f749b51ce51987c"
+  },
+  {
+    "path": "Assets/UI/Editor/PlaygroundUIBuilder.cs",
+    "originalExisted": false,
+    "sha256": "af1cded32d6ea24ea4637b73254e66c408d380c24a7adaa3f95d99e84f085d1c"
+  },
+  {
+    "path": "Assets/UI/Editor/PlaygroundUIBuilder.cs.meta",
+    "originalExisted": false,
+    "sha256": "82130ae6bb4ae34e19083611115cecadae94b2e1a8ce554c9098c63a376c3a47"
+  },
+  {
+    "path": "Assets/UI/Prefabs/Backgrounds.meta",
+    "originalExisted": false,
+    "sha256": "eb83f9ccc9c93dc505f0c381ebb6216445b1b661dfb5c9d2c321e9c85974dbe6"
+  },
+  {
+    "path": "Assets/UI/Prefabs/Backgrounds/MathPlayground.prefab",
+    "originalExisted": false,
+    "sha256": "e762598aed7becbc9db2d89f35257a875ffd37f0e04c28f44c26497fe8610740"
+  },
+  {
+    "path": "Assets/UI/Prefabs/Backgrounds/MathPlayground.prefab.meta",
+    "originalExisted": false,
+    "sha256": "ffc09c7171893f2de93ed873d86211596772943332025b821afa051b16e1b4f1"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds.meta",
+    "originalExisted": false,
+    "sha256": "ceb91b83ac73260c2296a4ba39c8a67f1d0d267449f28a945b58eed11be3e6bb"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Explore.asset",
+    "originalExisted": false,
+    "sha256": "d89d33f1a5f80c894556abdce103d42f5161b935c6f74330b6e5d7b8be801732"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Explore.asset.meta",
+    "originalExisted": false,
+    "sha256": "d04925c111aaa3f80295bb17a0bf4c895ab3759f610d28c731ec0e42b13b93b0"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Focus.asset",
+    "originalExisted": false,
+    "sha256": "17a9a522086794c9d38e7d93e895e2d3974ea48e46bf5f1aea58aaea4f1b8d62"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Focus.asset.meta",
+    "originalExisted": false,
+    "sha256": "ee16e6ae06659102279ee64b629540b8bb6df3309a5000573db31cb00d05e5a5"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Still.asset",
+    "originalExisted": false,
+    "sha256": "de902ea6458b6ea3bac84f1931af56fcc8dd691b3523e376f8b9800ddab55390"
+  },
+  {
+    "path": "Assets/UI/Resources/Backgrounds/Still.asset.meta",
+    "originalExisted": false,
+    "sha256": "42f4490dd06d33f618410a1b757df8940ded20aba4d4383a0fc954a855171754"
+  },
+  {
+    "path": "Assets/UI/Runtime/ActivePlayerProfile.cs",
+    "originalExisted": true,
+    "sha256": "fc3aa193e7a9745f25d8319ffd15b06adca85ffa05e32e9a782971db4f4a9ca2"
+  },
+  {
+    "path": "Assets/UI/Runtime/AdaptiveMenu.cs",
+    "originalExisted": true,
+    "sha256": "7328609a1341fe4acd7f4fbf93b93ddb274e6e76770ed547930ae8aef2350e1e"
+  },
+  {
+    "path": "Assets/UI/Runtime/AdventureSettings.cs",
+    "originalExisted": true,
+    "sha256": "33772c10d006f51cb71181089b91d057c6dac11e21ed4841764de6926ae44afb"
+  },
+  {
+    "path": "Assets/UI/Runtime/AnimatedBackground.cs",
+    "originalExisted": false,
+    "sha256": "10be16d599dafed7d8242797bc45b30bcf8b8c6a58116ff617956b09285c8b06"
+  },
+  {
+    "path": "Assets/UI/Runtime/AnimatedBackground.cs.meta",
+    "originalExisted": false,
+    "sha256": "bb900f4ce6e4d87905d2873186eff34b23a152a175db83fe2e45f053316f838e"
+  },
+  {
+    "path": "Assets/UI/Runtime/AvatarPickerDialog.cs",
+    "originalExisted": true,
+    "sha256": "0509396de6db7eb8d7a55087bc102e518812c1835dd45f3b58f91ef0c0278739"
+  },
+  {
+    "path": "Assets/UI/Runtime/BackgroundProfile.cs",
+    "originalExisted": false,
+    "sha256": "cbae3fbbc4b082b77a51f904f27404e7782b91ae5c2dc3febdb30e4eaea85981"
+  },
+  {
+    "path": "Assets/UI/Runtime/BackgroundProfile.cs.meta",
+    "originalExisted": false,
+    "sha256": "7c1fb6ec0704d455917f44880485292687690f1436d5857826dcdf20c6538654"
+  },
+  {
+    "path": "Assets/UI/Runtime/GameModalFocus.cs",
+    "originalExisted": true,
+    "sha256": "b6cbf305928f7b87b4c13576ee65c37000b1b0c78603c2f9fb2b23db9c182c3c"
+  },
+  {
+    "path": "Assets/UI/Runtime/GamePause.cs",
+    "originalExisted": true,
+    "sha256": "5e438fd8994f215bb54bc238d05010e495be4c6df3f0b764ba05ae5dac3204e4"
+  },
+  {
+    "path": "Assets/UI/Runtime/HubLayout.cs",
+    "originalExisted": true,
+    "sha256": "5c37f1b69de47591e06078e8e004994d01646ee09cb714e704e5ccd51fcf617e"
+  },
+  {
+    "path": "Assets/UI/Runtime/LessonVoice.cs",
+    "originalExisted": true,
+    "sha256": "f05ee511c489872eee2cafdd1c240826a62ac840c1c3031fc113bbb796325969"
+  },
+  {
+    "path": "Assets/UI/Runtime/MenuFocus.cs",
+    "originalExisted": true,
+    "sha256": "c51a234f41690c3b5b0b0f3f438a45c3e8764c97987227a6c371df7a475fb7ec"
+  },
+  {
+    "path": "Assets/UI/Runtime/ModalInputOwner.cs",
+    "originalExisted": false,
+    "sha256": "38ab993023119e1989e19cf22d6583b20be542165cdb3745301c137f25b615de"
+  },
+  {
+    "path": "Assets/UI/Runtime/ModalInputOwner.cs.meta",
+    "originalExisted": false,
+    "sha256": "6f4315d59b8351e02a57f63aa2e15e44917a168b41bcbc739af89889fc1968cc"
+  },
+  {
+    "path": "Assets/UI/Runtime/ModalInputScope.cs",
+    "originalExisted": false,
+    "sha256": "a70752b388e0ab07d8f41480f96c71ae769acd8e4cf680f94f832621cae2e524"
+  },
+  {
+    "path": "Assets/UI/Runtime/ModalInputScope.cs.meta",
+    "originalExisted": false,
+    "sha256": "6bec06746ba596182f6c20921d8cd6711f9b82765c221a02d75ee032076fcf05"
+  },
+  {
+    "path": "Assets/UI/Runtime/NativeSpeechPlayback.cs",
+    "originalExisted": false,
+    "sha256": "cf0ba69ea4eca1519d6d4ef881a4b188d04d0508465642b43bfd7b6422c081b8"
+  },
+  {
+    "path": "Assets/UI/Runtime/NativeSpeechPlayback.cs.meta",
+    "originalExisted": false,
+    "sha256": "0cbc2b7fbb486c170ed0a3afa06e1244c94803dc7bd467dfefef4e5bff0e37a2"
+  },
+  {
+    "path": "Assets/UI/Runtime/ParentGate.cs",
+    "originalExisted": true,
+    "sha256": "c38e726bf7735fd401f39db81092c603901a463454b1a6cb0026d1917cfbc145"
+  },
+  {
+    "path": "Assets/UI/Runtime/ParentGateDialog.cs",
+    "originalExisted": true,
+    "sha256": "7a8b001519b8006c777af8ff016449da95983091f0bc56520e4e3781029d3860"
+  },
+  {
+    "path": "Assets/UI/Runtime/ProfileCard.cs",
+    "originalExisted": true,
+    "sha256": "76c7f2fa88390d0fc547aa99ad3c7a50f2600224ca83a5b34725f43cb76438e5"
+  },
+  {
+    "path": "Assets/UI/Runtime/SpeechService.cs",
+    "originalExisted": true,
+    "sha256": "87a230eabc5f688b2cc19a1df8970d9ee4ec00e69937d117074c5810e5a6556b"
+  },
+  {
+    "path": "Assets/UI/Runtime/VoiceGuide.cs",
+    "originalExisted": true,
+    "sha256": "aff083408cd2fefe69e1598bd8ecc1086c7c291415713b413cad7b31fff5f768"
+  },
+  {
+    "path": "UI_REVAMP_PLAN.md",
+    "originalExisted": true,
+    "sha256": "37f0b0cb034a57f3d82affddf6df1cb3f4c7e3ef3e7e10b17f745c55e7ded6f1"
+  },
+  {
+    "path": "UI_REVAMP_PLAN.notes.md",
+    "originalExisted": false,
+    "sha256": "b287c01149a54284dc062472edcc68272869c37e008a700bae61139d5bdb8122"
+  },
+  {
+    "path": "docs/tutorial/kids-ui-revamp.html",
+    "originalExisted": true,
+    "sha256": "c1057c5c07c26009576695709befc4504a7f48acd9ff83f74405cf3e990baa56"
+  },
+  {
+    "path": "docs/tutorial/kids-ui-revamp.md",
+    "originalExisted": true,
+    "sha256": "3931d65bd03bbfb4a0180aa28bff990f0aeed2c3ba1084e120dbab13d3423a63"
+  },
+  {
+    "path": "docs/tutorial/review/playground/baseline-mainmenu-landscape.png",
+    "originalExisted": false,
+    "sha256": "a4204bb51ad21c3f2c172de3aada6d8cdbacf6ccf6467ce286ba0f71108cdb0e"
+  },
+  {
+    "path": "docs/tutorial/review/playground/baseline-mainmenu-portrait.png",
+    "originalExisted": false,
+    "sha256": "d0f4434d893c121572ba20cfc163a13889764b70edc1e05b43525d3eedc7d705"
+  },
+  {
+    "path": "docs/tutorial/review/playground/customization-check.txt",
+    "originalExisted": false,
+    "sha256": "5bc7cfe6da9bfdac4ce981cb34bb6bf5b20e5fe2407a79c05a4203de30be4ace"
+  },
+  {
+    "path": "docs/tutorial/review/playground/lesson-review.tsv",
+    "originalExisted": false,
+    "sha256": "878b9648f72a2a062fd301f1396e05efbe09fe371c11dbaa654a52aab343e0c0"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-1024x768-bm.png",
+    "originalExisted": false,
+    "sha256": "de64ba055458d004d64d7a1eb3ed17b49a6a3910df54ab76bd808fb8a8dc2140"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-1024x768-en.png",
+    "originalExisted": false,
+    "sha256": "73db08525f86cc990553f17b6c3f6d059e16c0acbe90e8634325ef10224afe19"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-360x800-bm.png",
+    "originalExisted": false,
+    "sha256": "8049ee49d58acc64698ef9aa4b69d807edc145a1ce055b71bdb6ee6c236486b3"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-360x800-en.png",
+    "originalExisted": false,
+    "sha256": "218772e44fd349e9ecf01ff59ed4c295fdadb7283cca02b60609ad65c9d9da85"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-540x960-bm.png",
+    "originalExisted": false,
+    "sha256": "8c5266ea2e5ffb2f26ae516e6d1f3e7f3ff7431d497740b2767d06668defdea6"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-540x960-en.png",
+    "originalExisted": false,
+    "sha256": "f1356a22527ed4a49d3a6f3393e4ae0f12c9acb16c3cb99f314750f6b3a87060"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-768x1024-bm.png",
+    "originalExisted": false,
+    "sha256": "c6c8e11963586eb6b178d0400965aea58a956f6cd9345d7899ca12ef2170823f"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-768x1024-en.png",
+    "originalExisted": false,
+    "sha256": "b1e480f7f0b00e2b7f90bff8183dcea6bc4140043af9c2c363a3d0b056973cf7"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-800x360-bm.png",
+    "originalExisted": false,
+    "sha256": "29d6ce453be2882efe4da55cc31282299cfdfc1fb32fc5d77833dc59d1e14755"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-800x360-en.png",
+    "originalExisted": false,
+    "sha256": "7ecdb9ac50b7120c7d65e897b33c109744b81f8df3a349ad6a64434cf1144d1d"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-960x540-bm.png",
+    "originalExisted": false,
+    "sha256": "aaecceb8d28d36558315fc5886499f17fce1defeddf44bba93e761abcd194fb1"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-960x540-en.png",
+    "originalExisted": false,
+    "sha256": "1005854f63d72f16d4ea8f9979839e6361ae6589999628a2e1ef6ba36104a254"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-checks.tsv",
+    "originalExisted": false,
+    "sha256": "c7d0871f9452f88a3bd7e7cf73eaf61b8f7b6436e98cba6f0db22b189cab6efc"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-landscape-bm.png",
+    "originalExisted": false,
+    "sha256": "5e5eff9264d20cdc2a4c8023c358b5b11ef21b350e064177bdcc2d3247b79a15"
+  },
+  {
+    "path": "docs/tutorial/review/playground/mainmenu-portrait-bm.png",
+    "originalExisted": false,
+    "sha256": "e9cf26fa9bce6962c53091e1494ab46a607922d624568f5877db9c3ed2189b7c"
+  },
+  {
+    "path": "docs/tutorial/review/playground/migration.tsv",
+    "originalExisted": false,
+    "sha256": "6596d032e5fc335cc64c9865704d791b5acad055f9dbc51b2ac187abd0f4a826"
+  },
+  {
+    "path": "docs/tutorial/review/playground/screen-review.tsv",
+    "originalExisted": false,
+    "sha256": "5566c37a0357ebc9f1457dfcc92b82db58bc86cfc349e5ad4b1234eb53ca618e"
+  },
+  {
+    "path": "docs/tutorial/ui-scene-audit.tsv",
+    "originalExisted": true,
+    "sha256": "c0a6b13011d5430941f44e35f10dbb1b7a075e1f9b2a57fac8d6ff083a3f76b6"
+  }
+]

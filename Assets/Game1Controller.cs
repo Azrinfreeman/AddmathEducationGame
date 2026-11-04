@@ -19,6 +19,9 @@ public class Game1Controller : MonoBehaviour
 
     public Transform winPanel;
     public int score;
+    public event System.Action ProgressChanged;
+    private int displayedCorrect = -1;
+    private int displayedScore = int.MinValue;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,8 @@ public class Game1Controller : MonoBehaviour
     IEnumerator showWin(){
         yield return new WaitForSeconds(1.5f);
         winPanel.GetComponent<Animator>().SetBool("isClosing",false);
+        var celebration = winPanel.GetComponent<FunMath.UI.ResultCelebration>();
+        if (celebration) celebration.Play();
         TimeGameController.instance.isStopping = true;
     }
     // Update is called once per frame
@@ -52,7 +57,14 @@ public class Game1Controller : MonoBehaviour
 
         if(isEnded && !isEnding){
             isEnding = true;
+            if(TimeGameController.instance != null) TimeGameController.instance.isStopping = true;
             StartCoroutine(showWin());
+        }
+        if (displayedCorrect != toCorrect || displayedScore != score)
+        {
+            displayedCorrect = toCorrect;
+            displayedScore = score;
+            ProgressChanged?.Invoke();
         }
     }
 }

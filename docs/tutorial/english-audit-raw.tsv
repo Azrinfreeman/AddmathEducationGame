@@ -1,0 +1,620 @@
+MainMenu	Activities/Activity_Option/Label/	LEARNING
+MainMenu	body/Option (6)/BI/	CREDIT
+MainMenu	Activities/Activity_Option (7)/Label/	ADD
+MainMenu	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+MainMenu	body/Option (5)/BI/	APPRECIATION
+MainMenu	Canvas/UserProfile/Text (TMP)/	Hello!
+MainMenu	body/Option (7)/BI/	ADD
+MainMenu	AdventureShell/SafeArea/Brand/	FUN MATH
+MainMenu	Activities/Activity_Option (6)/Label/	CREDIT
+MainMenu	AdventureShell/SafeArea/Title/	What shall we explore?
+MainMenu	Canvas/ver/	v0.9.9
+MainMenu	SafeArea/Parents/Label/	Parents
+MainMenu	SafeArea/ActivePlayer/PlayerName/	Azrin
+MainMenu	SafeArea/Listen/Label/	Listen
+MainMenu	Activities/Activity_Option (3)/Label/	BADGES
+MainMenu	body/Option/BI/	LEARNING
+MainMenu	Activities/Activity_Option (5)/Label/	APPRECIATION
+MainMenu	Activities/Activity_Option (1)/Label/	GAME
+MainMenu	body/Option (2)/BI/	QUIZ
+MainMenu	Canvas/UserProfile/Text (TMP) (1)/	Azrin
+MainMenu	body/Option (3)/BI/	BADGES
+MainMenu	body/Option (1)/BI/	GAME
+MainMenu	Activities/Activity_Option (2)/Label/	QUIZ
+ARIsipadu	SafeArea/Back/Label/	Back
+ARIsipadu	SafeArea/Hint/Words/	Point the camera at the card
+ARKenaliMinit	SafeArea/Hint/Words/	Point the camera at the card
+ARKenaliMinit	SafeArea/Back/Label/	Back
+ARLuas	SafeArea/Hint/Words/	Point the camera at the card
+ARLuas	SafeArea/Back/Label/	Back
+ARPerimeter	SafeArea/Back/Label/	Back
+ARPerimeter	SafeArea/Hint/Words/	Point the camera at the card
+ARPerkaitanWaktu	SafeArea/Hint/Words/	Point the camera at the card
+ARPerkaitanWaktu	SafeArea/Back/Label/	Back
+ARRekodWaktu	SafeArea/Hint/Words/	Point the camera at the card
+ARRekodWaktu	SafeArea/Back/Label/	Back
+ARSebutDanTulisWaktu	SafeArea/Back/Label/	Back
+ARSebutDanTulisWaktu	SafeArea/Hint/Words/	Point the camera at the card
+ARApaItuTambah	SafeArea/Back/Label/	Back
+ARApaItuTambah	SafeArea/Hint/Words/	Point the camera at the card
+AROperasiTambahGunaJari	SafeArea/Hint/Words/	Point the camera at the card
+AROperasiTambahGunaJari	SafeArea/Back/Label/	Back
+AROperasiTambahGunaNombor	SafeArea/Back/Label/	Back
+AROperasiTambahGunaNombor	SafeArea/Hint/Words/	Point the camera at the card
+AROperasiTambahGunaObjek	SafeArea/Hint/Words/	Point the camera at the card
+AROperasiTambahGunaObjek	SafeArea/Back/Label/	Back
+BadgesPage	BadgeCards/Badge5/Name/	Addition champion
+BadgesPage	BadgeCards/Badge2/Name/	Quiz star
+BadgesPage	BadgeCards/Badge4/Name/	High scorer
+BadgesPage	BadgeCards/Badge4/Progress/	Keep exploring 0 / 3
+BadgesPage	BadgeCards/Badge5/Progress/	Keep exploring 0 / 1
+BadgesPage	BadgeCards/Badge1/Name/	Game champion
+BadgesPage	BadgeCards/Badge1/Progress/	Keep exploring 0 / 3
+BadgesPage	BadgeCards/Badge0/Name/	Keen learner
+BadgesPage	BadgeCards/Badge3/Name/	Explorer
+BadgesPage	BadgeCards/Badge3/Progress/	Keep exploring 0 / 6
+BadgesPage	SafeArea/Back/Label/	Back
+BadgesPage	BadgeCards/Badge0/Progress/	Keep exploring 0 / 10
+BadgesPage	SpecialtyShell/SafeArea/Heading/	My badges
+BadgesPage	BadgeCards/Badge2/Progress/	Keep exploring 0 / 3
+CreditPage	ReadingArea/Content/Credit/	AZRIN BIN AMRAN STUDENT  UNIVERSITI TEKNIKAL MALAYSIA MELAKA
+CreditPage	ReadingArea/Content/Credit/	SAIFULNIZAN BIN CHE ISMAIL  EXCELLENT MATHEMATICS TEACHER  SK RAJA BAHAR
+CreditPage	SpecialtyShell/SafeArea/ScrollHint/	Scroll to read
+CreditPage	ReadingArea/Content/Credit/	NOR DIYANA SUHAILI BINTI ALI GHAZALI EXCELLENT MATHEMATICS TEACHER  SK KUBANG KERIAN 2
+CreditPage	SafeArea/Back/Label/	Back
+CreditPage	SpecialtyShell/SafeArea/Heading/	Our team
+CreditPage	ReadingArea/Content/Credit/	ADILLAH BINTI MANSOR  EXCELLENT PRESCHOOL TEACHER  SK SERI KETEREH
+GameMenu	body/Image (1)/BI/	YEAR 1
+GameMenu	SafeArea/Listen/Label/	Listen
+GameMenu	SafeArea/Back/Label/	Back
+GameMenu	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+GameMenu	AdventureShell/SafeArea/Brand/	FUN MATH
+GameMenu	Helo/GameObject/BI/	HEY KIDS!
+GameMenu	SafeArea/Parents/Label/	Parents
+GameMenu	Activities/Activity_Image (2)/Label/	YEAR 2
+GameMenu	Activities/Activity_Image (1)/Label/	YEAR 1
+GameMenu	Helo/GameObject (1)/BI/	Choose a game to play!
+GameMenu	Activities/Activity_Image/Label/	PRESCHOOL
+GameMenu	AdventureShell/SafeArea/Title/	Let's learn!
+GameMenu	body/Image/BI/	PRESCHOOL
+GameMenu	body/Image (2)/BI/	YEAR 2
+Level1	SafeArea/Help/ActionLabel/	How to play
+Level1	Balls/ball/Text (TMP)/	5 KG
+Level1	GameShell/SafeArea/GameTitle/	Balance the balls
+Level1	Balls/ball (1)/Text (TMP) (1)/	5 KG
+Level1	scale2/Image/Text (TMP)/	0
+Level1	SafeArea/Progress/Value/	0 / 4
+Level1	GameShell/SafeArea/GameHint/	Drag the balls into both baskets. Make their totals equal.
+Level1	Balls/ball (3)/Text (TMP) (3)/	5 KG
+Level1	scale1/Image/Text (TMP)/	0
+Level1	SafeArea/Progress/Caption/	Balls
+Level1	Balls/ball (2)/Text (TMP) (2)/	5 KG
+Level1	SafeArea/Pause/ActionLabel/	Pause
+algoLvl1	body/GameObject/Text (TMP) (1)/	CALCULATE THE PERIMETER
+algoLvl1	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl1	Panel/AudioPanel/GameDialogTitle/	How to play
+algoLvl1	SafeArea/Run/ActionLabel/	Run
+algoLvl1	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl1	AudioPanel/Image/ActionLabel/	Let's play!
+algoLvl1	SafeArea/Pause/ActionLabel/	Pause
+algoLvl1	puzzle/Image (10)/Text (TMP)/	20
+algoLvl1	puzzle/Image/Text (TMP)/	17
+algoLvl1	puzzle/Image (7)/Text (TMP)/	21
+algoLvl1	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl1	Panel/AudioPanel/GameDialogHint/	Drag arrows into the slots. Choose Run to follow your route.
+algoLvl10	body/GameObject/Text (TMP) (1)/	Saiful uses 220 cm of white lace to decorate around a square-shaped tablecloth. How long, in cm, is one side of the tablecloth?
+algoLvl10	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl10	puzzle/Image (17)/Text (TMP) (2)/	70
+algoLvl10	SafeArea/Run/ActionLabel/	Run
+algoLvl10	puzzle/Image (1)/Text (TMP)/	55
+algoLvl10	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl10	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl10	puzzle/Image (10)/Text (TMP) (1)/	110
+algoLvl10	SafeArea/Pause/ActionLabel/	Pause
+algoLvl2	puzzle/Image (7)/Text (TMP) (1)/	15
+algoLvl2	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl2	SafeArea/Pause/ActionLabel/	Pause
+algoLvl2	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl2	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl2	SafeArea/Run/ActionLabel/	Run
+algoLvl2	puzzle/Image (9)/Text (TMP)/	22
+algoLvl2	body/GameObject/Text (TMP) (1)/	CALCULATE THE PERIMETER
+algoLvl2	puzzle/Image (1)/Text (TMP) (2)/	28
+algoLvl3	SafeArea/Run/ActionLabel/	Run
+algoLvl3	SafeArea/Pause/ActionLabel/	Pause
+algoLvl3	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl3	puzzle/Image (7)/Text (TMP) (1)/	16
+algoLvl3	body/GameObject/Text (TMP) (1)/	CALCULATE THE PERIMETER
+algoLvl3	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl3	puzzle/Image (8)/Text (TMP) (2)/	14
+algoLvl3	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl3	puzzle/Image/Text (TMP)/	18
+algoLvl4	puzzle/Image (8)/Text (TMP) (2)/	22
+algoLvl4	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl4	puzzle/Image/Text (TMP) (1)/	11
+algoLvl4	puzzle/Image (7)/Text (TMP)/	18
+algoLvl4	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl4	SafeArea/Run/ActionLabel/	Run
+algoLvl4	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl4	body/GameObject/Text (TMP) (1)/	CALCULATE THE AREA
+algoLvl4	SafeArea/Pause/ActionLabel/	Pause
+algoLvl5	puzzle/Image (1)/Text (TMP) (1)/	121
+algoLvl5	puzzle/Image (9)/Text (TMP) (2)/	144
+algoLvl5	SafeArea/Pause/ActionLabel/	Pause
+algoLvl5	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl5	SafeArea/Run/ActionLabel/	Run
+algoLvl5	body/GameObject/Text (TMP) (1)/	CALCULATE THE AREA
+algoLvl5	puzzle/Image/Text (TMP)/	169
+algoLvl5	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl5	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl6	puzzle/Image (13)/Text (TMP) (1)/	121
+algoLvl6	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl6	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl6	puzzle/Image (17)/Text (TMP) (1)/	144
+algoLvl6	SafeArea/Run/ActionLabel/	Run
+algoLvl6	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl6	SafeArea/Pause/ActionLabel/	Pause
+algoLvl6	body/GameObject/Text (TMP) (1)/	CALCULATE THE AREA
+algoLvl6	puzzle/Image (16)/Text (TMP)/	108
+algoLvl7	puzzle/Image/Text (TMP) (2)/	9
+algoLvl7	SafeArea/Run/ActionLabel/	Run
+algoLvl7	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl7	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl7	SafeArea/Pause/ActionLabel/	Pause
+algoLvl7	puzzle/Image (14)/Text (TMP)/	27
+algoLvl7	body/GameObject/Text (TMP) (1)/	CALCULATE THE VOLUME OF THE CUBE
+algoLvl7	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl7	puzzle/Image (11)/Text (TMP) (1)/	18
+algoLvl8	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl8	SafeArea/Run/ActionLabel/	Run
+algoLvl8	puzzle/Image (17)/Text (TMP)/	96
+algoLvl8	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl8	puzzle/Image (13)/Text (TMP) (1)/	81
+algoLvl8	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl8	body/GameObject/Text (TMP) (1)/	CALCULATE THE VOLUME OF THE CUBOID
+algoLvl8	puzzle/Image (16)/Text (TMP) (2)/	76
+algoLvl8	SafeArea/Pause/ActionLabel/	Pause
+algoLvl9	GameShell/SafeArea/GameTitle/	Shape trail
+algoLvl9	SafeArea/Run/ActionLabel/	Run
+algoLvl9	puzzle/Image (17)/Text (TMP) (2)/	312
+algoLvl9	puzzle/Image (1)/Text (TMP)/	315
+algoLvl9	Footer/Image/Text (TMP)/	ALGORITHM
+algoLvl9	SafeArea/ClearRoute/ActionLabel/	Clear
+algoLvl9	body/GameObject/Text (TMP) (1)/	CALCULATE THE VOLUME OF THE CUBOID
+algoLvl9	SafeArea/Pause/ActionLabel/	Pause
+algoLvl9	puzzle/Image (10)/Text (TMP) (1)/	215
+GamePrasekolah	SafeArea/Pause/ActionLabel/	Pause
+GamePrasekolah	Panel/AudioPanel/GameDialogHint/	Hold Left or Right. Move the rocket to the correct answer.
+GamePrasekolah	SafeArea/Secondary/Value/	0
+GamePrasekolah	SafeArea/Progress/Value/	1 / 10
+GamePrasekolah	AudioPanel/Image/ActionLabel/	Let's play!
+GamePrasekolah	SafeArea/RightArrow/ActionLabel/	Right >
+GamePrasekolah	SafeArea/Secondary/Caption/	Score
+GamePrasekolah	Question/1/Text (TMP) (2)/	QUESTION
+GamePrasekolah	Panel/AudioPanel/GameDialogTitle/	How to play
+GamePrasekolah	SafeArea/LeftArrow/ActionLabel/	< Left
+GamePrasekolah	Question/1/Text (TMP) (1)/	+
+GamePrasekolah	SafeArea/Progress/Caption/	Question
+GamePrasekolah	GameShell/SafeArea/GameTitle/	Number rocket
+GamePrasekolah	GameShell/SafeArea/GameHint/	Hold Left or Right. Move the rocket to the correct answer.
+GameTahap1	SafeArea/Secondary/Caption/	Time
+GameTahap1	AudioPanel/Image/ActionLabel/	Let's play!
+GameTahap1	GameObject (4)/object/Text (TMP)/	3:00 PM
+GameTahap1	Panel/AudioPanel/GameDialogHint/	Tap the correct answers before time runs out.
+GameTahap1	SafeArea/Progress/Value/	0 / 2
+GameTahap1	GameObject (5)/object/Text (TMP)/	2:00 PM
+GameTahap1	GameObject (3)/object/Text (TMP)/	4:00 PM
+GameTahap1	SafeArea/Progress/Caption/	Found
+GameTahap1	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GameTahap1	GameObject (2)/object/Text (TMP)/	6:00 PM
+GameTahap1	SafeArea/Secondary/Value/	0:30
+GameTahap1	SafeArea/Pause/ActionLabel/	Pause
+GameTahap1	GameShell/SafeArea/GameTitle/	Find the answer
+GameTahap1	Panel/AudioPanel/GameDialogTitle/	How to play
+GameTahap1	Body/Questions/Text (TMP) (1)/	WHAT TIME DO YOU PLAY?
+GameTahap1	GameObject/object/Text (TMP)/	5:00 PM
+GT1level10	SafeArea/Secondary/Caption/	Time
+GT1level10	GameObject (5)/object/Text (TMP)/	15 MINUTES
+GT1level10	GameObject (4)/object/Text (TMP)/	1 HOUR
+GT1level10	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level10	GameObject (2)/object/Text (TMP)/	QUARTER HOUR
+GT1level10	GameObject (3)/object/Text (TMP)/	60 MINUTES
+GT1level10	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level10	Body/Questions/Text (TMP) (1)/	ONE COMPLETE TURN OF THE MINUTE HAND EQUALS
+GT1level10	GameObject/object/Text (TMP)/	30 MINUTES
+GT1level10	SafeArea/Secondary/Value/	0:30
+GT1level10	SafeArea/Pause/ActionLabel/	Pause
+GT1level10	SafeArea/Progress/Value/	0 / 2
+GT1level10	SafeArea/Progress/Caption/	Found
+GT1level2	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level2	GameObject/object/Text (TMP)/	4:00 O'CLOCK
+GT1level2	SafeArea/Pause/ActionLabel/	Pause
+GT1level2	Body/Questions/Text (TMP) (1)/	WHAT TIME IS IT?
+GT1level2	GameObject (3)/object/Text (TMP)/	3 O'CLOCK
+GT1level2	SafeArea/Secondary/Caption/	Time
+GT1level2	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level2	GameObject (5)/object/Text (TMP)/	NINE O'CLOCK
+GT1level2	GameObject (4)/object/Text (TMP)/	9:00 O'CLOCK
+GT1level2	SafeArea/Progress/Caption/	Found
+GT1level2	SafeArea/Secondary/Value/	0:30
+GT1level2	SafeArea/Progress/Value/	0 / 2
+GT1level2	GameObject (2)/object/Text (TMP)/	THREE O'CLOCK
+GT1level3	GameObject (2)/object/Text (TMP)/	TWELVE O'CLOCK
+GT1level3	GameObject (3)/object/Text (TMP)/	12:00 O'CLOCK
+GT1level3	SafeArea/Progress/Caption/	Found
+GT1level3	SafeArea/Progress/Value/	0 / 2
+GT1level3	Body/Questions/Text (TMP) (1)/	WHAT TIME IS IT?
+GT1level3	GameObject (4)/object/Text (TMP)/	ONE O'CLOCK
+GT1level3	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level3	SafeArea/Secondary/Value/	0:29
+GT1level3	SafeArea/Pause/ActionLabel/	Pause
+GT1level3	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level3	SafeArea/Secondary/Caption/	Time
+GT1level3	GameObject (5)/object/Text (TMP)/	SIX O'CLOCK
+GT1level3	GameObject/object/Text (TMP)/	1:00 O'CLOCK
+GT1level4	SafeArea/Progress/Caption/	Found
+GT1level4	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level4	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level4	GameObject (3)/object/Text (TMP)/	8:00 AM
+GT1level4	GameObject (5)/object/Text (TMP)/	11:00 AM
+GT1level4	GameObject (2)/object/Text (TMP)/	2:00 AM
+GT1level4	SafeArea/Secondary/Value/	0:30
+GT1level4	GameObject/object/Text (TMP)/	5:00 AM
+GT1level4	SafeArea/Pause/ActionLabel/	Pause
+GT1level4	Body/Questions/Text (TMP) (1)/	WHAT TIME ARE YOU AT SCHOOL?
+GT1level4	SafeArea/Progress/Value/	0 / 2
+GT1level4	SafeArea/Secondary/Caption/	Time
+GT1level4	GameObject (4)/object/Text (TMP)/	9:00 AM
+GT1level5	SafeArea/Progress/Value/	0 / 2
+GT1level5	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level5	SafeArea/Pause/ActionLabel/	Pause
+GT1level5	SafeArea/Progress/Caption/	Found
+GT1level5	SafeArea/Secondary/Value/	0:29
+GT1level5	SafeArea/Secondary/Caption/	Time
+GT1level5	GameObject/object/Text (TMP)/	MORNING
+GT1level5	Body/Questions/Text (TMP) (1)/	WHICH TIMES DO NOT FIT THIS ACTIVITY?
+GT1level5	GameObject (5)/object/Text (TMP)/	NIGHT
+GT1level5	GameObject (4)/object/Text (TMP)/	SIANG
+GT1level5	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level5	GameObject (2)/object/Text (TMP)/	NOON
+GT1level5	GameObject (3)/object/Text (TMP)/	EVENING
+GT1level6	GameObject (4)/object/Text (TMP)/	NIGHT
+GT1level6	GameObject (3)/object/Text (TMP)/	EVENING
+GT1level6	SafeArea/Pause/ActionLabel/	Pause
+GT1level6	SafeArea/Secondary/Caption/	Time
+GT1level6	GameObject/object/Text (TMP)/	NOON
+GT1level6	SafeArea/Secondary/Value/	0:30
+GT1level6	SafeArea/Progress/Value/	0 / 2
+GT1level6	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level6	Body/Questions/Text (TMP) (1)/	WHICH TIMES FIT THIS ACTIVITY?
+GT1level6	GameObject (2)/object/Text (TMP)/	MORNING
+GT1level6	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level6	SafeArea/Progress/Caption/	Found
+GT1level7	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level7	GameObject (5)/object/Text (TMP)/	7:00 PM
+GT1level7	GameObject (2)/object/Text (TMP)/	9:00 PM
+GT1level7	GameObject (4)/object/Text (TMP)/	11:00 PM
+GT1level7	SafeArea/Pause/ActionLabel/	Pause
+GT1level7	SafeArea/Secondary/Value/	0:30
+GT1level7	GameObject (3)/object/Text (TMP)/	10:00 PM
+GT1level7	SafeArea/Progress/Caption/	Found
+GT1level7	SafeArea/Secondary/Caption/	Time
+GT1level7	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level7	SafeArea/Progress/Value/	0 / 2
+GT1level7	GameObject/object/Text (TMP)/	6:00 PM
+GT1level7	Body/Questions/Text (TMP) (1)/	WHICH TIMES FIT THIS ACTIVITY?
+GT1level8	GameObject (4)/object/Text (TMP)/	2:00 O'CLOCK
+GT1level8	GameObject (5)/object/Text (TMP)/	10:00 O'CLOCK
+GT1level8	SafeArea/Progress/Value/	0 / 2
+GT1level8	SafeArea/Secondary/Value/	0:29
+GT1level8	GameObject (3)/object/Text (TMP)/	1:00 O'CLOCK
+GT1level8	SafeArea/Pause/ActionLabel/	Pause
+GT1level8	Body/Questions/Text (TMP) (1)/	WHICH TIMES ARE INCORRECT?
+GT1level8	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level8	GameObject (2)/object/Text (TMP)/	11:00 O'CLOCK
+GT1level8	GameObject/object/Text (TMP)/	12:00 O'CLOCK
+GT1level8	SafeArea/Progress/Caption/	Found
+GT1level8	SafeArea/Secondary/Caption/	Time
+GT1level8	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level9	GameObject (5)/object/Text (TMP)/	2:00 AM
+GT1level9	SafeArea/Pause/ActionLabel/	Pause
+GT1level9	Body/Questions/Text (TMP) (1)/	WHAT TIME DO YOU HAVE BREAKFAST?
+GT1level9	SafeArea/Progress/Caption/	Found
+GT1level9	GameObject (2)/object/Text (TMP)/	8:00 AM
+GT1level9	GameObject/object/Text (TMP)/	7:00 AM
+GT1level9	GameObject (3)/object/Text (TMP)/	9:00 AM
+GT1level9	SafeArea/Secondary/Value/	0:29
+GT1level9	SafeArea/Progress/Value/	0 / 2
+GT1level9	GameObject (4)/object/Text (TMP)/	4:00 AM
+GT1level9	GameShell/SafeArea/GameHint/	Tap the correct answers before time runs out.
+GT1level9	GameShell/SafeArea/GameTitle/	Find the answer
+GT1level9	SafeArea/Secondary/Caption/	Time
+GetStarted	AdventureShell/SafeArea/Brand/	FUN MATH
+GetStarted	Canvas/TAJUK/	FUN MATHEMATICS
+GetStarted	GameObject/ButtonStart/Text (TMP)/	LET'S START
+GetStarted	SafeArea/Parents/Label/	Parents
+GetStarted	SafeArea/Listen/Label/	Listen
+GetStarted	AdventureShell/SafeArea/Title/	A little maths. A big adventure!
+GetStarted	Activities/Activity_ButtonStart/Label/	LET'S START
+GetStarted	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+LearningPage	SafeArea/Listen/Label/	Listen
+LearningPage	GameObject/GameObject/BI/	YEAR 1
+LearningPage	Activities/Activity_Image (2)/Label/	3 TOPICS
+LearningPage	Helo/GameObject/BI/	HI KIDS!
+LearningPage	SafeArea/Parents/Label/	Parents
+LearningPage	body/GameObject/BI/	CHOOSE THE CATEGORY
+LearningPage	GameObject/GameObject (1)/BI/	3 TOPICS
+LearningPage	AdventureShell/SafeArea/Title/	Let's learn!
+LearningPage	SafeArea/Back/Label/	Back
+LearningPage	GameObject/GameObject/BI/	YEAR 2
+LearningPage	GameObject/GameObject/BI/	PRESCHOOL
+LearningPage	AdventureShell/SafeArea/Brand/	FUN MATH
+LearningPage	GameObject/GameObject (1)/BI/	4 TOPICS
+LearningPage	GameObject/GameObject (1)/BI/	3 TOPICS
+LearningPage	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+LearningPage	Helo/GameObject (1)/BI/	What would you like to learn today?
+LearningPage	Activities/Activity_Image (1)/Label/	4 TOPICS
+LearningPage	Activities/Activity_Image/Label/	3 TOPICS
+1. PengalamanPranombor	Canvas/LessonHeading/	Pre-number skills
+1. PengalamanPranombor	QuizController/1/LessonProgress/	Page 1 of 14
+1. PengalamanPranombor	1/nextButton/ActionLabel/	Next
+1. PengalamanPranombor	Image/Image (2)/BI/	MATCH THE PAIRS OF OBJECTS
+1. PengalamanPranombor	Questions/Image/BI/	INTRODUCTION TO NUMBERS
+1. PengalamanPranombor	settingDrop/SettingProfile/ActionLabel/	Parents
+1. PengalamanPranombor	Image/tt/BI/	LET'S  SEE
+1. PengalamanPranombor	Canvas/exitButton/ActionLabel/	Exit
+2.memahamisiri	Canvas/LessonHeading/	Number sequences
+2.memahamisiri	Questions/Image/BI/	NUMBER SEQUENCES
+2.memahamisiri	settingDrop/SettingProfile/ActionLabel/	Parents
+2.memahamisiri	Image (1)/Image (2)/BI/	NUMBER SEQUENCES FROM 10 TO 100
+2.memahamisiri	Canvas/exitButton/ActionLabel/	Exit
+2.memahamisiri	1/nextButton/ActionLabel/	Next
+2.memahamisiri	QuizController/1/LessonProgress/	Page 1 of 19
+3.OperasiNombor	Image/Image (1)/BI/	ADDITION
+3.OperasiNombor	1/nextButton/ActionLabel/	Next
+3.OperasiNombor	QuizController/1/LessonProgress/	Page 1 of 11
+3.OperasiNombor	Canvas/LessonHeading/	Number operations
+3.OperasiNombor	Questions/Image/BI/	NUMBER OPERATIONS
+3.OperasiNombor	settingDrop/SettingProfile/ActionLabel/	Parents
+3.OperasiNombor	Image/Image (2)/BI/	NUMBER OPERATIONS
+3.OperasiNombor	Canvas/exitButton/ActionLabel/	Exit
+PrasekolahLesson	Activities/Activity_Image (1)/Label/	NUMBER SEQUENCES FROM 10 TO 100
+PrasekolahLesson	Image (1)/GameObject/BI/	NUMBER SEQUENCES FROM 10 TO 100
+PrasekolahLesson	AdventureShell/SafeArea/Title/	Let's learn!
+PrasekolahLesson	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+PrasekolahLesson	AdventureShell/SafeArea/Brand/	FUN MATH
+PrasekolahLesson	SafeArea/Parents/Label/	Parents
+PrasekolahLesson	SafeArea/Listen/Label/	Listen
+PrasekolahLesson	Helo/GameObject (1)/BI/	What would you like to learn today?
+PrasekolahLesson	Helo/GameObject/BI/	HI KIDS!
+PrasekolahLesson	Activities/Activity_Image/Label/	PRE-NUMBER SKILLS
+PrasekolahLesson	Image/GameObject/BI/	PRE-NUMBER SKILLS
+PrasekolahLesson	Activities/Activity_Image (2)/Label/	no of topics
+PrasekolahLesson	body/GameObject/BI/	PRESCHOOL
+PrasekolahLesson	SafeArea/Back/Label/	Back
+PrasekolahLesson	Image (2)/GameObject/BI/	NUMBER OPERATIONS
+1.Kenali Minit	Canvas/LessonHeading/	Understanding minutes
+1.Kenali Minit	settingDrop/SettingProfile/ActionLabel/	Parents
+1.Kenali Minit	QuizController/1/ReadingHint/	Choose Try AR to explore.
+1.Kenali Minit	Image/Image/BI/	Dad, what are the little lines between the numbers?
+1.Kenali Minit	QuizController/1/LessonProgress/	Page 1 of 13
+1.Kenali Minit	1/AR/ActionLabel/	Try AR
+1.Kenali Minit	Questions/Image/BI/	TIME
+1.Kenali Minit	Canvas/exitButton/ActionLabel/	Exit
+1.Kenali Minit	1/nextButton/ActionLabel/	Next
+1.Kenali Minit	Image/Image (1)/BI/	Those are minute marks.
+2.SebutDanTulisWaktu 1	Questions/Image/BI/	SAY AND WRITE THE TIME
+2.SebutDanTulisWaktu 1	Image/Image (2)/BI/	Five fifteen
+2.SebutDanTulisWaktu 1	Canvas/exitButton/ActionLabel/	Exit
+2.SebutDanTulisWaktu 1	Canvas/LessonHeading/	Say and write the time
+2.SebutDanTulisWaktu 1	Image/Image (1)/BI/	Quarter past five
+2.SebutDanTulisWaktu 1	Image/Image/BI/	What time is it now?
+2.SebutDanTulisWaktu 1	1/nextButton/ActionLabel/	Next
+2.SebutDanTulisWaktu 1	QuizController/1/LessonProgress/	Page 1 of 16
+2.SebutDanTulisWaktu 1	settingDrop/SettingProfile/ActionLabel/	Parents
+3.RekodWaktu	settingDrop/SettingProfile/ActionLabel/	Parents
+3.RekodWaktu	1/d/ActionLabel/	Try AR
+3.RekodWaktu	Canvas/LessonHeading/	Record time
+3.RekodWaktu	Image/Image (2)/Text (TMP) (1)/	Let's record time and the activity
+3.RekodWaktu	Questions/Image/Text (TMP)/	SAY AND WRITE THE TIME
+3.RekodWaktu	Canvas/exitButton/ActionLabel/	Exit
+3.RekodWaktu	1/nextButton/ActionLabel/	Next
+3.RekodWaktu	Questions/Image/Text (TMP)/	Choose Try AR to explore.
+3.RekodWaktu	QuizController/1/LessonProgress/	Page 1 of 6
+4. Pekaitan Waktu	Canvas/LessonHeading/	Time relationships
+4. Pekaitan Waktu	settingDrop/SettingProfile/ActionLabel/	Parents
+4. Pekaitan Waktu	QuizController/1/LessonProgress/	Page 1 of 3
+4. Pekaitan Waktu	Canvas/exitButton/ActionLabel/	Exit
+4. Pekaitan Waktu	1/nextButton/ActionLabel/	Next
+4. Pekaitan Waktu	Questions/Image/Text (TMP) (1)/	TIME RELATIONSHIPS
+Tahap1Lesson	AdventureShell/SafeArea/Title/	Let's learn!
+Tahap1Lesson	AdventureShell/SafeArea/Brand/	FUN MATH
+Tahap1Lesson	Helo/GameObject (1)/BI/	What would you like to learn today?
+Tahap1Lesson	SafeArea/Listen/Label/	Listen
+Tahap1Lesson	Helo/GameObject/BI/	HI KIDS!
+Tahap1Lesson	Activities/Activity_Image (2)/Label/	no of topics
+Tahap1Lesson	Image/GameObject/BI/	UNDERSTANDING MINUTES
+Tahap1Lesson	Image (1)/GameObject/BM/	SEBUT DAN TULIS WAKTU
+Tahap1Lesson	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+Tahap1Lesson	SafeArea/Back/Label/	Back
+Tahap1Lesson	Image (1)/GameObject/Text (TMP) (1)/	no of topics
+Tahap1Lesson	Image (2)/GameObject/BI/	RECORD TIME
+Tahap1Lesson	body/GameObject/BI/	YEAR 1
+Tahap1Lesson	Image (3)/GameObject/Text (TMP) (2)/	TIME RELATIONSHIPS
+Tahap1Lesson	SafeArea/Parents/Label/	Parents
+Tahap1Lesson	Activities/Activity_Image/Label/	UNDERSTANDING MINUTES
+Tahap1Lesson	Activities/Activity_Image (3)/Label/	no of topics
+Tahap1Lesson	Activities/Activity_Image (1)/Label/	no of topics
+1. Perimeter	Questions/Image/Text (TMP)/	PERIMETER
+1. Perimeter	Image/Image (2)/Text (TMP) (1)/	We would like to decorate the perimeter with vines, teacher.
+1. Perimeter	settingDrop/SettingProfile/ActionLabel/	Parents
+1. Perimeter	Canvas/exitButton/ActionLabel/	Exit
+1. Perimeter	QuizController/1/LessonProgress/	Page 1 of 8
+1. Perimeter	1/AR/ActionLabel/	Try AR
+1. Perimeter	1/nextButton/ActionLabel/	Next
+1. Perimeter	Canvas/LessonHeading/	Perimeter
+1. Perimeter	Image/Image (1)/Text (TMP) (1)/	Today, we will decorate a card for Mother's Day.
+1. Perimeter	Questions/Image/Text (TMP)/	Choose Try AR to explore.
+2 Luas	Questions/Image/Text (TMP) (1)/	Choose Try AR to explore.
+2 Luas	1/nextButton/ActionLabel/	Next
+2 Luas	Canvas/exitButton/ActionLabel/	Exit
+2 Luas	Image/Image (1)/Text (TMP) (1)/	Each side of the square is 1 unit long.
+2 Luas	settingDrop/SettingProfile/ActionLabel/	Parents
+2 Luas	Questions/Image/Text (TMP)/	AREA
+2 Luas	1/AR/ActionLabel/	Try AR
+2 Luas	QuizController/1/LessonProgress/	Page 1 of 12
+2 Luas	Canvas/LessonHeading/	Area
+3. isipadu	QuizController/1/LessonProgress/	Page 1 of 6
+3. isipadu	Canvas/LessonHeading/	Volume
+3. isipadu	1/AR/ActionLabel/	Try AR
+3. isipadu	settingDrop/SettingProfile/ActionLabel/	Parents
+3. isipadu	Image/Image (3)/Text (TMP) (1)/	Each small cube has a volume of 1 cubic unit. How many small cubes do you need?
+3. isipadu	1/nextButton/ActionLabel/	Next
+3. isipadu	Canvas/exitButton/ActionLabel/	Exit
+3. isipadu	Image/Image (2)/Text (TMP) (1)/	I use 6 cubes, each with a volume of 1 cubic unit.
+3. isipadu	Image/Image (1)/Text (TMP) (1)/	I use 27 cubes, each with a volume of 1 cubic unit.
+3. isipadu	Questions/Image/Text (TMP)/	VOLUME
+3. isipadu	Questions/Image/Text (TMP) (1)/	Choose Try AR to explore.
+Tahap2Lesson	SafeArea/Parents/Label/	Parents
+Tahap2Lesson	AdventureShell/SafeArea/Title/	Let's learn!
+Tahap2Lesson	AdventureShell/SafeArea/Brand/	FUN MATH
+Tahap2Lesson	Activities/Activity_Image (2)/Label/	no of topics
+Tahap2Lesson	SafeArea/Back/Label/	Back
+Tahap2Lesson	Helo/GameObject/BI/	HI KIDS!
+Tahap2Lesson	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+Tahap2Lesson	Activities/Activity_Image (1)/Label/	AREA
+Tahap2Lesson	Activities/Activity_Image/Label/	no of topics
+Tahap2Lesson	Image/GameObject/Text (TMP)/	PERIMETER
+Tahap2Lesson	SafeArea/Listen/Label/	Listen
+Tahap2Lesson	body/GameObject/BI/	Year 2
+Tahap2Lesson	Image (1)/GameObject/BI/	AREA
+Tahap2Lesson	Image (2)/GameObject/BI/	VOLUME
+Tahap2Lesson	Helo/GameObject (1)/BI/	What would you like to learn today?
+LoadingScene	Canvas/LoadingImage/TAJUK/	FUN MATH
+LoginAddAccountPage	ProfileCard(Clone)/Play/Label/	Play
+LoginAddAccountPage	ProfileCard(Clone)/Play/Label/	Play
+LoginAddAccountPage	SafeArea/AddPlayer/Label/	New player
+LoginAddAccountPage	ProfileCard(Clone)/ChangeAvatar/Label/	Change avatar
+LoginAddAccountPage	ProfileCard(Clone)/ChangeAvatar/Label/	Change avatar
+LoginAddAccountPage	ProfileCard(Clone)/ChangeAvatar/Label/	Change avatar
+LoginAddAccountPage	Content/ProfileCard(Clone)/Age/	7 years
+LoginAddAccountPage	Content/ProfileCard(Clone)/PlayerName/	Azrin
+LoginAddAccountPage	Content/ProfileCard(Clone)/Age/	13 years
+LoginAddAccountPage	Canvas/TAJUK/	CHOOSE YOUR PLAYER
+LoginAddAccountPage	ProfileCard(Clone)/Play/Label/	Play
+LoginAddAccountPage	Content/ProfileCard(Clone)/PlayerName/	Azrin
+LoginAddAccountPage	Content/ProfileCard(Clone)/Age/	24 years
+LoginAddAccountPage	SafeArea/Reset/Label/	Reset data (parents)
+LoginAddAccountPage	ProfileShell/SafeArea/Heading/	Who's playing?
+LoginAddAccountPage	MiddleRect/Button/Text (TMP)/	RESET USER DATA
+LoginAddAccountPage	Content/ProfileCard(Clone)/PlayerName/	AA
+PenghargaanPage	ReadingArea/Content/Credit/	SAIFULNIZAN BIN CHE ISMAIL (SK Raja Bahar)
+PenghargaanPage	ReadingArea/Content/Credit/	Dr Siti Azirah (Lecturer at Universiti Teknikal Malaysia Melaka (utem) )
+PenghargaanPage	ReadingArea/Content/Credit/	CONTENT CREATOR
+PenghargaanPage	ReadingArea/Content/Credit/	Puan Zuriah Binti Muhamad (Ketua Penolong Pengarah TMK JPN)
+PenghargaanPage	ReadingArea/Content/Credit/	CREDIT
+PenghargaanPage	ReadingArea/Content/Credit/	SUPERVISOR
+PenghargaanPage	ReadingArea/Content/Credit/	SAIFULNIZAN BIN CHE ISMAIL (SK Raja Bahar)
+PenghargaanPage	SafeArea/Back/Label/	Back
+PenghargaanPage	ReadingArea/Content/Credit/	SOURCES:  TEXTBOOKS WEBSITES (www.freepik.com)
+PenghargaanPage	SpecialtyShell/SafeArea/ScrollHint/	Scroll to read
+PenghargaanPage	ReadingArea/Content/Credit/	NOR DIYANA SUHAILI BINTI ALI GHAZALI (SK KUBANG KERIAN 2)
+PenghargaanPage	SpecialtyShell/SafeArea/Heading/	Thank you
+PenghargaanPage	ReadingArea/Content/Credit/	BACKGROUND MUSIC:  Mokka Music (www.youtube.com)
+PenghargaanPage	ReadingArea/Content/Credit/	DEVELOPERS
+PenghargaanPage	ReadingArea/Content/Credit/	ADILLAH BINTI MANSOR (SK SERI KETEREH)
+PenghargaanPage	ReadingArea/Content/Credit/	Azrin Bin Amran (UTeM Student)
+PlayerInformation	SafeArea/AvatarPicker/Selected animal/	Selected: Owl
+PlayerInformation	PlayerAge/Text Area/Text/	7
+PlayerInformation	GameObject/Younger/Label/	-
+PlayerInformation	Choices/frog/Animal name/	Frog
+PlayerInformation	SafeArea/GameObject/Name label/	Your name
+PlayerInformation	Canvas/TAJUK/	FUN MATHEMATIC
+PlayerInformation	owl/Selected/Selection label/	OK
+PlayerInformation	PlayerName/Text Area/Text/	
+PlayerInformation	GameObject/PlayerGender/Label/	Prefer not to say
+PlayerInformation	SafeArea/GameObject/Age label/	Age
+PlayerInformation	ProfileShell/SafeArea/Heading/	Let's meet!
+PlayerInformation	Choices/penguin/Animal name/	Penguin
+PlayerInformation	Choices/fox/Animal name/	Fox
+PlayerInformation	Choices/panda/Animal name/	Panda
+PlayerInformation	Choices/bear/Animal name/	Bear
+PlayerInformation	SafeArea/ButtonStart/Text (TMP)/	Let's play!
+PlayerInformation	SafeArea/GameObject/Gender label/	Gender
+PlayerInformation	Choices/cat/Animal name/	Cat
+PlayerInformation	SafeArea/Back/Label/	Back
+PlayerInformation	PlayerName/Text Area/Placeholder/	Your name
+PlayerInformation	Choices/owl/Animal name/	Owl
+PlayerInformation	GameObject/Older/Label/	+
+PlayerInformation	Choices/rabbit/Animal name/	Rabbit
+PlayerInformationMain	SafeArea/AvatarPicker/Selected animal/	Selected: Owl
+PlayerInformationMain	GameObject/Younger/Label/	-
+PlayerInformationMain	GameObject/Older/Label/	+
+PlayerInformationMain	Choices/fox/Animal name/	Fox
+PlayerInformationMain	Choices/bear/Animal name/	Bear
+PlayerInformationMain	PlayerAge/Text Area/Text/	7
+PlayerInformationMain	Choices/rabbit/Animal name/	Rabbit
+PlayerInformationMain	Choices/cat/Animal name/	Cat
+PlayerInformationMain	PlayerName/Text Area/Text/	
+PlayerInformationMain	Choices/panda/Animal name/	Panda
+PlayerInformationMain	Canvas/TAJUK/	FUN MATHEMATIC
+PlayerInformationMain	PlayerName/Text Area/Placeholder/	Your name
+PlayerInformationMain	owl/Selected/Selection label/	OK
+PlayerInformationMain	Choices/frog/Animal name/	Frog
+PlayerInformationMain	Choices/penguin/Animal name/	Penguin
+PlayerInformationMain	Choices/owl/Animal name/	Owl
+PlayerInformationMain	GameObject/PlayerGender/Label/	Prefer not to say
+PlayerInformationMain	SafeArea/GameObject/Age label/	Age
+PlayerInformationMain	ProfileShell/SafeArea/Heading/	Let's meet!
+PlayerInformationMain	SafeArea/GameObject/Gender label/	Gender
+PlayerInformationMain	SafeArea/Back/Label/	Back
+PlayerInformationMain	SafeArea/GameObject/Name label/	Your name
+PlayerInformationMain	SafeArea/ButtonStart/Text (TMP)/	Let's play!
+PrasekolahQuiz	Answers/C/Text (TMP)/	3
+PrasekolahQuiz	AudioPanel/GameObject/Text (TMP) (2)/	Choose the correct answer to each question before time runs out. Each correct answer earns 1 point.
+PrasekolahQuiz	IllustrationContent/Image/Text (TMP)/	+
+PrasekolahQuiz	Answers/D/Text (TMP)/	4
+PrasekolahQuiz	QuizController/1/textLabel/	Question 1 of 15
+PrasekolahQuiz	Answers/A/Text (TMP)/	2
+PrasekolahQuiz	Answers/B/Text (TMP)/	1
+PrasekolahQuiz	Questions/Image/Text (TMP) (1)/	HOW MANY APPLES ?
+PrasekolahQuiz	AudioPanel/GameObject (1)/Text (TMP) (1)/	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+PrasekolahQuiz	Timer/Image/seconds/	2:00
+PrasekolahQuiz	Canvas/Title/QuizTitle/	Preschool Quiz
+Quizzes	Activities/Activity_Image (2)/Label/	YEAR 2
+Quizzes	AdventureShell/SafeArea/Instruction/	Choose an activity. Let's learn maths together!
+Quizzes	Activities/Activity_Image/Label/	PRESCHOOL
+Quizzes	Image/panel/BI/	PRESCHOOL
+Quizzes	SafeArea/Back/Label/	Back
+Quizzes	Helo/GameObject/BI/	HELLO THERE !
+Quizzes	Image (2)/panel/BI/	YEAR 2
+Quizzes	Activities/Activity_Image (1)/Label/	YEAR 1
+Quizzes	SafeArea/Parents/Label/	Parents
+Quizzes	Image (1)/panel/BI/	YEAR 1
+Quizzes	AdventureShell/SafeArea/Brand/	FUN MATH
+Quizzes	Helo/GameObject (1)/BI/	Which quiz would you like to try?
+Quizzes	SafeArea/Listen/Label/	Listen
+Quizzes	AdventureShell/SafeArea/Title/	Let's learn!
+Tahap1Quiz	Answers/C/Text (TMP) (3)/	5 MINUTES
+Tahap1Quiz	AudioPanel/GameObject (1)/Text (TMP) (2)/	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+Tahap1Quiz	AudioPanel/GameObject/Text (TMP) (3)/	Choose the correct answer to each question before time runs out. Each correct answer earns 1 point.
+Tahap1Quiz	Answers/D/Text (TMP) (4)/	3 MINUTES
+Tahap1Quiz	Answers/A/Text (TMP) (1)/	15 MINUTES
+Tahap1Quiz	Timer/Image/seconds/	3:00
+Tahap1Quiz	QuizController/1/textLabel/	Question 1 of 10
+Tahap1Quiz	Questions/Image/Text (TMP) (1)/	HOW MANY MINUTES ?
+Tahap1Quiz	Answers/B/Text (TMP) (2)/	10 MINUTES
+Tahap1Quiz	Canvas/Title/QuizTitle/	Level 1 Quiz
+Tahap2Quiz	Timer/Image/seconds/	5:00
+Tahap2Quiz	Answers/C/Text (TMP)/	20 cm
+Tahap2Quiz	Questions/Image/Text (TMP) (1)/	Calculate the perimeter of the square.
+Tahap2Quiz	QuizController/1/textLabel/	Question 1 of 15
+Tahap2Quiz	Image/t/Text (TMP)/	5 cm
+Tahap2Quiz	Canvas/Title/QuizTitle/	Level 2 Quiz
+Tahap2Quiz	AudioPanel/GameObject (1)/Text (TMP) (2)/	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+Tahap2Quiz	Answers/B/Text (TMP)/	21 cm
+Tahap2Quiz	Answers/A/Text (TMP)/	18 cm
+Tahap2Quiz	Answers/D/Text (TMP)/	9 cm
+Tahap2Quiz	Image/t/Text (TMP) (1)/	4 cm
+Tahap2Quiz	AudioPanel/GameObject/Text (TMP) (3)/	Choose the correct answer to each question before time runs out. Each correct answer earns 1 point.
+#DONE

@@ -1,0 +1,62 @@
+scene	buttons	persistentCallsBefore	persistentCallsAfter	missingScripts
+Assets/Scenes/AfterLogin/MainMenu.unity	40	39	56	0
+Assets/Scenes/AR/ARIsipadu.unity	5	10	10	5
+Assets/Scenes/AR/ARKenaliMinit.unity	5	10	10	5
+Assets/Scenes/AR/ARLuas.unity	5	10	10	5
+Assets/Scenes/AR/ARPerimeter.unity	5	10	10	5
+Assets/Scenes/AR/ARPerkaitanWaktu.unity	5	10	10	5
+Assets/Scenes/AR/ARRekodWaktu.unity	5	10	10	5
+Assets/Scenes/AR/ARSebutDanTulisWaktu.unity	5	10	10	5
+Assets/Scenes/AR/Pra/ARApaItuTambah.unity	5	10	10	5
+Assets/Scenes/AR/Pra/AROperasiTambahGunaJari.unity	5	10	10	5
+Assets/Scenes/AR/Pra/AROperasiTambahGunaNombor.unity	5	10	10	5
+Assets/Scenes/AR/Pra/AROperasiTambahGunaObjek.unity	5	10	10	5
+Assets/Scenes/Badges/BadgesPage.unity	21	63	63	0
+Assets/Scenes/CreditPage.unity	27	30	30	0
+Assets/Scenes/GameMenu.unity	19	19	19	0
+Assets/Scenes/Games/AddingGae/Level1.unity	23	23	23	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity	34	36	36	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl2.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl3.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl4.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl5.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl6.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity	28	30	30	0
+Assets/Scenes/Games/AlgorithmGame/algoLvl10.unity	28	31	31	0
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	26	30	30	0
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	40	38	38	0
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	38	35	35	0
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	38	36	36	0
+Assets/Scenes/GetStarted.unity	6	1	6	0
+Assets/Scenes/Lessons/LearningPage.unity	26	18	26	0
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	110	111	111	0
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	144	146	146	0
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	92	98	98	0
+Assets/Scenes/Lessons/PrasekolahLesson.unity	19	18	18	0
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	103	107	107	0
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	124	127	127	0
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	58	61	61	0
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	40	43	43	0
+Assets/Scenes/Lessons/Tahap1Lesson.unity	19	19	19	0
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	70	74	74	0
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	96	101	101	0
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	62	62	62	0
+Assets/Scenes/Lessons/Tahap2Lesson.unity	19	18	18	0
+Assets/Scenes/Loading/LoadingScene.unity	0	0	0	0
+Assets/Scenes/LoginAddAccountPage.unity	5	6	6	0
+Assets/Scenes/PenghargaanPage.unity	27	31	31	0
+Assets/Scenes/PlayerInformation.unity	1	1	1	0
+Assets/Scenes/PlayerInformationMain.unity	2	2	2	0
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	117	123	123	0
+Assets/Scenes/Quizzes/Quizzes.unity	18	18	18	0
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	82	88	88	0
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	117	123	123	0

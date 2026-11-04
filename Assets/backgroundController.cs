@@ -21,9 +21,10 @@ public class backgroundController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
+        if(rb == null) return; // rigidbody is destroyed when the game ends
         if(other.gameObject.tag == "imageBorder"){
             transform.localPosition = new Vector2(transform.localPosition.x, 10079);
-            rb.velocity = new Vector2(0.0f, -555.0f);
+            rb.linearVelocity = new Vector2(0.0f, -555.0f);
             if(isToNextLevel){
                  
                 

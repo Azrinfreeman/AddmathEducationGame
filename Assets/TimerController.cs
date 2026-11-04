@@ -19,16 +19,21 @@ public class TimerController : MonoBehaviour
 
     [SerializeField]
     private AudioSource warningSFX;
+    [Tooltip("Existing TimeUp overlay on the quiz Canvas.")]
     public Transform timeoutGameobject;
+    [Tooltip("Existing results panel (Prompted (2)), separate from submit confirmation.")]
     public Transform prompted;
     // Start is called before the first frame update
     void Start()
     {
         
         text = transform.GetChild(2).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        prompted = transform.parent.transform.parent.GetChild(7).GetComponent<Transform>();
-        timeoutGameobject = transform.parent.transform.parent.GetChild(8).GetComponent<Transform>();
-        warningSFX = GameObject.Find("warningSFX").GetComponent<AudioSource>();
+        // Decorative siblings must not change which dialog a timeout opens.
+        var canvas = GetComponentInParent<Canvas>();
+        if (!prompted && canvas) prompted = canvas.transform.Find("Prompted (2)");
+        if (!timeoutGameobject && canvas) timeoutGameobject = canvas.transform.Find("TimeUp");
+        var warning = GameObject.Find("warningSFX");
+        if (!warningSFX && warning) warningSFX = warning.GetComponent<AudioSource>();
        
 //        prompted = transform.parent.GetChild(0).GetComponent<GameObject>();
   //      timeoutGameobject = GameObject.Find("TimeUp").GetComponent<GameObject>();
@@ -47,31 +52,27 @@ public class TimerController : MonoBehaviour
             }
         }else{
             if(!isSwitch){
-            Debug.Log(isSwitch);
-            QuizController.instance.CollectAndCheck();
-            prompted.gameObject.SetActive(true);
-            timeoutGameobject.gameObject.SetActive(true);
+            if(QuizController.instance != null) QuizController.instance.CollectAndCheck();
+            if (prompted) prompted.gameObject.SetActive(true);
+            if (timeoutGameobject) timeoutGameobject.gameObject.SetActive(true);
             isSwitch = true;
             }
         }
+        if (timer < 0) timer = 0;
         minit = Mathf.FloorToInt(timer/60);
         seconds = Mathf.FloorToInt(timer % 60);
-        
-        if(minit <=0 && seconds >=0 && seconds < 10){
-        text.text = "0:0"+seconds.ToString();
-        
-            if(!isStopping){
-                if(!warningSFX.isPlaying){
 
-                warningSFX.Play(); 
-                }
+        text.text = Format(timer);
+        if(!isStopping && timer > 0 && minit <= 0 && seconds < 10){
+            if(warningSFX && !warningSFX.isPlaying){
+                warningSFX.Play();
             }
-        }else if (minit >= 1 && seconds < 10){
-        text.text = minit+":0"+seconds.ToString();
-        }else{
-        text.text = minit+":"+seconds.ToString();
         }
+    }
 
-        
+    private static string Format(float t)
+    {
+        int total = Mathf.Max(0, Mathf.FloorToInt(t));
+        return (total / 60) + ":" + (total % 60).ToString("00");
     }
 }

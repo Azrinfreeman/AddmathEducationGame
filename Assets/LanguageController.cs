@@ -17,6 +17,11 @@ public class LanguageController : MonoBehaviour
         }else{
             ToEnglish = false;
         }
+        if(ToEnglish){
+            PlayerPrefs.SetInt("EnglishLang",1);
+        }else{
+            PlayerPrefs.SetInt("EnglishLang",0);
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -27,6 +32,10 @@ public class LanguageController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(PlayerPrefs.GetInt("EnglishLang") == 1){
+            ToEnglish = true;
+        }else{
+            ToEnglish = false;
+        }
     }
 }

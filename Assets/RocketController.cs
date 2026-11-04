@@ -26,18 +26,18 @@ public class RocketController : MonoBehaviour
     public void MoveRight(){
       
             
-        rocket.velocity = new Vector2(10f * playerSpeed, rocket.velocity.y );
+        rocket.linearVelocity = new Vector2(10f * playerSpeed, rocket.linearVelocity.y );
         //rocket.Move(move * (Time.deltaTime * playerSpeed));
         
     }
 
     public void Stop(){
-        rocket.velocity = new Vector2(0f * playerSpeed, rocket.velocity.y );
+        rocket.linearVelocity = new Vector2(0f * playerSpeed, rocket.linearVelocity.y );
     }
 
     public void MoveLeft(){
         
-            rocket.velocity = new Vector2(-10f * playerSpeed, rocket.velocity.y );
+            rocket.linearVelocity = new Vector2(-10f * playerSpeed, rocket.linearVelocity.y );
         
     }
     // Update is called once per frame

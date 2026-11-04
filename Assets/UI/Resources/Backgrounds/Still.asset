@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3374621099ef0548b8400a261a7f391, type: 3}
+  m_Name: Still
+  m_EditorClassIdentifier: Assembly-CSharp::FunMath.UI.BackgroundProfile
+  mode: 0
+  sky: {r: 0.8627451, g: 0.95686275, b: 0.9764706, a: 1}
+  farHill: {r: 0.80784315, g: 0.9019608, b: 0.8235294, a: 1}
+  nearHill: {r: 0.68235296, g: 0.827451, b: 0.7529412, a: 1}
+  cloud: {r: 1, g: 1, b: 1, a: 1}
+  cloudTravel: 12
+  cloudPeriod: 24
+  cornerSway: 2
+  swayPeriod: 6
+  discoveryCooldown: 1.2

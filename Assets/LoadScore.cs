@@ -17,6 +17,8 @@ public class LoadScore : MonoBehaviour
         text = GetComponent<TextMeshProUGUI>();
 
         text.text = "SCORE: "+quiz.score.ToString() +" / " + CheckQuizNumber.instance.numberofQuizzes;
+        var celebration = GetComponent<FunMath.UI.ResultCelebration>();
+        if (celebration && quiz.score > 0) celebration.Play();
 
         if(quiz.score == CheckQuizNumber.instance.numberofQuizzes){
             if(pra){

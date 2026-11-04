@@ -54,9 +54,9 @@ public class BadgeController : MonoBehaviour
             badges[4].GetComponent<Image>().color = new Color32(116,206,0,255);
         }
 
-        if(PlayerPrefs.GetInt("PraGameKuiz_"+PlayerPrefs.GetInt("PlayerID")) == 1){
+        if(badges.Length > 5 && PlayerPrefs.GetInt("PraGameKuiz_"+PlayerPrefs.GetInt("PlayerID")) == 1){
             block[5].gameObject.SetActive(false);
-            badges[6].GetComponent<Image>().color = new Color32(116,206,0,255);
+            badges[5].GetComponent<Image>().color = new Color32(116,206,0,255);
         }
     }
 }

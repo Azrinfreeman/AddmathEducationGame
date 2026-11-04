@@ -27,7 +27,7 @@ public class loadNameKey : MonoBehaviour
             text.text = PlayerPrefs.GetString("PlayerName").ToString();
         }else if (isGender){
             textDrop = GetComponent<TMP_Dropdown>();
-            textDrop.value = textDrop.options.FindIndex(option => option.text == PlayerPrefs.GetString("PlayerGender").ToString());
+            textDrop.value = textDrop.options.FindIndex(option => string.Equals(option.text, PlayerPrefs.GetString("PlayerGender"), System.StringComparison.OrdinalIgnoreCase));
         }else if (isAge){
             text = GetComponent<TMP_InputField>();
             text.text = PlayerPrefs.GetInt("PlayerAge").ToString();
@@ -36,10 +36,10 @@ public class loadNameKey : MonoBehaviour
             textProfileName.text = PlayerPrefs.GetString("PlayerName").ToString();
         }else if (isPictureProfile){
 
-            if(PlayerPrefs.GetString("PlayerGender").ToString() == "MALE"){
+            if(string.Equals(PlayerPrefs.GetString("PlayerGender"), "MALE", System.StringComparison.OrdinalIgnoreCase)){
                 malePicture.SetActive(true);
                 femalePicture.SetActive(false);
-            }else if (PlayerPrefs.GetString("PlayerGender").ToString() == "FEMALE"){
+            }else if (string.Equals(PlayerPrefs.GetString("PlayerGender"), "FEMALE", System.StringComparison.OrdinalIgnoreCase)){
                 malePicture.SetActive(false);
                 femalePicture.SetActive(true);
  
@@ -52,10 +52,10 @@ public class loadNameKey : MonoBehaviour
     {
         if (isPictureProfile){
 
-            if(PlayerPrefs.GetString("PlayerGender").ToString() == "MALE"){
+            if(string.Equals(PlayerPrefs.GetString("PlayerGender"), "MALE", System.StringComparison.OrdinalIgnoreCase)){
                 malePicture.SetActive(true);
                 femalePicture.SetActive(false);
-            }else if (PlayerPrefs.GetString("PlayerGender").ToString() == "FEMALE"){
+            }else if (string.Equals(PlayerPrefs.GetString("PlayerGender"), "FEMALE", System.StringComparison.OrdinalIgnoreCase)){
                 malePicture.SetActive(false);
                 femalePicture.SetActive(true);
  

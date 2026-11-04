@@ -12,7 +12,8 @@ public class SceneController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
+        var click = GameObject.Find("clickSFX");
+        if (click) soundSFX = click.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,7 +35,7 @@ public class SceneController : MonoBehaviour
     }
 
     public void loadScene(string scenename){
-        soundSFX.Play();
+        if (soundSFX) soundSFX.Play();
         StartCoroutine(delaySceneLoad(scenename));
         
         

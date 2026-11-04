@@ -1,0 +1,1142 @@
+PASS	PrasekolahLesson-540x960-0 text fits: Brand
+PASS	PrasekolahLesson-540x960-0 text fits: Title
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 text fits: Instruction
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 text fits: Label
+PASS	PrasekolahLesson-540x960-0 node in trail: 0
+PASS	PrasekolahLesson-540x960-0 source availability: 0
+PASS	PrasekolahLesson-540x960-0 node in trail: 1
+PASS	PrasekolahLesson-540x960-0 source availability: 1
+PASS	PrasekolahLesson-540x960-0 separate nodes: 1/0
+PASS	PrasekolahLesson-540x960-0 node in trail: 2
+PASS	PrasekolahLesson-540x960-0 source availability: 2
+PASS	PrasekolahLesson-540x960-0 separate nodes: 2/0
+PASS	PrasekolahLesson-540x960-0 separate nodes: 2/1
+PASS	PrasekolahLesson-540x960-1 text fits: Brand
+PASS	PrasekolahLesson-540x960-1 text fits: Title
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 text fits: PathNumber
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 text fits: Instruction
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 text fits: Label
+PASS	PrasekolahLesson-540x960-1 node in trail: 0
+PASS	PrasekolahLesson-540x960-1 source availability: 0
+PASS	PrasekolahLesson-540x960-1 node in trail: 1
+PASS	PrasekolahLesson-540x960-1 source availability: 1
+PASS	PrasekolahLesson-540x960-1 separate nodes: 1/0
+PASS	PrasekolahLesson-540x960-1 node in trail: 2
+PASS	PrasekolahLesson-540x960-1 source availability: 2
+PASS	PrasekolahLesson-540x960-1 separate nodes: 2/0
+PASS	PrasekolahLesson-540x960-1 separate nodes: 2/1
+PASS	PrasekolahLesson-960x540-0 text fits: Brand
+PASS	PrasekolahLesson-960x540-0 text fits: Title
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 text fits: PathNumber
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 text fits: PathNumber
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 text fits: PathNumber
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 text fits: Instruction
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 text fits: Label
+PASS	PrasekolahLesson-960x540-0 node in trail: 0
+PASS	PrasekolahLesson-960x540-0 source availability: 0
+PASS	PrasekolahLesson-960x540-0 node in trail: 1
+PASS	PrasekolahLesson-960x540-0 source availability: 1
+PASS	PrasekolahLesson-960x540-0 separate nodes: 1/0
+PASS	PrasekolahLesson-960x540-0 node in trail: 2
+PASS	PrasekolahLesson-960x540-0 source availability: 2
+PASS	PrasekolahLesson-960x540-0 separate nodes: 2/0
+PASS	PrasekolahLesson-960x540-0 separate nodes: 2/1
+PASS	PrasekolahLesson-960x540-1 text fits: Brand
+PASS	PrasekolahLesson-960x540-1 text fits: Title
+PASS	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 text fits: PathNumber
+FAIL	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 text fits: PathNumber
+PASS	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 text fits: PathNumber
+PASS	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 text fits: Instruction
+PASS	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 text fits: Label
+PASS	PrasekolahLesson-960x540-1 node in trail: 0
+PASS	PrasekolahLesson-960x540-1 source availability: 0
+PASS	PrasekolahLesson-960x540-1 node in trail: 1
+PASS	PrasekolahLesson-960x540-1 source availability: 1
+PASS	PrasekolahLesson-960x540-1 separate nodes: 1/0
+PASS	PrasekolahLesson-960x540-1 node in trail: 2
+PASS	PrasekolahLesson-960x540-1 source availability: 2
+PASS	PrasekolahLesson-960x540-1 separate nodes: 2/0
+PASS	PrasekolahLesson-960x540-1 separate nodes: 2/1
+PASS	PrasekolahLesson-360x800-0 text fits: Brand
+PASS	PrasekolahLesson-360x800-0 text fits: Title
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 text fits: Instruction
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 text fits: Label
+PASS	PrasekolahLesson-360x800-0 node in trail: 0
+PASS	PrasekolahLesson-360x800-0 source availability: 0
+PASS	PrasekolahLesson-360x800-0 node in trail: 1
+PASS	PrasekolahLesson-360x800-0 source availability: 1
+PASS	PrasekolahLesson-360x800-0 separate nodes: 1/0
+PASS	PrasekolahLesson-360x800-0 node in trail: 2
+PASS	PrasekolahLesson-360x800-0 source availability: 2
+PASS	PrasekolahLesson-360x800-0 separate nodes: 2/0
+PASS	PrasekolahLesson-360x800-0 separate nodes: 2/1
+PASS	PrasekolahLesson-360x800-1 text fits: Brand
+PASS	PrasekolahLesson-360x800-1 text fits: Title
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 text fits: PathNumber
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 text fits: Instruction
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 text fits: Label
+PASS	PrasekolahLesson-360x800-1 node in trail: 0
+PASS	PrasekolahLesson-360x800-1 source availability: 0
+PASS	PrasekolahLesson-360x800-1 node in trail: 1
+PASS	PrasekolahLesson-360x800-1 source availability: 1
+PASS	PrasekolahLesson-360x800-1 separate nodes: 1/0
+PASS	PrasekolahLesson-360x800-1 node in trail: 2
+PASS	PrasekolahLesson-360x800-1 source availability: 2
+PASS	PrasekolahLesson-360x800-1 separate nodes: 2/0
+PASS	PrasekolahLesson-360x800-1 separate nodes: 2/1
+PASS	PrasekolahLesson-800x360-0 text fits: Brand
+PASS	PrasekolahLesson-800x360-0 text fits: Title
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 text fits: Instruction
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 text fits: Label
+PASS	PrasekolahLesson-800x360-0 node in trail: 0
+PASS	PrasekolahLesson-800x360-0 source availability: 0
+PASS	PrasekolahLesson-800x360-0 node in trail: 1
+PASS	PrasekolahLesson-800x360-0 source availability: 1
+PASS	PrasekolahLesson-800x360-0 separate nodes: 1/0
+PASS	PrasekolahLesson-800x360-0 node in trail: 2
+PASS	PrasekolahLesson-800x360-0 source availability: 2
+PASS	PrasekolahLesson-800x360-0 separate nodes: 2/0
+PASS	PrasekolahLesson-800x360-0 separate nodes: 2/1
+PASS	PrasekolahLesson-800x360-1 text fits: Brand
+PASS	PrasekolahLesson-800x360-1 text fits: Title
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 text fits: PathNumber
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 text fits: Instruction
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 text fits: Label
+PASS	PrasekolahLesson-800x360-1 node in trail: 0
+PASS	PrasekolahLesson-800x360-1 source availability: 0
+PASS	PrasekolahLesson-800x360-1 node in trail: 1
+PASS	PrasekolahLesson-800x360-1 source availability: 1
+PASS	PrasekolahLesson-800x360-1 separate nodes: 1/0
+PASS	PrasekolahLesson-800x360-1 node in trail: 2
+PASS	PrasekolahLesson-800x360-1 source availability: 2
+PASS	PrasekolahLesson-800x360-1 separate nodes: 2/0
+PASS	PrasekolahLesson-800x360-1 separate nodes: 2/1
+PASS	PrasekolahLesson-768x1024-0 text fits: Brand
+PASS	PrasekolahLesson-768x1024-0 text fits: Title
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 text fits: Instruction
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 text fits: Label
+PASS	PrasekolahLesson-768x1024-0 node in trail: 0
+PASS	PrasekolahLesson-768x1024-0 source availability: 0
+PASS	PrasekolahLesson-768x1024-0 node in trail: 1
+PASS	PrasekolahLesson-768x1024-0 source availability: 1
+PASS	PrasekolahLesson-768x1024-0 separate nodes: 1/0
+PASS	PrasekolahLesson-768x1024-0 node in trail: 2
+PASS	PrasekolahLesson-768x1024-0 source availability: 2
+PASS	PrasekolahLesson-768x1024-0 separate nodes: 2/0
+PASS	PrasekolahLesson-768x1024-0 separate nodes: 2/1
+PASS	PrasekolahLesson-768x1024-1 text fits: Brand
+PASS	PrasekolahLesson-768x1024-1 text fits: Title
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 text fits: PathNumber
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 text fits: Instruction
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 text fits: Label
+PASS	PrasekolahLesson-768x1024-1 node in trail: 0
+PASS	PrasekolahLesson-768x1024-1 source availability: 0
+PASS	PrasekolahLesson-768x1024-1 node in trail: 1
+PASS	PrasekolahLesson-768x1024-1 source availability: 1
+PASS	PrasekolahLesson-768x1024-1 separate nodes: 1/0
+PASS	PrasekolahLesson-768x1024-1 node in trail: 2
+PASS	PrasekolahLesson-768x1024-1 source availability: 2
+PASS	PrasekolahLesson-768x1024-1 separate nodes: 2/0
+PASS	PrasekolahLesson-768x1024-1 separate nodes: 2/1
+PASS	PrasekolahLesson-1024x768-0 text fits: Brand
+PASS	PrasekolahLesson-1024x768-0 text fits: Title
+PASS	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 text fits: PathNumber
+FAIL	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 text fits: PathNumber
+PASS	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 text fits: PathNumber
+PASS	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 text fits: Instruction
+PASS	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 text fits: Label
+PASS	PrasekolahLesson-1024x768-0 node in trail: 0
+PASS	PrasekolahLesson-1024x768-0 source availability: 0
+PASS	PrasekolahLesson-1024x768-0 node in trail: 1
+PASS	PrasekolahLesson-1024x768-0 source availability: 1
+PASS	PrasekolahLesson-1024x768-0 separate nodes: 1/0
+PASS	PrasekolahLesson-1024x768-0 node in trail: 2
+PASS	PrasekolahLesson-1024x768-0 source availability: 2
+PASS	PrasekolahLesson-1024x768-0 separate nodes: 2/0
+PASS	PrasekolahLesson-1024x768-0 separate nodes: 2/1
+PASS	PrasekolahLesson-1024x768-1 text fits: Brand
+PASS	PrasekolahLesson-1024x768-1 text fits: Title
+PASS	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 text fits: PathNumber
+FAIL	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 text fits: PathNumber
+PASS	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 text fits: PathNumber
+PASS	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 text fits: Instruction
+PASS	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 text fits: Label
+PASS	PrasekolahLesson-1024x768-1 node in trail: 0
+PASS	PrasekolahLesson-1024x768-1 source availability: 0
+PASS	PrasekolahLesson-1024x768-1 node in trail: 1
+PASS	PrasekolahLesson-1024x768-1 source availability: 1
+PASS	PrasekolahLesson-1024x768-1 separate nodes: 1/0
+PASS	PrasekolahLesson-1024x768-1 node in trail: 2
+PASS	PrasekolahLesson-1024x768-1 source availability: 2
+PASS	PrasekolahLesson-1024x768-1 separate nodes: 2/0
+PASS	PrasekolahLesson-1024x768-1 separate nodes: 2/1
+PASS	Tahap1Lesson-540x960-0 text fits: Brand
+PASS	Tahap1Lesson-540x960-0 text fits: Title
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: Instruction
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 text fits: Label
+PASS	Tahap1Lesson-540x960-0 node in trail: 0
+PASS	Tahap1Lesson-540x960-0 source availability: 0
+PASS	Tahap1Lesson-540x960-0 node in trail: 1
+PASS	Tahap1Lesson-540x960-0 source availability: 1
+PASS	Tahap1Lesson-540x960-0 separate nodes: 1/0
+PASS	Tahap1Lesson-540x960-0 node in trail: 2
+PASS	Tahap1Lesson-540x960-0 source availability: 2
+PASS	Tahap1Lesson-540x960-0 separate nodes: 2/0
+PASS	Tahap1Lesson-540x960-0 separate nodes: 2/1
+PASS	Tahap1Lesson-540x960-0 node in trail: 3
+PASS	Tahap1Lesson-540x960-0 source availability: 3
+PASS	Tahap1Lesson-540x960-0 separate nodes: 3/0
+PASS	Tahap1Lesson-540x960-0 separate nodes: 3/1
+PASS	Tahap1Lesson-540x960-0 separate nodes: 3/2
+PASS	Tahap1Lesson-540x960-1 text fits: Brand
+PASS	Tahap1Lesson-540x960-1 text fits: Title
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: Instruction
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 text fits: Label
+PASS	Tahap1Lesson-540x960-1 node in trail: 0
+PASS	Tahap1Lesson-540x960-1 source availability: 0
+PASS	Tahap1Lesson-540x960-1 node in trail: 1
+PASS	Tahap1Lesson-540x960-1 source availability: 1
+PASS	Tahap1Lesson-540x960-1 separate nodes: 1/0
+PASS	Tahap1Lesson-540x960-1 node in trail: 2
+PASS	Tahap1Lesson-540x960-1 source availability: 2
+PASS	Tahap1Lesson-540x960-1 separate nodes: 2/0
+PASS	Tahap1Lesson-540x960-1 separate nodes: 2/1
+PASS	Tahap1Lesson-540x960-1 node in trail: 3
+PASS	Tahap1Lesson-540x960-1 source availability: 3
+PASS	Tahap1Lesson-540x960-1 separate nodes: 3/0
+PASS	Tahap1Lesson-540x960-1 separate nodes: 3/1
+PASS	Tahap1Lesson-540x960-1 separate nodes: 3/2
+PASS	Tahap1Lesson-960x540-0 text fits: Brand
+PASS	Tahap1Lesson-960x540-0 text fits: Title
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: Instruction
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 text fits: Label
+PASS	Tahap1Lesson-960x540-0 node in trail: 0
+PASS	Tahap1Lesson-960x540-0 source availability: 0
+PASS	Tahap1Lesson-960x540-0 node in trail: 1
+PASS	Tahap1Lesson-960x540-0 source availability: 1
+PASS	Tahap1Lesson-960x540-0 separate nodes: 1/0
+PASS	Tahap1Lesson-960x540-0 node in trail: 2
+PASS	Tahap1Lesson-960x540-0 source availability: 2
+PASS	Tahap1Lesson-960x540-0 separate nodes: 2/0
+PASS	Tahap1Lesson-960x540-0 separate nodes: 2/1
+PASS	Tahap1Lesson-960x540-0 node in trail: 3
+PASS	Tahap1Lesson-960x540-0 source availability: 3
+PASS	Tahap1Lesson-960x540-0 separate nodes: 3/0
+PASS	Tahap1Lesson-960x540-0 separate nodes: 3/1
+PASS	Tahap1Lesson-960x540-0 separate nodes: 3/2
+PASS	Tahap1Lesson-960x540-1 text fits: Brand
+PASS	Tahap1Lesson-960x540-1 text fits: Title
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: Instruction
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 text fits: Label
+PASS	Tahap1Lesson-960x540-1 node in trail: 0
+PASS	Tahap1Lesson-960x540-1 source availability: 0
+PASS	Tahap1Lesson-960x540-1 node in trail: 1
+PASS	Tahap1Lesson-960x540-1 source availability: 1
+PASS	Tahap1Lesson-960x540-1 separate nodes: 1/0
+PASS	Tahap1Lesson-960x540-1 node in trail: 2
+PASS	Tahap1Lesson-960x540-1 source availability: 2
+PASS	Tahap1Lesson-960x540-1 separate nodes: 2/0
+PASS	Tahap1Lesson-960x540-1 separate nodes: 2/1
+PASS	Tahap1Lesson-960x540-1 node in trail: 3
+PASS	Tahap1Lesson-960x540-1 source availability: 3
+PASS	Tahap1Lesson-960x540-1 separate nodes: 3/0
+PASS	Tahap1Lesson-960x540-1 separate nodes: 3/1
+PASS	Tahap1Lesson-960x540-1 separate nodes: 3/2
+PASS	Tahap1Lesson-360x800-0 text fits: Brand
+PASS	Tahap1Lesson-360x800-0 text fits: Title
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: Instruction
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 text fits: Label
+PASS	Tahap1Lesson-360x800-0 node in trail: 0
+PASS	Tahap1Lesson-360x800-0 source availability: 0
+PASS	Tahap1Lesson-360x800-0 node in trail: 1
+PASS	Tahap1Lesson-360x800-0 source availability: 1
+PASS	Tahap1Lesson-360x800-0 separate nodes: 1/0
+PASS	Tahap1Lesson-360x800-0 node in trail: 2
+PASS	Tahap1Lesson-360x800-0 source availability: 2
+PASS	Tahap1Lesson-360x800-0 separate nodes: 2/0
+PASS	Tahap1Lesson-360x800-0 separate nodes: 2/1
+PASS	Tahap1Lesson-360x800-0 node in trail: 3
+PASS	Tahap1Lesson-360x800-0 source availability: 3
+PASS	Tahap1Lesson-360x800-0 separate nodes: 3/0
+PASS	Tahap1Lesson-360x800-0 separate nodes: 3/1
+PASS	Tahap1Lesson-360x800-0 separate nodes: 3/2
+PASS	Tahap1Lesson-360x800-1 text fits: Brand
+PASS	Tahap1Lesson-360x800-1 text fits: Title
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: Instruction
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 text fits: Label
+PASS	Tahap1Lesson-360x800-1 node in trail: 0
+PASS	Tahap1Lesson-360x800-1 source availability: 0
+PASS	Tahap1Lesson-360x800-1 node in trail: 1
+PASS	Tahap1Lesson-360x800-1 source availability: 1
+PASS	Tahap1Lesson-360x800-1 separate nodes: 1/0
+PASS	Tahap1Lesson-360x800-1 node in trail: 2
+PASS	Tahap1Lesson-360x800-1 source availability: 2
+PASS	Tahap1Lesson-360x800-1 separate nodes: 2/0
+PASS	Tahap1Lesson-360x800-1 separate nodes: 2/1
+PASS	Tahap1Lesson-360x800-1 node in trail: 3
+PASS	Tahap1Lesson-360x800-1 source availability: 3
+PASS	Tahap1Lesson-360x800-1 separate nodes: 3/0
+PASS	Tahap1Lesson-360x800-1 separate nodes: 3/1
+PASS	Tahap1Lesson-360x800-1 separate nodes: 3/2
+PASS	Tahap1Lesson-800x360-0 text fits: Brand
+PASS	Tahap1Lesson-800x360-0 text fits: Title
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: Instruction
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 text fits: Label
+PASS	Tahap1Lesson-800x360-0 node in trail: 0
+PASS	Tahap1Lesson-800x360-0 source availability: 0
+PASS	Tahap1Lesson-800x360-0 node in trail: 1
+PASS	Tahap1Lesson-800x360-0 source availability: 1
+PASS	Tahap1Lesson-800x360-0 separate nodes: 1/0
+PASS	Tahap1Lesson-800x360-0 node in trail: 2
+PASS	Tahap1Lesson-800x360-0 source availability: 2
+PASS	Tahap1Lesson-800x360-0 separate nodes: 2/0
+PASS	Tahap1Lesson-800x360-0 separate nodes: 2/1
+PASS	Tahap1Lesson-800x360-0 node in trail: 3
+PASS	Tahap1Lesson-800x360-0 source availability: 3
+PASS	Tahap1Lesson-800x360-0 separate nodes: 3/0
+PASS	Tahap1Lesson-800x360-0 separate nodes: 3/1
+PASS	Tahap1Lesson-800x360-0 separate nodes: 3/2
+PASS	Tahap1Lesson-800x360-1 text fits: Brand
+PASS	Tahap1Lesson-800x360-1 text fits: Title
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: Instruction
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 text fits: Label
+PASS	Tahap1Lesson-800x360-1 node in trail: 0
+PASS	Tahap1Lesson-800x360-1 source availability: 0
+PASS	Tahap1Lesson-800x360-1 node in trail: 1
+PASS	Tahap1Lesson-800x360-1 source availability: 1
+PASS	Tahap1Lesson-800x360-1 separate nodes: 1/0
+PASS	Tahap1Lesson-800x360-1 node in trail: 2
+PASS	Tahap1Lesson-800x360-1 source availability: 2
+PASS	Tahap1Lesson-800x360-1 separate nodes: 2/0
+PASS	Tahap1Lesson-800x360-1 separate nodes: 2/1
+PASS	Tahap1Lesson-800x360-1 node in trail: 3
+PASS	Tahap1Lesson-800x360-1 source availability: 3
+PASS	Tahap1Lesson-800x360-1 separate nodes: 3/0
+PASS	Tahap1Lesson-800x360-1 separate nodes: 3/1
+PASS	Tahap1Lesson-800x360-1 separate nodes: 3/2
+PASS	Tahap1Lesson-768x1024-0 text fits: Brand
+PASS	Tahap1Lesson-768x1024-0 text fits: Title
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: Instruction
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 text fits: Label
+PASS	Tahap1Lesson-768x1024-0 node in trail: 0
+PASS	Tahap1Lesson-768x1024-0 source availability: 0
+PASS	Tahap1Lesson-768x1024-0 node in trail: 1
+PASS	Tahap1Lesson-768x1024-0 source availability: 1
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 1/0
+PASS	Tahap1Lesson-768x1024-0 node in trail: 2
+PASS	Tahap1Lesson-768x1024-0 source availability: 2
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 2/0
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 2/1
+PASS	Tahap1Lesson-768x1024-0 node in trail: 3
+PASS	Tahap1Lesson-768x1024-0 source availability: 3
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 3/0
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 3/1
+PASS	Tahap1Lesson-768x1024-0 separate nodes: 3/2
+PASS	Tahap1Lesson-768x1024-1 text fits: Brand
+PASS	Tahap1Lesson-768x1024-1 text fits: Title
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: Instruction
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 text fits: Label
+PASS	Tahap1Lesson-768x1024-1 node in trail: 0
+PASS	Tahap1Lesson-768x1024-1 source availability: 0
+PASS	Tahap1Lesson-768x1024-1 node in trail: 1
+PASS	Tahap1Lesson-768x1024-1 source availability: 1
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 1/0
+PASS	Tahap1Lesson-768x1024-1 node in trail: 2
+PASS	Tahap1Lesson-768x1024-1 source availability: 2
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 2/0
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 2/1
+PASS	Tahap1Lesson-768x1024-1 node in trail: 3
+PASS	Tahap1Lesson-768x1024-1 source availability: 3
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 3/0
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 3/1
+PASS	Tahap1Lesson-768x1024-1 separate nodes: 3/2
+PASS	Tahap1Lesson-1024x768-0 text fits: Brand
+PASS	Tahap1Lesson-1024x768-0 text fits: Title
+PASS	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: PathNumber
+FAIL	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: PathNumber
+PASS	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: PathNumber
+FAIL	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: PathNumber
+PASS	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: Instruction
+PASS	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 text fits: Label
+PASS	Tahap1Lesson-1024x768-0 node in trail: 0
+PASS	Tahap1Lesson-1024x768-0 source availability: 0
+PASS	Tahap1Lesson-1024x768-0 node in trail: 1
+PASS	Tahap1Lesson-1024x768-0 source availability: 1
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 1/0
+PASS	Tahap1Lesson-1024x768-0 node in trail: 2
+PASS	Tahap1Lesson-1024x768-0 source availability: 2
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 2/0
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 2/1
+PASS	Tahap1Lesson-1024x768-0 node in trail: 3
+PASS	Tahap1Lesson-1024x768-0 source availability: 3
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 3/0
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 3/1
+PASS	Tahap1Lesson-1024x768-0 separate nodes: 3/2
+PASS	Tahap1Lesson-1024x768-1 text fits: Brand
+PASS	Tahap1Lesson-1024x768-1 text fits: Title
+FAIL	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: PathNumber
+FAIL	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: PathNumber
+PASS	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: PathNumber
+FAIL	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: PathNumber
+PASS	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: Instruction
+PASS	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 text fits: Label
+PASS	Tahap1Lesson-1024x768-1 node in trail: 0
+PASS	Tahap1Lesson-1024x768-1 source availability: 0
+PASS	Tahap1Lesson-1024x768-1 node in trail: 1
+PASS	Tahap1Lesson-1024x768-1 source availability: 1
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 1/0
+PASS	Tahap1Lesson-1024x768-1 node in trail: 2
+PASS	Tahap1Lesson-1024x768-1 source availability: 2
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 2/0
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 2/1
+PASS	Tahap1Lesson-1024x768-1 node in trail: 3
+PASS	Tahap1Lesson-1024x768-1 source availability: 3
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 3/0
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 3/1
+PASS	Tahap1Lesson-1024x768-1 separate nodes: 3/2
+PASS	Tahap2Lesson-540x960-0 text fits: Brand
+PASS	Tahap2Lesson-540x960-0 text fits: Title
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 text fits: Instruction
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 text fits: Label
+PASS	Tahap2Lesson-540x960-0 node in trail: 0
+PASS	Tahap2Lesson-540x960-0 source availability: 0
+PASS	Tahap2Lesson-540x960-0 node in trail: 1
+PASS	Tahap2Lesson-540x960-0 source availability: 1
+PASS	Tahap2Lesson-540x960-0 separate nodes: 1/0
+PASS	Tahap2Lesson-540x960-0 node in trail: 2
+PASS	Tahap2Lesson-540x960-0 source availability: 2
+PASS	Tahap2Lesson-540x960-0 separate nodes: 2/0
+PASS	Tahap2Lesson-540x960-0 separate nodes: 2/1
+PASS	Tahap2Lesson-540x960-1 text fits: Brand
+PASS	Tahap2Lesson-540x960-1 text fits: Title
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 text fits: PathNumber
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 text fits: Instruction
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 text fits: Label
+PASS	Tahap2Lesson-540x960-1 node in trail: 0
+PASS	Tahap2Lesson-540x960-1 source availability: 0
+PASS	Tahap2Lesson-540x960-1 node in trail: 1
+PASS	Tahap2Lesson-540x960-1 source availability: 1
+PASS	Tahap2Lesson-540x960-1 separate nodes: 1/0
+PASS	Tahap2Lesson-540x960-1 node in trail: 2
+PASS	Tahap2Lesson-540x960-1 source availability: 2
+PASS	Tahap2Lesson-540x960-1 separate nodes: 2/0
+PASS	Tahap2Lesson-540x960-1 separate nodes: 2/1
+PASS	Tahap2Lesson-960x540-0 text fits: Brand
+PASS	Tahap2Lesson-960x540-0 text fits: Title
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 text fits: Instruction
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 text fits: Label
+PASS	Tahap2Lesson-960x540-0 node in trail: 0
+PASS	Tahap2Lesson-960x540-0 source availability: 0
+PASS	Tahap2Lesson-960x540-0 node in trail: 1
+PASS	Tahap2Lesson-960x540-0 source availability: 1
+PASS	Tahap2Lesson-960x540-0 separate nodes: 1/0
+PASS	Tahap2Lesson-960x540-0 node in trail: 2
+PASS	Tahap2Lesson-960x540-0 source availability: 2
+PASS	Tahap2Lesson-960x540-0 separate nodes: 2/0
+PASS	Tahap2Lesson-960x540-0 separate nodes: 2/1
+PASS	Tahap2Lesson-960x540-1 text fits: Brand
+PASS	Tahap2Lesson-960x540-1 text fits: Title
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 text fits: PathNumber
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 text fits: Instruction
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 text fits: Label
+PASS	Tahap2Lesson-960x540-1 node in trail: 0
+PASS	Tahap2Lesson-960x540-1 source availability: 0
+PASS	Tahap2Lesson-960x540-1 node in trail: 1
+PASS	Tahap2Lesson-960x540-1 source availability: 1
+PASS	Tahap2Lesson-960x540-1 separate nodes: 1/0
+PASS	Tahap2Lesson-960x540-1 node in trail: 2
+PASS	Tahap2Lesson-960x540-1 source availability: 2
+PASS	Tahap2Lesson-960x540-1 separate nodes: 2/0
+PASS	Tahap2Lesson-960x540-1 separate nodes: 2/1
+PASS	Tahap2Lesson-360x800-0 text fits: Brand
+PASS	Tahap2Lesson-360x800-0 text fits: Title
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 text fits: Instruction
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 text fits: Label
+PASS	Tahap2Lesson-360x800-0 node in trail: 0
+PASS	Tahap2Lesson-360x800-0 source availability: 0
+PASS	Tahap2Lesson-360x800-0 node in trail: 1
+PASS	Tahap2Lesson-360x800-0 source availability: 1
+PASS	Tahap2Lesson-360x800-0 separate nodes: 1/0
+PASS	Tahap2Lesson-360x800-0 node in trail: 2
+PASS	Tahap2Lesson-360x800-0 source availability: 2
+PASS	Tahap2Lesson-360x800-0 separate nodes: 2/0
+PASS	Tahap2Lesson-360x800-0 separate nodes: 2/1
+PASS	Tahap2Lesson-360x800-1 text fits: Brand
+PASS	Tahap2Lesson-360x800-1 text fits: Title
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 text fits: PathNumber
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 text fits: Instruction
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 text fits: Label
+PASS	Tahap2Lesson-360x800-1 node in trail: 0
+PASS	Tahap2Lesson-360x800-1 source availability: 0
+PASS	Tahap2Lesson-360x800-1 node in trail: 1
+PASS	Tahap2Lesson-360x800-1 source availability: 1
+PASS	Tahap2Lesson-360x800-1 separate nodes: 1/0
+PASS	Tahap2Lesson-360x800-1 node in trail: 2
+PASS	Tahap2Lesson-360x800-1 source availability: 2
+PASS	Tahap2Lesson-360x800-1 separate nodes: 2/0
+PASS	Tahap2Lesson-360x800-1 separate nodes: 2/1
+PASS	Tahap2Lesson-800x360-0 text fits: Brand
+PASS	Tahap2Lesson-800x360-0 text fits: Title
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 text fits: Instruction
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 text fits: Label
+PASS	Tahap2Lesson-800x360-0 node in trail: 0
+PASS	Tahap2Lesson-800x360-0 source availability: 0
+PASS	Tahap2Lesson-800x360-0 node in trail: 1
+PASS	Tahap2Lesson-800x360-0 source availability: 1
+PASS	Tahap2Lesson-800x360-0 separate nodes: 1/0
+PASS	Tahap2Lesson-800x360-0 node in trail: 2
+PASS	Tahap2Lesson-800x360-0 source availability: 2
+PASS	Tahap2Lesson-800x360-0 separate nodes: 2/0
+PASS	Tahap2Lesson-800x360-0 separate nodes: 2/1
+PASS	Tahap2Lesson-800x360-1 text fits: Brand
+PASS	Tahap2Lesson-800x360-1 text fits: Title
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 text fits: PathNumber
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 text fits: Instruction
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 text fits: Label
+PASS	Tahap2Lesson-800x360-1 node in trail: 0
+PASS	Tahap2Lesson-800x360-1 source availability: 0
+PASS	Tahap2Lesson-800x360-1 node in trail: 1
+PASS	Tahap2Lesson-800x360-1 source availability: 1
+PASS	Tahap2Lesson-800x360-1 separate nodes: 1/0
+PASS	Tahap2Lesson-800x360-1 node in trail: 2
+PASS	Tahap2Lesson-800x360-1 source availability: 2
+PASS	Tahap2Lesson-800x360-1 separate nodes: 2/0
+PASS	Tahap2Lesson-800x360-1 separate nodes: 2/1
+PASS	Tahap2Lesson-768x1024-0 text fits: Brand
+PASS	Tahap2Lesson-768x1024-0 text fits: Title
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 text fits: Instruction
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 text fits: Label
+PASS	Tahap2Lesson-768x1024-0 node in trail: 0
+PASS	Tahap2Lesson-768x1024-0 source availability: 0
+PASS	Tahap2Lesson-768x1024-0 node in trail: 1
+PASS	Tahap2Lesson-768x1024-0 source availability: 1
+PASS	Tahap2Lesson-768x1024-0 separate nodes: 1/0
+PASS	Tahap2Lesson-768x1024-0 node in trail: 2
+PASS	Tahap2Lesson-768x1024-0 source availability: 2
+PASS	Tahap2Lesson-768x1024-0 separate nodes: 2/0
+PASS	Tahap2Lesson-768x1024-0 separate nodes: 2/1
+PASS	Tahap2Lesson-768x1024-1 text fits: Brand
+PASS	Tahap2Lesson-768x1024-1 text fits: Title
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 text fits: PathNumber
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 text fits: Instruction
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 text fits: Label
+PASS	Tahap2Lesson-768x1024-1 node in trail: 0
+PASS	Tahap2Lesson-768x1024-1 source availability: 0
+PASS	Tahap2Lesson-768x1024-1 node in trail: 1
+PASS	Tahap2Lesson-768x1024-1 source availability: 1
+PASS	Tahap2Lesson-768x1024-1 separate nodes: 1/0
+PASS	Tahap2Lesson-768x1024-1 node in trail: 2
+PASS	Tahap2Lesson-768x1024-1 source availability: 2
+PASS	Tahap2Lesson-768x1024-1 separate nodes: 2/0
+PASS	Tahap2Lesson-768x1024-1 separate nodes: 2/1
+PASS	Tahap2Lesson-1024x768-0 text fits: Brand
+PASS	Tahap2Lesson-1024x768-0 text fits: Title
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 text fits: Instruction
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 text fits: Label
+PASS	Tahap2Lesson-1024x768-0 node in trail: 0
+PASS	Tahap2Lesson-1024x768-0 source availability: 0
+PASS	Tahap2Lesson-1024x768-0 node in trail: 1
+PASS	Tahap2Lesson-1024x768-0 source availability: 1
+PASS	Tahap2Lesson-1024x768-0 separate nodes: 1/0
+PASS	Tahap2Lesson-1024x768-0 node in trail: 2
+PASS	Tahap2Lesson-1024x768-0 source availability: 2
+PASS	Tahap2Lesson-1024x768-0 separate nodes: 2/0
+PASS	Tahap2Lesson-1024x768-0 separate nodes: 2/1
+PASS	Tahap2Lesson-1024x768-1 text fits: Brand
+PASS	Tahap2Lesson-1024x768-1 text fits: Title
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 text fits: PathNumber
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 text fits: Instruction
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 text fits: Label
+PASS	Tahap2Lesson-1024x768-1 node in trail: 0
+PASS	Tahap2Lesson-1024x768-1 source availability: 0
+PASS	Tahap2Lesson-1024x768-1 node in trail: 1
+PASS	Tahap2Lesson-1024x768-1 source availability: 1
+PASS	Tahap2Lesson-1024x768-1 separate nodes: 1/0
+PASS	Tahap2Lesson-1024x768-1 node in trail: 2
+PASS	Tahap2Lesson-1024x768-1 source availability: 2
+PASS	Tahap2Lesson-1024x768-1 separate nodes: 2/0
+PASS	Tahap2Lesson-1024x768-1 separate nodes: 2/1
+PASS	BadgesPage-540x960-0 text fits: Heading
+PASS	BadgesPage-540x960-0 text fits: Label
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 text fits: Name
+PASS	BadgesPage-540x960-0 text fits: Progress
+PASS	BadgesPage-540x960-0 details own modal input
+PASS	BadgesPage-540x960-0 detail text fits: Title
+PASS	BadgesPage-540x960-0 detail text fits: Requirement
+PASS	BadgesPage-540x960-0 detail text fits: Label
+PASS	BadgesPage-540x960-0 Back restores focus
+PASS	BadgesPage-540x960-1 text fits: Heading
+PASS	BadgesPage-540x960-1 text fits: Label
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 text fits: Name
+PASS	BadgesPage-540x960-1 text fits: Progress
+PASS	BadgesPage-540x960-1 details own modal input
+PASS	BadgesPage-540x960-1 detail text fits: Title
+PASS	BadgesPage-540x960-1 detail text fits: Requirement
+PASS	BadgesPage-540x960-1 detail text fits: Label
+PASS	BadgesPage-540x960-1 Back restores focus
+PASS	BadgesPage-960x540-0 text fits: Heading
+PASS	BadgesPage-960x540-0 text fits: Label
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 text fits: Name
+PASS	BadgesPage-960x540-0 text fits: Progress
+PASS	BadgesPage-960x540-0 details own modal input
+PASS	BadgesPage-960x540-0 detail text fits: Title
+PASS	BadgesPage-960x540-0 detail text fits: Requirement
+PASS	BadgesPage-960x540-0 detail text fits: Label
+PASS	BadgesPage-960x540-0 Back restores focus
+PASS	BadgesPage-960x540-1 text fits: Heading
+PASS	BadgesPage-960x540-1 text fits: Label
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 text fits: Name
+PASS	BadgesPage-960x540-1 text fits: Progress
+PASS	BadgesPage-960x540-1 details own modal input
+PASS	BadgesPage-960x540-1 detail text fits: Title
+PASS	BadgesPage-960x540-1 detail text fits: Requirement
+PASS	BadgesPage-960x540-1 detail text fits: Label
+PASS	BadgesPage-960x540-1 Back restores focus
+PASS	BadgesPage-360x800-0 text fits: Heading
+PASS	BadgesPage-360x800-0 text fits: Label
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 text fits: Name
+PASS	BadgesPage-360x800-0 text fits: Progress
+PASS	BadgesPage-360x800-0 details own modal input
+PASS	BadgesPage-360x800-0 detail text fits: Title
+PASS	BadgesPage-360x800-0 detail text fits: Requirement
+PASS	BadgesPage-360x800-0 detail text fits: Label
+PASS	BadgesPage-360x800-0 Back restores focus
+PASS	BadgesPage-360x800-1 text fits: Heading
+PASS	BadgesPage-360x800-1 text fits: Label
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 text fits: Name
+PASS	BadgesPage-360x800-1 text fits: Progress
+PASS	BadgesPage-360x800-1 details own modal input
+PASS	BadgesPage-360x800-1 detail text fits: Title
+PASS	BadgesPage-360x800-1 detail text fits: Requirement
+PASS	BadgesPage-360x800-1 detail text fits: Label
+PASS	BadgesPage-360x800-1 Back restores focus
+PASS	BadgesPage-800x360-0 text fits: Heading
+PASS	BadgesPage-800x360-0 text fits: Label
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 text fits: Name
+PASS	BadgesPage-800x360-0 text fits: Progress
+PASS	BadgesPage-800x360-0 details own modal input
+PASS	BadgesPage-800x360-0 detail text fits: Title
+PASS	BadgesPage-800x360-0 detail text fits: Requirement
+PASS	BadgesPage-800x360-0 detail text fits: Label
+PASS	BadgesPage-800x360-0 Back restores focus
+PASS	BadgesPage-800x360-1 text fits: Heading
+PASS	BadgesPage-800x360-1 text fits: Label
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 text fits: Name
+PASS	BadgesPage-800x360-1 text fits: Progress
+PASS	BadgesPage-800x360-1 details own modal input
+PASS	BadgesPage-800x360-1 detail text fits: Title
+PASS	BadgesPage-800x360-1 detail text fits: Requirement
+PASS	BadgesPage-800x360-1 detail text fits: Label
+PASS	BadgesPage-800x360-1 Back restores focus
+PASS	BadgesPage-768x1024-0 text fits: Heading
+PASS	BadgesPage-768x1024-0 text fits: Label
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 text fits: Name
+PASS	BadgesPage-768x1024-0 text fits: Progress
+PASS	BadgesPage-768x1024-0 details own modal input
+PASS	BadgesPage-768x1024-0 detail text fits: Title
+PASS	BadgesPage-768x1024-0 detail text fits: Requirement
+PASS	BadgesPage-768x1024-0 detail text fits: Label
+PASS	BadgesPage-768x1024-0 Back restores focus
+PASS	BadgesPage-768x1024-1 text fits: Heading
+PASS	BadgesPage-768x1024-1 text fits: Label
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 text fits: Name
+PASS	BadgesPage-768x1024-1 text fits: Progress
+PASS	BadgesPage-768x1024-1 details own modal input
+PASS	BadgesPage-768x1024-1 detail text fits: Title
+PASS	BadgesPage-768x1024-1 detail text fits: Requirement
+PASS	BadgesPage-768x1024-1 detail text fits: Label
+PASS	BadgesPage-768x1024-1 Back restores focus
+PASS	BadgesPage-1024x768-0 text fits: Heading
+PASS	BadgesPage-1024x768-0 text fits: Label
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 text fits: Name
+PASS	BadgesPage-1024x768-0 text fits: Progress
+PASS	BadgesPage-1024x768-0 details own modal input
+PASS	BadgesPage-1024x768-0 detail text fits: Title
+PASS	BadgesPage-1024x768-0 detail text fits: Requirement
+PASS	BadgesPage-1024x768-0 detail text fits: Label
+PASS	BadgesPage-1024x768-0 Back restores focus
+PASS	BadgesPage-1024x768-1 text fits: Heading
+PASS	BadgesPage-1024x768-1 text fits: Label
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 text fits: Name
+PASS	BadgesPage-1024x768-1 text fits: Progress
+PASS	BadgesPage-1024x768-1 details own modal input
+PASS	BadgesPage-1024x768-1 detail text fits: Title
+PASS	BadgesPage-1024x768-1 detail text fits: Requirement
+PASS	BadgesPage-1024x768-1 detail text fits: Label
+PASS	BadgesPage-1024x768-1 Back restores focus
+PASS	Completed badge uses earned caption and tint
+PASS	Unfinished badge shows exact progress and muted artwork
+PASS	CreditPage-540x960-0 text fits: Heading
+PASS	CreditPage-540x960-0 text fits: Label
+PASS	CreditPage-540x960-0 text fits: ScrollHint
+PASS	CreditPage-540x960-1 text fits: Heading
+PASS	CreditPage-540x960-1 text fits: Label
+PASS	CreditPage-540x960-1 text fits: ScrollHint
+PASS	CreditPage-960x540-0 text fits: Heading
+PASS	CreditPage-960x540-0 text fits: Label
+PASS	CreditPage-960x540-0 text fits: ScrollHint
+PASS	CreditPage-960x540-1 text fits: Heading
+PASS	CreditPage-960x540-1 text fits: Label
+PASS	CreditPage-960x540-1 text fits: ScrollHint
+PASS	CreditPage-360x800-0 text fits: Heading
+PASS	CreditPage-360x800-0 text fits: Label
+PASS	CreditPage-360x800-0 text fits: ScrollHint
+PASS	CreditPage-360x800-1 text fits: Heading
+PASS	CreditPage-360x800-1 text fits: Label
+PASS	CreditPage-360x800-1 text fits: ScrollHint
+PASS	CreditPage-800x360-0 text fits: Heading
+PASS	CreditPage-800x360-0 text fits: Label
+PASS	CreditPage-800x360-0 text fits: ScrollHint
+PASS	CreditPage-800x360-1 text fits: Heading
+PASS	CreditPage-800x360-1 text fits: Label
+PASS	CreditPage-800x360-1 text fits: ScrollHint
+PASS	CreditPage-768x1024-0 text fits: Heading
+PASS	CreditPage-768x1024-0 text fits: Label
+PASS	CreditPage-768x1024-0 text fits: ScrollHint
+PASS	CreditPage-768x1024-1 text fits: Heading
+PASS	CreditPage-768x1024-1 text fits: Label
+PASS	CreditPage-768x1024-1 text fits: ScrollHint
+PASS	CreditPage-1024x768-0 text fits: Heading
+PASS	CreditPage-1024x768-0 text fits: Label
+PASS	CreditPage-1024x768-0 text fits: ScrollHint
+PASS	CreditPage-1024x768-1 text fits: Heading
+PASS	CreditPage-1024x768-1 text fits: Label
+PASS	CreditPage-1024x768-1 text fits: ScrollHint
+PASS	PenghargaanPage-540x960-0 text fits: Heading
+PASS	PenghargaanPage-540x960-0 text fits: Label
+PASS	PenghargaanPage-540x960-0 text fits: ScrollHint
+PASS	PenghargaanPage-540x960-1 text fits: Heading
+PASS	PenghargaanPage-540x960-1 text fits: Label
+PASS	PenghargaanPage-540x960-1 text fits: ScrollHint
+PASS	PenghargaanPage-960x540-0 text fits: Heading
+PASS	PenghargaanPage-960x540-0 text fits: Label
+PASS	PenghargaanPage-960x540-0 text fits: ScrollHint
+PASS	PenghargaanPage-960x540-1 text fits: Heading
+PASS	PenghargaanPage-960x540-1 text fits: Label
+PASS	PenghargaanPage-960x540-1 text fits: ScrollHint
+PASS	PenghargaanPage-360x800-0 text fits: Heading
+PASS	PenghargaanPage-360x800-0 text fits: Label
+PASS	PenghargaanPage-360x800-0 text fits: ScrollHint
+PASS	PenghargaanPage-360x800-1 text fits: Heading
+PASS	PenghargaanPage-360x800-1 text fits: Label
+PASS	PenghargaanPage-360x800-1 text fits: ScrollHint
+PASS	PenghargaanPage-800x360-0 text fits: Heading
+PASS	PenghargaanPage-800x360-0 text fits: Label
+PASS	PenghargaanPage-800x360-0 text fits: ScrollHint
+PASS	PenghargaanPage-800x360-1 text fits: Heading
+PASS	PenghargaanPage-800x360-1 text fits: Label
+PASS	PenghargaanPage-800x360-1 text fits: ScrollHint
+PASS	PenghargaanPage-768x1024-0 text fits: Heading
+PASS	PenghargaanPage-768x1024-0 text fits: Label
+PASS	PenghargaanPage-768x1024-0 text fits: ScrollHint
+PASS	PenghargaanPage-768x1024-1 text fits: Heading
+PASS	PenghargaanPage-768x1024-1 text fits: Label
+PASS	PenghargaanPage-768x1024-1 text fits: ScrollHint
+PASS	PenghargaanPage-1024x768-0 text fits: Heading
+PASS	PenghargaanPage-1024x768-0 text fits: Label
+PASS	PenghargaanPage-1024x768-0 text fits: ScrollHint
+PASS	PenghargaanPage-1024x768-1 text fits: Heading
+PASS	PenghargaanPage-1024x768-1 text fits: Label
+PASS	PenghargaanPage-1024x768-1 text fits: ScrollHint

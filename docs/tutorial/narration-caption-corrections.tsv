@@ -1,0 +1,50 @@
+scene	page	labelPath	before	after
+1.Kenali Minit	4	DiagramArea/LessonContent/Image/Image (2)/BM	Ini suku jam. Berapa mint?	Ini suku jam. Berapa minit?
+1.Kenali Minit	11	DiagramArea/LessonContent/Image/Image/BI	The minute hand moves from 12 to 6. That is ___ minutes.	The minute hand moves from 12 to 7. That is ___ minutes.
+2.SebutDanTulisWaktu 1	3	Questions/Image/BM	JAM MENUNJUKKAN PUKUL 12:20 PM	JAM MENUNJUKKAN PUKUL 10
+2.SebutDanTulisWaktu 1	3	Questions/Image/BI	THE CLOCK SHOWS 12.00 PM	THE CLOCK SHOWS 10 O'CLOCK
+2.SebutDanTulisWaktu 1	5	DiagramArea/LessonContent/Image/Image/Image/GameObject/BI	Wednesday	Thursday
+2.SebutDanTulisWaktu 1	5	DiagramArea/LessonContent/Image/Image/Image/Text (TMP) (6)	2:05	12:05
+2.SebutDanTulisWaktu 1	6	Questions/Image/Text (TMP)	LIM SALAH MENUKARAN DARIPADA ANGKA KEPADA PERKATAAN	LIM TERSILAP MENUKARKAN WAKTU KEPADA PERKATAAN
+2.SebutDanTulisWaktu 1	6	Questions/Image/Text (TMP) (1)	LIM MAKES THE WRONG NUMERAL TO WORDS CONVERTION WRONG	LIM HAS MADE A MISTAKE WRITING THE TIME IN WORDS
+2.SebutDanTulisWaktu 1	7	DiagramArea/LessonContent/Image/GameObject/Text (TMP) (1)	ARE THESE TWO HAVE THE SAME TIME?	DO THESE CLOCKS SHOW THE SAME TIME?
+2.SebutDanTulisWaktu 1	8	Questions/Image/Text (TMP) (1)	CHANGE TIME ABOVE TO WORDS AND NUMERAL	WRITE THE TIME IN WORDS AND NUMERALS
+2.SebutDanTulisWaktu 1	9	Questions/Image/Text (TMP) (1)	WRITE TIME IN WORDS AND NUMERAL	WRITE THE TIME IN WORDS AND NUMERALS
+2.SebutDanTulisWaktu 1	10	Questions/Image/Text (TMP) (1)	WRITE THE TIME ABOVE IN WORDS AND NUMERAL	WRITE THE TIME IN WORDS AND NUMERALS
+2.SebutDanTulisWaktu 1	11	Questions/Image/Text (TMP)	CONVERT THE NUMERAL TO WORDS	WRITE THE TIME IN WORDS
+2.SebutDanTulisWaktu 1	12	Questions/Image/Text (TMP) (1)	CHANGE TIME TO WORDS	WRITE THE TIME IN WORDS
+2.SebutDanTulisWaktu 1	13	Questions/Image/Text (TMP) (1)	CHANGE TIME TO WORDS	WRITE THE TIME IN WORDS
+2.SebutDanTulisWaktu 1	14	Questions/Image/Text (TMP) (1)	CHANGE TIME TO NUMERAL	WRITE THE TIME IN NUMERALS
+2.SebutDanTulisWaktu 1	14	DiagramArea/LessonContent/Image/Image/Text (TMP) (2)	TWELVE TWENTY O'CLOCK	ELEVEN TWENTY
+2.SebutDanTulisWaktu 1	15	Questions/Image/Text (TMP) (1)	CHANGE TIME TO NUMERAL	WRITE THE TIME IN NUMERALS
+2.SebutDanTulisWaktu 1	15	DiagramArea/LessonContent/Image/Image/Text (TMP) (2)	TWO FIFTEEN O'CLOCK	QUARTER PAST TWO
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject (5)/Text (TMP) (3)	1. 7:30 / Seven Thirty O'clock	1. 7:30 / Seven Thirty
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject (4)/Text (TMP) (4)	2. 5:20 / Five Twenty O'clock	2. 5:20 / Five Twenty
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject (3)/Text (TMP) (5)	3. 9:25 / Nine Twenty Five O'clock	3. 9:25 / Nine Twenty Five
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject (2)/Text (TMP) (6)	4. Eight Fifty Five O'clock	4. Eight Fifty Five
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject (1)/Text (TMP) (7)	5. Twelve Thirty O'Clock	5. Twelve Thirty
+2.SebutDanTulisWaktu 1	16	DiagramArea/LessonContent/Image/Image/GameObject/Text (TMP) (10)	6. Eleven O Five o'clock	6. Eleven O Five
+4. Pekaitan Waktu	2	DiagramArea/LessonContent/Image/Image/Image (1)/Image (2)/Text (TMP) (1)	Minutes hand moves 1 complete circle equals to 60 minutes	The minute hand makes one complete turn in 60 minutes
+4. Pekaitan Waktu	2	DiagramArea/LessonContent/Image/Image/Image (2)/Image (3)/Text (TMP)	Jarum jam\nbergerak dari\n3 hingga 4\nialah 1 jam.t	Jarum jam\nbergerak dari\n3 hingga 4\nialah 1 jam.
+4. Pekaitan Waktu	2	DiagramArea/LessonContent/Image/Image/Image (2)/Image (3)/Text (TMP) (1)	Hour hand\nmoves from 3\nto 4 is equal to\n1 hour	The hour hand\nmoves from 3\nto 4 in\n1 hour
+4. Pekaitan Waktu	3	Questions/Image/Text (TMP) (1)	HOUR HAND DOES 2 COMPLETE CIRCLE EVERY DAY. \n24 JAM = 1HARI	THE HOUR HAND MAKES 2 COMPLETE TURNS EVERY DAY.\n24 HOURS = 1 DAY
+4. Pekaitan Waktu	3	DiagramArea/LessonContent/Image/Image/Image (1)/Image (2)/Text (TMP)	12 Tengah Malam	12 Tengah Hari
+4. Pekaitan Waktu	3	DiagramArea/LessonContent/Image/Image/Image (1)/Image (2)/Text (TMP) (1)	12 Midnight	12 Noon
+4. Pekaitan Waktu	3	DiagramArea/LessonContent/Image/Image/Image (2)/Image (2)/Text (TMP) (1)	12 Noon	12 Midnight
+4. Pekaitan Waktu	3	DiagramArea/LessonContent/Image/Image/Image/Image (3)/Text (TMP) (1)	1 complete\ncircle\nfor hour hand\nis 12 hour.	1 complete turn\nof the hour hand\ntakes 12 hours.
+1. Perimeter	1	DiagramArea/LessonContent/Image/Image/Image (2)/Text (TMP) (1)	We would like to decorate the perimeter with vines, teacher.	We would like to decorate the perimeter with ribbon, teacher.
+1. Perimeter	2	DiagramArea/LessonContent/Image/Image/Image (1)/Image (2)/Text (TMP) (1)	Let's calculate the length of vines.\n1 square equals 1 unit.	Let's calculate the length of ribbon.\n1 square equals 1 unit.
+1. Perimeter	2	DiagramArea/LessonContent/Image/Image/Image (2)/Image (2)/GameObject/Text (TMP) (4)	The green vine is 16 units long. The distance around the card is its perimeter.	The green ribbon is 16 units long. The distance around the card is its perimeter.
+1. Perimeter	3	DiagramArea/LessonContent/Image/Image/Image (1)/Image (2)/Text (TMP) (1)	How long is the red vine?	How long is the red ribbon?
+1. Perimeter	3	DiagramArea/LessonContent/Image/Image/GameObject/Text (TMP) (2)	The length of red vine is the perimeter of a hexagon	The length of red ribbon is the perimeter of a hexagon
+1. Perimeter	4	DiagramArea/LessonContent/Image/Image (3)/Text (TMP) (1)	Isosceles triangle	Equilateral triangle
+1. Perimeter	5	DiagramArea/LessonContent/Image/Image (4)/Text (TMP)	8 cm + 8 cm + 6 cm = 24 cm 	8 cm + 8 cm + 6 cm = 22 cm 
+1. Perimeter	8	DiagramArea/LessonContent/Image/Image (3)/Text (TMP)	OKTAGON SEKATA	SEGI EMPAT TEPAT
+1. Perimeter	8	DiagramArea/LessonContent/Image/Image (3)/Text (TMP) (1)	OCTAGON	RECTANGLE
+2 Luas	3	DiagramArea/LessonContent/Image/Image/GameObject/Text (TMP) (1)	Panjang reben merah\nialah perimeter heksagon.	
+2 Luas	3	DiagramArea/LessonContent/Image/Image/GameObject/Text (TMP) (2)	The length of red vines\nis the perimeter of the hexagon	
+2 Luas	6	DiagramArea/LessonContent/Image/Image (4)/Text (TMP) (1)	Area of the blue wall\n= panjang x lebar \n= 6 m x 3 m\n= 18 m	Area of the blue wall\n= length x width \n= 6 m x 3 m\n= 18 m
+2 Luas	8	DiagramArea/LessonContent/Image/Image/Image (3)/Text (TMP) (1)	A square can be divided into two equal parts.	A rectangle can be divided into two triangles of equal area.
+2 Luas	8	DiagramArea/LessonContent/Image/Image/Image (4)/Text (TMP)	Luas sebuah  \nialah separuh daripada luas 	Luas setiap segi tiga ialah separuh daripada luas segi empat tepat.
+2 Luas	8	DiagramArea/LessonContent/Image/Image/Image (4)/Text (TMP) (1)	An area of a  \nis actually half \nan area of a 	Each triangle has half the area of the rectangle.
+2 Luas	9	DiagramArea/LessonContent/Image/Image/Text (TMP)/GameObject/Text (TMP) (1)	Area = Area of the rectangle\n                      2	Luas = Luas segi empat tepat\n                      2

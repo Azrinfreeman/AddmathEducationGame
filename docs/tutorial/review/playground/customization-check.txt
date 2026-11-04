@@ -1,0 +1,1 @@
+Cloud Period=30 and AdaptiveMenu.Gap=32 survived save, reload and targeted patch: True. Original values restored afterward.

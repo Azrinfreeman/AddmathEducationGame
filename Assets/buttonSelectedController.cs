@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class buttonSelectedController : MonoBehaviour
 {
+    public event System.Action<int> SelectionChanged;
     public Button[] answers = new Button[4];
     public bool[] ispressed = new bool[4];
     // Start is called before the first frame update
     void Start()
     {
        for(int i =0; i < 4; i++){
-        answers[i] = GameObject.Find("Answers").transform.GetChild(i).GetComponent<Button>();
+        answers[i] = transform.GetChild(i).GetComponent<Button>();
         
        }
         answers[0].onClick.AddListener(() => selectedButton(0));
@@ -40,6 +41,7 @@ public class buttonSelectedController : MonoBehaviour
         colors2.selectedColor = new Color32(255,217,1,255);
         answers[index].colors = colors2;
         ispressed[index] = true;
+        SelectionChanged?.Invoke(index);
     }
    
     // Update is called once per frame

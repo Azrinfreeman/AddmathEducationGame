@@ -16,6 +16,9 @@ public class GamePraController : MonoBehaviour
     public Transform EndPanel;
     public int level = 0;
     public int score = 0;
+    public event System.Action ProgressChanged;
+    private int displayedLevel = -1;
+    private int displayedScore = int.MinValue;
 
     public Rigidbody2D[] backgroundImage = new Rigidbody2D[2];
     // Start is called before the first frame update
@@ -34,10 +37,12 @@ public class GamePraController : MonoBehaviour
     }
 
     public void ToNextLevel(){
-        bubbleAnswer[level-1].gameObject.SetActive(false);
-        questions[level-1].gameObject.SetActive(false);
+        if(level >= 1 && level <= bubbleAnswer.Length){
+            bubbleAnswer[level-1].gameObject.SetActive(false);
+            questions[level-1].gameObject.SetActive(false);
+        }
 
-        if(level < 10){
+        if(level >= 0 && level < 10 && level < bubbleAnswer.Length){
             
         bubbleAnswer[level].gameObject.SetActive(true);
         questions[level].gameObject.SetActive(true);
@@ -55,7 +60,15 @@ public class GamePraController : MonoBehaviour
             Destroy(backgroundImage[0].GetComponent<Rigidbody2D>());
             Destroy(backgroundImage[1].GetComponent<Rigidbody2D>());
             EndPanel.gameObject.SetActive(true);
+            var celebration = EndPanel.GetComponent<FunMath.UI.ResultCelebration>();
+            if (celebration) celebration.Play();
             level = 10;
+        }
+        if (displayedLevel != level || displayedScore != score)
+        {
+            displayedLevel = level;
+            displayedScore = score;
+            ProgressChanged?.Invoke();
         }
     }
 }

@@ -27,7 +27,6 @@ public class LoadingStart : MonoBehaviour
     }
 
 public void LoadData(){
-    PlayerPrefs.GetInt("firstTime");
 
     if(PlayerPrefs.HasKey("firstTime")){
         firstTime = false;

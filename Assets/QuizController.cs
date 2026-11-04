@@ -16,18 +16,21 @@ public class QuizController : MonoBehaviour
     {
         check = GetComponent<CheckQuizNumber>();
         
-        Invoke("GetNumber", 0.5f);
+        GetNumber();
 
         Debug.Log("score: "+PlayerPrefs.GetInt("QuizScoreEasy"));
         
     }
 
     public void GetNumber(){
-        noQuiz = new bool[check.numberofQuizzes];
+        if(check == null) check = GetComponent<CheckQuizNumber>();
+        noQuiz = new bool[Mathf.Max(0, check.numberofQuizzes)];
     }
 
     public void CollectAndCheck(){
-        for(int i = 0; i< check.numberofQuizzes; i++){
+        score = 0;
+        if(noQuiz == null) return;
+        for(int i = 0; i< noQuiz.Length; i++){
             if(noQuiz[i]){
                 score++;
                 Debug.Log(score);

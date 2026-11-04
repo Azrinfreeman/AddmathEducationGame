@@ -1,0 +1,62 @@
+scene	missingBefore	missingAfter	transformIdentitiesPreserved
+Assets/Scenes/AfterLogin/MainMenu.unity	0	0	True
+Assets/Scenes/AR/ARIsipadu.unity	0	0	True
+Assets/Scenes/AR/ARKenaliMinit.unity	0	0	True
+Assets/Scenes/AR/ARLuas.unity	0	0	True
+Assets/Scenes/AR/ARPerimeter.unity	0	0	True
+Assets/Scenes/AR/ARPerkaitanWaktu.unity	0	0	True
+Assets/Scenes/AR/ARRekodWaktu.unity	0	0	True
+Assets/Scenes/AR/ARSebutDanTulisWaktu.unity	0	0	True
+Assets/Scenes/AR/Pra/ARApaItuTambah.unity	0	0	True
+Assets/Scenes/AR/Pra/AROperasiTambahGunaJari.unity	0	0	True
+Assets/Scenes/AR/Pra/AROperasiTambahGunaNombor.unity	0	0	True
+Assets/Scenes/AR/Pra/AROperasiTambahGunaObjek.unity	0	0	True
+Assets/Scenes/Badges/BadgesPage.unity	0	0	True
+Assets/Scenes/CreditPage.unity	0	0	True
+Assets/Scenes/GameMenu.unity	0	0	True
+Assets/Scenes/Games/AddingGae/Level1.unity	2	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl10.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl2.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl3.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl4.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl5.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl6.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity	0	0	True
+Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity	0	0	True
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	1	0	True
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	0	0	True
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	0	0	True
+Assets/Scenes/GetStarted.unity	0	0	True
+Assets/Scenes/Lessons/LearningPage.unity	0	0	True
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	0	0	True
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	0	0	True
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	0	0	True
+Assets/Scenes/Lessons/PrasekolahLesson.unity	0	0	True
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	0	0	True
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	0	0	True
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	0	0	True
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	0	0	True
+Assets/Scenes/Lessons/Tahap1Lesson.unity	0	0	True
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	0	0	True
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	0	0	True
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	0	0	True
+Assets/Scenes/Lessons/Tahap2Lesson.unity	0	0	True
+Assets/Scenes/Loading/LoadingScene.unity	0	0	True
+Assets/Scenes/LoginAddAccountPage.unity	0	0	True
+Assets/Scenes/PenghargaanPage.unity	0	0	True
+Assets/Scenes/PlayerInformation.unity	0	0	True
+Assets/Scenes/PlayerInformationMain.unity	0	0	True
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	2	0	True
+Assets/Scenes/Quizzes/Quizzes.unity	0	0	True
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	0	0	True
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	2	0	True

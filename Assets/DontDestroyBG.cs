@@ -1,29 +1,26 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DontDestroyBG : MonoBehaviour
 {
     public static DontDestroyBG instance;
 
-    private void Awake() {
-        if(!instance){
-            instance = this;
-        }else{  
-            Destroy(this.gameObject);
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
         }
 
-        DontDestroyOnLoad(this.gameObject);
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+        instance = this;
+        // Persist only the audio hierarchy, not its scene-specific parent.
+        transform.SetParent(null, true);
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        if (instance == this)
+            instance = null;
     }
 }

@@ -15,6 +15,8 @@ public class StartGame1 : MonoBehaviour
     }
 
     public void StartTime(){
+        // The clock starts after the optional 3-2-1-Go countdown; scenes without one start at once.
+        if (FunMath.UI.GameCountdown.Begin(() => { if (TimeGameController.instance) TimeGameController.instance.isStopping = false; })) return;
         TimeGameController.instance.isStopping = false;
     }
 

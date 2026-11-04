@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Balance game orientation review</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; font: 16px/1.5 "Segoe UI", sans-serif; color: #203e4b; background: #fff; }
+  main { max-width: 720px; margin: auto; }
+  h1 { margin: 0 0 8px; font-size: 25px; font-weight: 600; }
+  p { margin: 8px 0 20px; max-width: 64ch; }
+  .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  figure { margin: 0; }
+  figcaption { margin-bottom: 8px; font-weight: 600; }
+  img { display: block; width: 100%; max-width: 240px; height: auto; }
+  .note { margin-top: 20px; padding-top: 12px; border-top: 1px solid #d6e1e5; font-size: 14px; }
+  @media (max-width: 480px) { body { padding: 16px; } .comparison { gap: 12px; } }
+</style>
+<main>
+  <h1>The balance board fits the screen</h1>
+  <p>Actual Unity Game view captures at 540 &times; 960. The gameplay canvas now scales with the screen, keeping both baskets and all four balls visible.</p>
+  <div class="comparison">
+    <figure><figcaption>Before</figcaption><img src="screenshots/balance-before-portrait.png" alt="The baskets extend past both screen edges and a ball reaches the bottom edge."></figure>
+    <figure><figcaption>After</figcaption><img src="screenshots/balance-fit-portrait.png" alt="Both baskets and all four balls fit within the screen."></figure>
+  </div>
+  <p class="note">Scripted drag check: 20 &times; 10 pixels of pointer movement produced 20 &times; 10 pixels of ball movement. Touch input and gameplay on an Android phone remain untested.</p>
+</main>
+</html>

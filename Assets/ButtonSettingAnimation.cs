@@ -12,8 +12,10 @@ public class ButtonSettingAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
-        animator = GameObject.Find("Dropdowns").GetComponent<Animator>();
+        var click = GameObject.Find("clickSFX");
+        if (click) soundSFX = click.GetComponent<AudioSource>();
+        var dropdown = transform.Find("Dropdowns");
+        if (dropdown) animator = dropdown.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class ButtonSettingAnimation : MonoBehaviour
     }
 
     public void ShowMenuOrHide(){
+        if (!animator) return;
         if(!hasClicked){
             animator.SetBool("isClicking", true);
             hasClicked = true;
@@ -30,7 +33,7 @@ public class ButtonSettingAnimation : MonoBehaviour
             animator.SetBool("isClicking", false);
             hasClicked = false;
         }
-        soundSFX.Play();
+        if (soundSFX) soundSFX.Play();
 
     }
 }

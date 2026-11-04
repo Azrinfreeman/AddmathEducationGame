@@ -1,63 +1,64 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.Events;
-using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
-
-    public static AudioManager instance; 
+    public static AudioManager instance;
     [SerializeField]
     private AudioMixer _MasterMixer;
-    public float master;
-    
-    public float bgm;
-    public float sfx;
+    public float master = 1f;
 
-    
+    public float bgm = 1f;
+    public float sfx = 1f;
+
+    private const float MinVolume = 0.0001f; // avoids Log10(0) = -infinity
+
     private void Awake() {
         instance = this;
-       
     }
 
     private void Start() {
-         getVolume();
+        getVolume();
+        ApplyAll();
     }
+
     public void saveVolume(){
         PlayerPrefs.SetFloat ("MasterVolume", master);
         PlayerPrefs.SetFloat ("bgm", bgm);
         PlayerPrefs.SetFloat ("sfx", sfx);
-        Debug.Log(PlayerPrefs.GetFloat ("MasterVolume"));
+        PlayerPrefs.Save();
     }
 
+    // default to full volume on first run (GetFloat would otherwise return 0 = silence)
     public void getVolume(){
-        master = PlayerPrefs.GetFloat ("MasterVolume");
-        bgm = PlayerPrefs.GetFloat ("bgm");
-        sfx = PlayerPrefs.GetFloat ("sfx");
+        master = PlayerPrefs.GetFloat ("MasterVolume", 1f);
+        bgm = PlayerPrefs.GetFloat ("bgm", 1f);
+        sfx = PlayerPrefs.GetFloat ("sfx", 1f);
     }
+
+    private static float ToDb(float volume){
+        return Mathf.Log10(Mathf.Max(volume, MinVolume)) * 20;
+    }
+
+    private void ApplyAll(){
+        if(_MasterMixer == null) return;
+        _MasterMixer.SetFloat ("Master", ToDb(master));
+        _MasterMixer.SetFloat ("bgm", ToDb(bgm));
+        _MasterMixer.SetFloat ("sfx", ToDb(sfx));
+    }
+
     public void SetMasterVolume(float volume){
-    
-        _MasterMixer.SetFloat ("Master", Mathf.Log10(volume) * 20);
+        if(_MasterMixer != null) _MasterMixer.SetFloat ("Master", ToDb(volume));
         master = volume;
     }
 
     public void SetBGMVolume(float volume){
-        
-        _MasterMixer.SetFloat ("bgm", Mathf.Log10(volume) * 20);
-       bgm = volume;
+        if(_MasterMixer != null) _MasterMixer.SetFloat ("bgm", ToDb(volume));
+        bgm = volume;
     }
 
     public void SetSFXVolume(float volume){
-    
-        _MasterMixer.SetFloat ("sfx", Mathf.Log10(volume) * 20);
-       sfx = volume;
-    }
-
-    internal UnityAction SetMasterVolume()
-    {
-        throw new NotImplementedException();
+        if(_MasterMixer != null) _MasterMixer.SetFloat ("sfx", ToDb(volume));
+        sfx = volume;
     }
 }

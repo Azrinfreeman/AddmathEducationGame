@@ -12,7 +12,8 @@ public class AudioController : MonoBehaviour
     //public bool isAudioPanel;
     void Start()
     {
-        soundSFX = GameObject.Find("clickSFX").GetComponent<AudioSource>();
+        var click = GameObject.Find("clickSFX");
+        if (click) soundSFX = click.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -33,11 +34,13 @@ public class AudioController : MonoBehaviour
     }
     public void isShowing(){
         animator.SetBool("isClosing", false);
-        soundSFX.Play();
+        var celebration = GetComponent<FunMath.UI.ResultCelebration>();
+        if (celebration) celebration.Play();
+        if (soundSFX) soundSFX.Play();
     }
 
     public void isHiding(){
         animator.SetBool("isClosing", true);
-        soundSFX.Play();
+        if (soundSFX) soundSFX.Play();
     }
 }

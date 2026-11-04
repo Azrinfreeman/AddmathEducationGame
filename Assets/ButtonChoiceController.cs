@@ -1,12 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonChoiceController : MonoBehaviour
 {
     public Animator animator;
     public bool isCorrect;
-    // Start is called before the first frame update
+    private bool hasHit; // ignore double taps so the score is counted once
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -20,17 +20,13 @@ public class ButtonChoiceController : MonoBehaviour
         }else{
             Game1Controller.instance.score--;
         }
-        
         animator.SetBool("isEnding", true);
     }
+
     public void hitting(){
+        if(hasHit) return;
+        hasHit = true;
         animator.SetBool("isHitting", true);
         StartCoroutine(ending());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

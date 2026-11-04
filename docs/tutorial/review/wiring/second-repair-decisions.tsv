@@ -1,0 +1,7 @@
+scene	control	method	decision
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/HowToPlay/Image/YesBtn	SetActive	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/HowToPlay/Image/YesBtn	QuitApp	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	Canvas/Prompted (2)/Image/YesBtn	CollectAndCheck	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/QuizController/15/nextButton	final-page	Open existing submit confirmation; retain page for cancellation
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Canvas/QuizController/10/nextButton	final-action	Show Check/Semak on the existing final-page control
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/QuizController/15/nextButton	final-page	Open existing submit confirmation; retain page for cancellation

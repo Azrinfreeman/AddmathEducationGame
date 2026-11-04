@@ -25,9 +25,17 @@ public class ProfileChangeController : MonoBehaviour
     }
 
     public void ChangeProfile(){
-
-        PlayerPrefs.SetString("PlayerName", textName.text);
+        string name = textName.text.Trim();
+        if (string.IsNullOrEmpty(name)) return;
+        PlayerPrefs.SetString("PlayerName", name);
         PlayerPrefs.SetString("PlayerGender", dropdownGender.options[dropdownGender.value].text);
+        int id = PlayerPrefs.GetInt("PlayerID", 0);
+        if (id > 0)
+        {
+            PlayerPrefs.SetString("PlayerName_" + id, name);
+            PlayerPrefs.SetString("PlayerGender_" + id, dropdownGender.options[dropdownGender.value].text);
+        }
+        PlayerPrefs.Save();
         //PlayerPrefs.SetInt("PlayerAge", int.Parse(textAge.text));
 
 

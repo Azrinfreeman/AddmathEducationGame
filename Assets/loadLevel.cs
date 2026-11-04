@@ -27,9 +27,20 @@ public class loadLevel : MonoBehaviour
     void Update()
     {
         if(!isScore){
-            text.text = "Tahap "+ GamePraController.instance.level;
+            if(PlayerPrefs.GetInt("EnglishLang") == 1){
+                text.text = "Year "+ GamePraController.instance.level;
+            }else{
+                text.text = "Tahap "+ GamePraController.instance.level;
+            }
+            
         }else {
-            text.text = "Markah ="+ GamePraController.instance.score;
+            if(PlayerPrefs.GetInt("EnglishLang") == 1){
+                text.text = "Score ="+ GamePraController.instance.score;
+            }
+            else{
+                text.text = "Markah ="+ GamePraController.instance.score;
+            }
+            
         }
         
         if(GamePraController.instance.score >=120){

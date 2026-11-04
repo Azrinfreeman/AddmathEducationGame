@@ -1,0 +1,67 @@
+PASS	Four primary activities
+PASS	All seven original routes retained
+PASS	Legacy owl float disabled
+PASS	More blocks ambience
+PASS	Main content input suspended
+PASS	Selection confined to More
+PASS	Nested settings owns selection
+PASS	Closing one of two modals keeps ambience blocked
+PASS	Closing last modal releases ambience
+PASS	More restores opener focus
+PASS	Reduced motion stops clouds immediately
+PASS	Discovery retains static feedback with reduced motion
+PASS	Closing modal cannot restart reduced motion
+PASS	Accepted recording blocks ambience immediately
+PASS	Voice off stops playback and releases its blocker
+PASS	Activity text fits 540x960/0: Belajar
+PASS	Activity text fits 540x960/0: Permainan
+PASS	Activity text fits 540x960/0: Kuiz
+PASS	Activity text fits 540x960/0: Lencana
+PASS	Activity text fits 540x960/1: Learning
+PASS	Activity text fits 540x960/1: Games
+PASS	Activity text fits 540x960/1: Quiz
+PASS	Activity text fits 540x960/1: Badges
+PASS	Activity text fits 960x540/0: Belajar
+PASS	Activity text fits 960x540/0: Permainan
+PASS	Activity text fits 960x540/0: Kuiz
+PASS	Activity text fits 960x540/0: Lencana
+PASS	Activity text fits 960x540/1: Learning
+PASS	Activity text fits 960x540/1: Games
+PASS	Activity text fits 960x540/1: Quiz
+PASS	Activity text fits 960x540/1: Badges
+PASS	Activity text fits 360x800/0: Belajar
+PASS	Activity text fits 360x800/0: Permainan
+PASS	Activity text fits 360x800/0: Kuiz
+PASS	Activity text fits 360x800/0: Lencana
+PASS	Activity text fits 360x800/1: Learning
+PASS	Activity text fits 360x800/1: Games
+PASS	Activity text fits 360x800/1: Quiz
+PASS	Activity text fits 360x800/1: Badges
+PASS	Activity text fits 800x360/0: Belajar
+PASS	Activity text fits 800x360/0: Permainan
+PASS	Activity text fits 800x360/0: Kuiz
+PASS	Activity text fits 800x360/0: Lencana
+PASS	Activity text fits 800x360/1: Learning
+PASS	Activity text fits 800x360/1: Games
+PASS	Activity text fits 800x360/1: Quiz
+PASS	Activity text fits 800x360/1: Badges
+PASS	Activity text fits 768x1024/0: Belajar
+PASS	Activity text fits 768x1024/0: Permainan
+PASS	Activity text fits 768x1024/0: Kuiz
+PASS	Activity text fits 768x1024/0: Lencana
+PASS	Activity text fits 768x1024/1: Learning
+PASS	Activity text fits 768x1024/1: Games
+PASS	Activity text fits 768x1024/1: Quiz
+PASS	Activity text fits 768x1024/1: Badges
+PASS	Activity text fits 1024x768/0: Belajar
+PASS	Activity text fits 1024x768/0: Permainan
+PASS	Activity text fits 1024x768/0: Kuiz
+PASS	Activity text fits 1024x768/0: Lencana
+PASS	Activity text fits 1024x768/1: Learning
+PASS	Activity text fits 1024x768/1: Games
+PASS	Activity text fits 1024x768/1: Quiz
+PASS	Activity text fits 1024x768/1: Badges
+PASS	Cloud drift observed over 30 seconds in simulated foreground (range 64)
+PASS	Losing app focus stops ambience
+PASS	Returning app focus releases its blocker
+PASS	One backdrop after modal and layout changes

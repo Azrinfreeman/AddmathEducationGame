@@ -1,0 +1,271 @@
+scene	object	before	after
+Assets/Scenes/CreditPage.unity	Credit	SAIFULNIZAN BIN CHE ISMAIL \nGURU CEMERLANG MATEMATIK \nSK RAJA BAHAR	SAIFULNIZAN BIN CHE ISMAIL \nEXCELLENT MATHEMATICS TEACHER \nSK RAJA BAHAR
+Assets/Scenes/CreditPage.unity	Credit	ADILLAH BINTI MANSOR \nGURU CEMERLANG PRASEKOLAH \nSK SERI KETEREH	ADILLAH BINTI MANSOR \nEXCELLENT PRESCHOOL TEACHER \nSK SERI KETEREH
+Assets/Scenes/CreditPage.unity	Credit	NOR DIYANA SUHAILI BINTI ALI GHAZALI\nGURU CEMERLANG MATEMATIK \nSK KUBANG KERIAN 2	NOR DIYANA SUHAILI BINTI ALI GHAZALI\nEXCELLENT MATHEMATICS TEACHER \nSK KUBANG KERIAN 2
+Assets/Scenes/CreditPage.unity	Credit	AZRIN BIN AMRAN\nPELAJAR \nUNIVERSITI TEKNIKAL MALAYSIA MELAKA 	AZRIN BIN AMRAN\nSTUDENT \nUNIVERSITI TEKNIKAL MALAYSIA MELAKA 
+Assets/Scenes/GameMenu.unity	BI	LETS PLAY VIDEO GAMES FROM BELOW	Choose a game to play!
+Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity	Text (TMP) (2)	MOVE THE PLAYER TO THE CORRECT ANSWER BY USING THE ALGORITHM BY PULLING THE ARROW INTO THE BOX BELOW, FURTHER PRESSING THE RUN.	Drag arrows into the slots, then choose Run to move to the correct answer.
+Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity	Text (TMP) (1)	CALCULATE THE VOLUME OF CUBE	CALCULATE THE VOLUME OF THE CUBE
+Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity	Text (TMP) (1)	CALCULATE THE VOLUME OF CUBOID	CALCULATE THE VOLUME OF THE CUBOID
+Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity	Text (TMP) (1)	CALCULATE THE VOLUME OF CUBOID 	CALCULATE THE VOLUME OF THE CUBOID
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	Text (TMP) (2)	CHOOSE THE RIGHT ANSWER BY MOVING THE LEFT OR RIGHT ROCKET USING THE BUTTON	Hold Left or Right to move the rocket to the correct answer.
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP)	5:00 petang	5:00 PM
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP)	6:00 petang	6:00 PM
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP)	4:00 petang	4:00 PM
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP)	3:00 petang	3:00 PM
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP) (1)	PLAYING AT WHAT TIME ?	WHAT TIME DO YOU PLAY?
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP) (2)	SELECT THE CORRECT ANSWER BOX TO GET THE SCORE BEFORE THE TIME RUNS OUT.	Tap the correct answers before time runs out.
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Text (TMP)	2:00 petang	2:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP)	PUKUL 4:00	4:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP)	PUKUL TIGA	THREE O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP)	PUKUL 3	3 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP)	PUKUL 9:00	9:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP)	PUKUL SEMBILAN	NINE O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Text (TMP) (1)	WHAT TIME IS THIS ?	WHAT TIME IS IT?
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP)	PUKUL 1:00	1:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP)	PUKUL DUA BELAS	TWELVE O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP)	PUKUL 12:00	12:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP)	PUKUL SATU	ONE O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP)	PUKUL ENAM	SIX O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Text (TMP) (1)	WHAT TIME IS THIS ?	WHAT TIME IS IT?
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP)	5:00 PAGI	5:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP)	2:00 PAGI	2:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP)	8:00 PAGI	8:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP)	9:00 PAGI	9:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP)	11:00 PAGI	11:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Text (TMP) (1)	STAYING AT SCHOOL AT WHAT TIME ?	WHAT TIME ARE YOU AT SCHOOL?
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Text (TMP)	PAGI	MORNING
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Text (TMP)	TENGAH HARI	NOON
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Text (TMP)	PETANG	EVENING
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Text (TMP)	MALAM	NIGHT
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Text (TMP) (1)	INAPPRORIATE TIME	WHICH TIMES DO NOT FIT THIS ACTIVITY?
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Text (TMP)	TENGAH HARI	NOON
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Text (TMP)	PAGI	MORNING
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Text (TMP)	PETANG	EVENING
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Text (TMP)	MALAM	NIGHT
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Text (TMP) (1)	BEST TIME FOR THIS	WHICH TIMES FIT THIS ACTIVITY?
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP)	6:00 PETANG	6:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP)	9:00 MALAM	9:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP)	10:00 MALAM	10:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP)	11:00 MALAM	11:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP)	7:00 MALAM	7:00 PM
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Text (TMP) (1)	APPROPRIATE TIME 	WHICH TIMES FIT THIS ACTIVITY?
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP)	PUKUL 12:00	12:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP)	PUKUL 11:00	11:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP)	PUKUL 1:00	1:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP)	PUKUL 2:00	2:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP)	PUKUL 10:00	10:00 O'CLOCK
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Text (TMP) (1)	WHICH ONE IS WRONG	WHICH TIMES ARE INCORRECT?
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP)	7:00 PAGI	7:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP)	8:00 PAGI	8:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP)	9:00 PAGI	9:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP)	4:00 PAGI	4:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP)	2:00 PAGI	2:00 AM
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Text (TMP) (1)	BREAKFAST AT WHAT TIME ?	WHAT TIME DO YOU HAVE BREAKFAST?
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP)	30 MINIT	30 MINUTES
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP)	SUKU JAM	QUARTER HOUR
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP)	60 MINIT	60 MINUTES
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP)	1 JAM	1 HOUR
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP)	15 MINIT	15 MINUTES
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Text (TMP) (1)	1 COMPLETE CIRCLE ROUND OF MINUTES HAND IS EQUAL TO	ONE COMPLETE TURN OF THE MINUTE HAND EQUALS
+Assets/Scenes/Lessons/LearningPage.unity	BI	WHAT YOU WANT TO LEARN TODAY ?	What would you like to learn today?
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO PRENUMBER	PRE-NUMBER SKILLS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nTHE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE THE SAME
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nTHE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE THE SAME
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nTHE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE THE SAME
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nTHE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE THE SAME
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE SAME PAIR OF OBJECT	MATCH THE PAIRS OF OBJECTS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nNOT THE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE DIFFERENT
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nNOT THE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE DIFFERENT
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	INTRODUCTION TO NUMBER	INTRODUCTION TO NUMBERS
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	IMAGE WITH THE YELLOW CIRCLE ARE \nNOT THE SAME IMAGE	THE PICTURES IN YELLOW CIRCLES ARE DIFFERENT
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	BI	MATCH THE OBJECT THAT ARE NOT THE SAME PAIR	FIND THE OBJECTS THAT DO NOT MATCH
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING A SERIES OF NUMBER FROM 10 TO 100	NUMBER SEQUENCES FROM 10 TO 100
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	BI	UNDERSTANDING \nA SERIES OF NUMBER	NUMBER SEQUENCES
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATIONS OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION (+)	ADDITION (+)
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	-Click on the icon to \nenter AR Mode	Choose Try AR to explore.
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	WHAT IS AN ADDITIONAL OPERATION	WHAT IS ADDITION?
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	A COLLECTION OF 2 GROUP OF OBJECT OR NUMBER TO CREATE MORE COUNT OF VALUE	ADDITION COMBINES TWO GROUPS TO FIND THE TOTAL.
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL SYMBOL	PLUS SIGN
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	SYMBOL OF EQUAL	EQUALS SIGN
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	click on the icon to enter\nAR Mode	Choose Try AR to explore.
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	-Click on the icon to \nenter AR Mode	Choose Try AR to explore.
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	-Click on the icon to enter\nAR Mode	Choose Try AR to explore.
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	BI	ADDITIONAL OPERATION	ADDITION
+Assets/Scenes/Lessons/PrasekolahLesson.unity	BI	WHAT YOU WANT TO LEARN TODAY ?	What would you like to learn today?
+Assets/Scenes/Lessons/PrasekolahLesson.unity	BI	INTRODUCTION TO PRENUMBER	PRE-NUMBER SKILLS
+Assets/Scenes/Lessons/PrasekolahLesson.unity	BI	UNDERSTANDING THE SERIES OF NUMBER FROM 10 TO 100	NUMBER SEQUENCES FROM 10 TO 100
+Assets/Scenes/Lessons/PrasekolahLesson.unity	BI	OPERATION OF NUMBER	NUMBER OPERATIONS
+Assets/Scenes/Lessons/PrasekolahLesson.unity	Label	INTRODUCTION TO PRENUMBER	PRE-NUMBER SKILLS
+Assets/Scenes/Lessons/PrasekolahLesson.unity	Label	UNDERSTANDING THE SERIES OF NUMBER FROM 10 TO 100	NUMBER SEQUENCES FROM 10 TO 100
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	UNDERSTANDING THE MINUTES	UNDERSTANDING MINUTES
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	TIME AND MOMENT	TIME
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	Dad, what is that line between those numbers	Dad, what are the little lines between the numbers?
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	Oh, that is a minit line	Those are minute marks.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	5 lines is equal to 5 minutes	5 marks represent 5 minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	1 line is equal to 1 minutes	1 mark represents 1 minute.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	1 minutes	1 minute
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	Between 12 and 1, there are 5 lines which is 5 minutes	There are 5 minute marks between 12 and 1. That is 5 minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	10 lines equals to 10 minutes\n\n25 lines equals to 25 minutes	10 marks represent 10 minutes.\n25 marks represent 25 minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	What minutes is this?	How many minutes is this?
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	HALF OF CLOCK = 15 MINUTES	A QUARTER OF AN HOUR = 15 MINUTES
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	This is quater the clock, what time is it ?	This is a quarter turn around the clock. How many minutes is that?
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	Minutes hand move around 1 complete circle.	The minute hand makes one complete turn.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	From 12 to 6 is a half an hour	From 12 to 6 is half an hour.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	40 lines is equal to \n___ minutes	40 marks represent ___ minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	Hand minute moves from 12 to 6 means\n___ minutes	The minute hand moves from 12 to 6. That is ___ minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	___ minutes when\nhand minute moves from 12 to 11	The minute hand moves from 12 to 11. That is ___ minutes.
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	BI	ANSWER TESTS	ANSWERS
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	SAY AND WRITE TIME	SAY AND WRITE THE TIME
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	What time is it now ?	What time is it now?
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Quater past five	Quarter past five
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Five fifteen o clock	Five fifteen
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	THE CLOCK SHOWS FIVE PAST EIGHT O'CLOCK	THE CLOCK SHOWS FIVE PAST EIGHT
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Five past 8 o'clock	Five past eight
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	-Click on the icon to enter\nAR Mode	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	TWO THIRTY O'CLOCK OR COULD ALSO SAY HALF PAST 2	TWO THIRTY, OR HALF PAST TWO
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	TWO THIRTY O'CLOCK	TWO THIRTY
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	WE USUALLY SAY HALF PAST 2	WE CAN ALSO SAY HALF PAST TWO
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	CHANGE THE TIME FROM WORDS TO NUMERAL	WRITE THE TIME IN NUMERALS
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Change the time from words to numeral	Write the time in numerals.
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Twelve oh five o'clock	Twelve oh five
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Four fourty o'clock	Four forty
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	BI	Seven fifty five o'clock	Seven fifty-five
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Text (TMP)	-Tekan pada ikon ini untuk \nmasuk ke ruang AR	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Text (TMP)	SEBUT DAN TULIS WAKTU	SAY AND WRITE THE TIME
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Text (TMP) (1)	MORNING TIME USUALLY DOING WORKOUT ACTIVITY	WE CAN EXERCISE IN THE MORNING.
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Text (TMP) (3)	MORNING TIME	MORNING
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Text (TMP) (3)	WORKOUT ACTIVITY	EXERCISE
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	ReadingHint	MORNING TIME USUALLY DOING WORKOUT ACTIVITY	WE CAN EXERCISE IN THE MORNING.
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	ReadingHint	MORNING TIME	MORNING
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	ReadingHint	WORKOUT ACTIVITY	EXERCISE
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	TAJUK (2)	TIME RELATION	TIME RELATIONSHIPS
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	Text (TMP) (1)	TIME RELATION	TIME RELATIONSHIPS
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	Text (TMP)	-Tekan pada ikon ini untuk \nmasuk ke ruang AR	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	Text (TMP) (1)	1 HOUR AFTER 12 IS 1 O'CLOCK	ONE HOUR AFTER 12 O'CLOCK IS 1 O'CLOCK
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	ReadingHint	1 HOUR AFTER 12 IS 1 O'CLOCK	ONE HOUR AFTER 12 O'CLOCK IS 1 O'CLOCK
+Assets/Scenes/Lessons/Tahap1Lesson.unity	BI	WHAT YOU WANT TO LEARN TODAY ?	What would you like to learn today?
+Assets/Scenes/Lessons/Tahap1Lesson.unity	BI	UNDERSTANDING THE MINUTES	UNDERSTANDING MINUTES
+Assets/Scenes/Lessons/Tahap1Lesson.unity	BI	SAY AND WRITE TIME	SAY AND WRITE THE TIME
+Assets/Scenes/Lessons/Tahap1Lesson.unity	BI	TIME RECORD	RECORD TIME
+Assets/Scenes/Lessons/Tahap1Lesson.unity	Text (TMP) (2)	TIME RELATION	TIME RELATIONSHIPS
+Assets/Scenes/Lessons/Tahap1Lesson.unity	Label	UNDERSTANDING THE MINUTES	UNDERSTANDING MINUTES
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Text (TMP)	-Tekan pada ikon ini untuk \nmasuk ke ruang AR	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Text (TMP) (1)	Today, we will\ndecorate a card\nfor Mother's day	Today, we will decorate a card for Mother's Day.
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Text (TMP) (1)	perimeter is a\nresult of addition\nfrom all side of length	The perimeter is the total length of all the sides.
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Text (TMP) (4)	Length of green vines is 16 unit. Length around the card is called perimeter .	The green vine is 16 units long. The distance around the card is its perimeter.
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Text (TMP) (1)	How long is the red vine is being used?	How long is the red vine?
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	TAJUK (1)	LUAS	AREA
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	-Tekan pada ikon ini untuk \nmasuk ke ruang AR	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP)	LUAS	AREA
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	The length of every side for the square is 1 unit	Each side of the square is 1 unit long.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	 area is a physical quantity that describes the size of a part of the surface. The surface area is the sum of all the exposed area of an object	Area tells us how much space a flat surface covers.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	3 square is filled in a column 	There are 3 squares in a column.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	4 square is filled in a row	There are 4 squares in a row.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	The area of the surface is called Area	The space covered by a surface is its area.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	Area is stated in unit square	Area is measured in square units.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	So the area of the surface is 12 unit square	So the area is 12 square units.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	we say 1 unit square	We say one square unit.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	The area of the square is 16 cm square	The area of the square is 16 square centimetres.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	A square can be divided into 2 same seperate parts.	A square can be divided into two equal parts.
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	Luas      = Luas segi empat tepat\n	                   2	Area = Area of the rectangle\n                      2
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (5)	Area      =    Area of a square\n	                   2	Area = Area of the rectangle\n                      2
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (5)	surface	base
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (2)	tapak	base
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (3)	tinggi	height
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Kuiz (1)	HEIGHT AND SURFACE OF SOME TRIANGLES	HEIGHT AND BASE OF SOME TRIANGLES
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Text (TMP) (1)	WHICH CALCULATION AREA CARD IS TRUE?	WHICH AREA CALCULATION IS CORRECT?
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	TAJUK (1)	ISI PADU	VOLUME
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	-Tekan pada ikon ini untuk \nmasuk ke ruang AR	Choose Try AR to explore.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP)	ISI PADU	VOLUME
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	I use \n27 cubes \n1 unit cubic.	I use 27 cubes, each with a volume of 1 cubic unit.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	I use\n6 cube\n1 unit cubic	I use 6 cubes, each with a volume of 1 cubic unit.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	Volume of a small cube is 1 unit.\nHow many cubes for 1 unit of volume that you need to use?	Each small cube has a volume of 1 cubic unit. How many small cubes do you need?
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP)	ISI PADU	VOLUME
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	we say 1 unit of cubic	We say one cubic unit.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	A volume is aarea that need to be fill.\nVolume is called as unit volume.	Volume is the space an object occupies. It is measured in cubic units.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	Cube model using 27 cubes to fill	The cube model contains 27 small cubes.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (2)	Estimation of volume for Cube B 	Estimate the volume of Cube B.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (2)	Calculate a volume for cube A	Calculate the volume of Cube A.
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	IS THE VOLUME OF CUBOID T IS THE SAME AS THE CUBOID W ?	DO CUBOIDS T AND W HAVE THE SAME VOLUME?
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Text (TMP) (1)	What is a volume for cuboid W?	What is the volume of cuboid W?
+Assets/Scenes/Lessons/Tahap2Lesson.unity	BI	WHAT YOU WANT TO LEARN TODAY ?	What would you like to learn today?
+Assets/Scenes/LoginAddAccountPage.unity	TAJUK	LOG MASUK MENGGUNAKAN ACCOUNT ANDA	CHOOSE YOUR PLAYER
+Assets/Scenes/PenghargaanPage.unity	Credit	BAHAN SUMBER: \nBUKU TEKS\nLAMAN SESAWANG\n(www.freepik.com)	SOURCES: \nTEXTBOOKS\nWEBSITES\n(www.freepik.com)
+Assets/Scenes/PenghargaanPage.unity	Credit	MUZIK LATAR: \nMokka Music\n(www.youtube.com)	BACKGROUND MUSIC: \nMokka Music\n(www.youtube.com)
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY ICE CREAM ?	HOW MANY ICE CREAMS?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY PENCIL ?	HOW MANY PENCILS?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY RULES ?	HOW MANY RULERS?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY STRAWBERRY ?	HOW MANY STRAWBERRIES?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY BREAD ?	HOW MANY PIECES OF BREAD?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	HOW MANY WATERMELON ?	HOW MANY WATERMELONS?
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (1)	ANSWER THE QUIZ BEFORE THE TIMEOUT	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Text (TMP) (2)	YOU NEED TO CHOOSE THE RIGHT ANSWER TO EACH GIVEN QUESTION BEFORE THE TIMEOUT\n\n\nTHE SCORE FOR EACH QUESTION IS 1	Choose the correct answer to each question before time runs out.\nEach correct answer earns 1 point.
+Assets/Scenes/Quizzes/Quizzes.unity	BI	Which quiz you want to try today?	Which quiz would you like to try?
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	TAJUK (2)	Kuiz	Quiz
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Text (TMP) (1)	PLAYING AT WHAT TIME ?	WHAT TIME DO YOU PLAY?
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Text (TMP) (1)	WHAT TIME IS THIS ?	WHAT TIME IS IT?
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Text (TMP) (2)	ANSWER THE QUIZ BEFORE THE TIMEOUT	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Text (TMP) (3)	YOU NEED TO CHOOSE THE RIGHT ANSWER TO EACH GIVEN QUESTION BEFORE THE TIMEOUT\n\n\nTHE SCORE FOR EACH QUESTION IS 1	Choose the correct answer to each question before time runs out.\nEach correct answer earns 1 point.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	Calculate perimeter of a square	Calculate the perimeter of the square.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	Calculate the length of pentagon, in cm.	Calculate the length of one side of the pentagon, in cm.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	Calculate, the area of a card, in cm.	Calculate the area of the card, in cm.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (2)	Calculate the area of an isoceles triangle 	Calculate the area of the isosceles triangle.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	Calculate the area of an isoceles triangle	Calculate the area of the isosceles triangle.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	What is a difference between these two shapes, in cm ?	What is the difference between these two shapes, in cm?
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	How many maximum of cube K that can be fitted into a cuboid	What is the greatest number of cube K that can fit inside the cuboid?
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (1)	Volume of z cube is 4 times the volume of cube y. Calculate the volume of cube Y.	The volume of cube Z is 4 times the volume of cube Y. Calculate the volume of cube Y.
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (2)	ANSWER THE QUIZ BEFORE THE TIMEOUT	ANSWER THE QUESTIONS BEFORE TIME RUNS OUT
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Text (TMP) (3)	YOU NEED TO CHOOSE THE RIGHT ANSWER TO EACH GIVEN QUESTION BEFORE THE TIMEOUT\n\n\nTHE SCORE FOR EACH QUESTION IS 1	Choose the correct answer to each question before time runs out.\nEach correct answer earns 1 point.

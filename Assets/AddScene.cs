@@ -1,34 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class AddScene : MonoBehaviour
 {
-    public string name;
-
+    public new string name;
     public Scene currentScene;
-    // Start is called before the first frame update
-    void Start()
-    {
-            
-    }
+    private bool isLoading;
 
-    // Update is called once per frame
-    void Update()
-    {
-         currentScene = SceneManager.GetActiveScene();
-        
-        string sceneName = currentScene.name;
-    }
     public void AddARScene()
     {
-        SceneManager.LoadScene(name,LoadSceneMode.Additive);
+        if(isLoading || SceneManager.GetSceneByName(name).isLoaded) return;
+        isLoading = true;
+        SceneManager.LoadSceneAsync(name, LoadSceneMode.Additive).completed += _ => isLoading = false;
     }
 
- 
     public void DeleteScene()
     {
-      
-        SceneManager.UnloadSceneAsync(name);
+        Scene s = SceneManager.GetSceneByName(name);
+        if(s.isLoaded) SceneManager.UnloadSceneAsync(name);
     }
 }

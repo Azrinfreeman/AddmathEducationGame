@@ -1,108 +1,66 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class CheckScene : MonoBehaviour
 {
     public GameObject canvas;
-    public string name;
+    public new string name;
 
     public Scene currentScene;
 
     public AudioSource bgMusic;
-    // Start is called before the first frame update
+
+    // scenes that hide the main menu canvas and silence the background music
+    private static readonly HashSet<string> arScenes = new HashSet<string>
+    {
+        "ARKenaliMinit", "ARIsipadu", "ARLuas", "ARPerimeter", "ARPerkaitanWaktu",
+        "ARRekodWaktu", "ARSebutDanTulisWaktu", "ARApaItuTambah", "AROperasiTambahGunaJari",
+        "AROperasiTambahGunaObjek", "AROperasiTambahGunaNombor"
+    };
+
+    private bool wasAR;
+    private bool initialized;
 
     public void StopMusic(){
-        bgMusic.Stop();
+        if(bgMusic != null) bgMusic.Stop();
     }
 
     public void StartMusic(){
-        if(!bgMusic.isPlaying){
-            
-        bgMusic.Play();
+        if(bgMusic != null && !bgMusic.isPlaying){
+            bgMusic.Play();
         }
-    }
-    void Start()
-    {
-        bgMusic = GameObject.Find("bgMusic").GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
+    void Start()
+    {
+        GameObject music = GameObject.Find("bgMusic");
+        if(music != null) bgMusic = music.GetComponent<AudioSource>();
+    }
+
     void Update()
     {
+        // evaluate ALL loaded scenes first, then apply one consistent state
+        // (previously the main scene and an AR scene fought each frame)
+        bool ar = false;
         for (int i = 0; i < SceneManager.sceneCount; ++i)
         {
-            Scene scene = SceneManager.GetSceneAt(i);
-            name = scene.name;
-            if (scene.name == "ARKenaliMinit")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-             StopMusic();
-            }
-            else if (scene.name == "ARIsipadu")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-              StopMusic();
-            }
-            else if (scene.name == "ARLuas")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-               StopMusic();
-            }
-            else if (scene.name == "ARPerimeter")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }
-            else if (scene.name == "ARPerkaitanWaktu")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }
-            else if (scene.name == "ARRekodWaktu")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-               StopMusic();
-            }
-            else if (scene.name == "ARSebutDanTulisWaktu")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }else if (scene.name == "ARApaItuTambah")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }else if (scene.name == "AROperasiTambahGunaJari")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }else if (scene.name == "AROperasiTambahGunaObjek")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }else if (scene.name == "AROperasiTambahGunaNombor")
-            {
-                //the scene is already loaded
-                canvas.SetActive(false);
-                StopMusic();
-            }
-           
-            else
-            {
-                StartMusic();
-                canvas.SetActive(true);
-            }
-          
+            string sceneName = SceneManager.GetSceneAt(i).name;
+            name = sceneName;
+            if (arScenes.Contains(sceneName)) { ar = true; break; }
         }
+
+        if (canvas != null && canvas.activeSelf == ar) canvas.SetActive(!ar);
+
+        if (ar)
+        {
+            if (!initialized || !wasAR) StopMusic();
+        }
+        else
+        {
+            StartMusic();
+        }
+        wasAR = ar;
+        initialized = true;
     }
 }

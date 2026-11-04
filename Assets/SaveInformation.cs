@@ -16,13 +16,18 @@ public class SaveInformation : MonoBehaviour
     public TMP_InputField PlayerNameTMP;
     public TMP_Dropdown PlayerGenderTMP;
     public TMP_InputField PlayerAgeTMP;
+    public FunMath.UI.AvatarPicker avatarPicker;
+    public TMP_Text validationMessage;
+    [Tooltip("Optional stable values matching the visible gender dropdown options.")]
+    public string[] genderValues;
+    private bool submitting;
 
     // Start is called before the first frame update
     void Start()
     {
-        PlayerNameTMP = GameObject.Find("PlayerName").GetComponent<TMP_InputField>();
-        PlayerGenderTMP = GameObject.Find("PlayerGender").GetComponent<TMP_Dropdown>();
-        PlayerAgeTMP = GameObject.Find("PlayerAge").GetComponent<TMP_InputField>();
+        if (!PlayerNameTMP) PlayerNameTMP = transform.Find("PlayerName").GetComponent<TMP_InputField>();
+        if (!PlayerGenderTMP) PlayerGenderTMP = transform.Find("PlayerGender").GetComponent<TMP_Dropdown>();
+        if (!PlayerAgeTMP) PlayerAgeTMP = transform.Find("PlayerAge").GetComponent<TMP_InputField>();
 
         if(PlayerPrefs.GetInt("PlayerTotal") == 0){
            // Debug.Log("masuk");
@@ -55,15 +60,29 @@ public class SaveInformation : MonoBehaviour
 
         PlayerPrefs.SetString("PlayerName", PlayerName);
         PlayerPrefs.SetString("PlayerGender", Gender);
+        PlayerPrefs.SetInt("PlayerAge", Age);
+        if (avatarPicker) PlayerPrefs.SetString("PlayerAvatar_" + playerId, avatarPicker.SelectedId);
+
+        // make the new account the active one so progress keys use its ID
+        PlayerPrefs.SetInt("PlayerID", playerId);
+        PlayerPrefs.Save();
     }
 
     public void GetAndSave(){
-        PlayerName = PlayerNameTMP.text;
-        Gender = PlayerGenderTMP.options[PlayerGenderTMP.value].text;
-        Age = int.Parse(PlayerAgeTMP.text);
+        if (submitting) return;
+        PlayerName = PlayerNameTMP.text.Trim();
+        Gender = genderValues != null && PlayerGenderTMP.value < genderValues.Length
+            ? genderValues[PlayerGenderTMP.value] : PlayerGenderTMP.options[PlayerGenderTMP.value].text;
+        if (string.IsNullOrEmpty(PlayerName) || !int.TryParse(PlayerAgeTMP.text, out Age) || Age <= 0)
+        {
+            Debug.LogWarning("Invalid name or age - account not saved.");
+            if (validationMessage) validationMessage.text = PlayerPrefs.GetInt("EnglishLang", 0) == 1 ? "Enter your name and a valid age." : "Masukkan nama dan umur yang sah.";
+            return;
+        }
         
 
-        Debug.Log(PlayerName + Gender + Age);
+        submitting = true;
+        if (validationMessage) validationMessage.text = PlayerPrefs.GetInt("EnglishLang", 0) == 1 ? "Let's play!" : "Mari bermain!";
        // LoadingStart.instance.SaveDate();
         //save data player
         PlayerPrefs.SetInt("firstTime", 1);

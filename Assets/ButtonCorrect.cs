@@ -12,7 +12,7 @@ public class ButtonCorrect : MonoBehaviour
     void Start()
     {
         correctButton = GetComponent<Button>();
-        no = int.Parse(this.transform.parent.transform.parent.name);
+        if(!int.TryParse(this.transform.parent.transform.parent.name, out no)) Debug.LogWarning("ButtonCorrect: page name is not numeric: " + transform.parent.parent.name);
         siblingno = transform.GetSiblingIndex();
         selectedButtonController = gameObject.transform.parent.GetComponent<buttonSelectedController>();
         //Debug.Log(transform.GetSiblingIndex());
@@ -33,13 +33,9 @@ public class ButtonCorrect : MonoBehaviour
 
     public void CheckButtonCondition(){
 
-       if(selectedButtonController.ispressed[siblingno] && selectedButtonController.answers[siblingno]){
-
-       QuizController.instance.noQuiz[no-1] = true; 
-       }else {
-       QuizController.instance.noQuiz[no-1] = false; 
-        
-       }
+       bool[] quiz = QuizController.instance.noQuiz;
+       if(quiz == null || no < 1 || no > quiz.Length) return;
+       quiz[no-1] = selectedButtonController.ispressed[siblingno];
     }
     public void changeColor(){
         ColorBlock color;

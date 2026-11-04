@@ -23,14 +23,19 @@ public class TimeGameController : MonoBehaviour
     private AudioSource warningSFX;
     public Transform timeoutGameobject;
     public Animator prompted;
+    public event System.Action SecondsChanged;
+    private int displayedSeconds = -1;
     // Start is called before the first frame update
     void Start()
     {
         
         text = transform.GetChild(2).transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-        prompted = transform.parent.transform.parent.GetChild(7).GetComponent<Animator>();
-        timeoutGameobject = transform.parent.transform.parent.GetChild(8).GetComponent<Transform>();
-        warningSFX = GameObject.Find("warningSFX").GetComponent<AudioSource>();
+        // Explicit scene references avoid opening unrelated panels when siblings change.
+        var canvas = GetComponentInParent<Canvas>();
+        if (!prompted && canvas) prompted = canvas.transform.Find("againPanel")?.GetComponent<Animator>();
+        if (!timeoutGameobject && canvas) timeoutGameobject = canvas.transform.Find("TimeUp");
+        var warning = GameObject.Find("warningSFX");
+        if (!warningSFX && warning) warningSFX = warning.GetComponent<AudioSource>();
        
 //        prompted = transform.parent.GetChild(0).GetComponent<GameObject>();
   //      timeoutGameobject = GameObject.Find("TimeUp").GetComponent<GameObject>();
@@ -38,11 +43,10 @@ public class TimeGameController : MonoBehaviour
     }
 
     IEnumerator OpenAndClose(){
-        prompted.SetBool("isClosing",false);
-            timeoutGameobject.gameObject.SetActive(true);
+        if (prompted) prompted.SetBool("isClosing",false);
+        if (timeoutGameobject) timeoutGameobject.gameObject.SetActive(true);
         yield return new WaitForSeconds(3f);
-        prompted.SetBool("isClosing",true);
-            timeoutGameobject.gameObject.SetActive(true);
+        if (prompted) prompted.SetBool("isClosing",true);
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -59,8 +63,8 @@ public class TimeGameController : MonoBehaviour
             }
             
         }else{
-            if(!isSwitch){
-            Debug.Log(isSwitch);
+            bool won = Game1Controller.instance != null && Game1Controller.instance.isEnded;
+            if(!isSwitch && !won){
             //QuizController.instance.CollectAndCheck();
             StartCoroutine(OpenAndClose());
             isSwitch = true;
@@ -68,23 +72,27 @@ public class TimeGameController : MonoBehaviour
         }
 
 
+        if (timer < 0) timer = 0;
         minit = Mathf.FloorToInt(timer/60);
         seconds = Mathf.FloorToInt(timer % 60);
-        
-        if(minit <=0 && seconds >=0 && seconds < 10){
-        text.text = "0:0"+seconds.ToString();
-        if(!isStopping){
-            if(!warningSFX.isPlaying){
 
-                warningSFX.Play(); 
-                }
+        text.text = Format(timer);
+        int wholeSeconds = Mathf.Max(0, Mathf.CeilToInt(timer));
+        if (displayedSeconds != wholeSeconds)
+        {
+            displayedSeconds = wholeSeconds;
+            SecondsChanged?.Invoke();
         }
-                
-            
-        }else if (minit >= 1 && seconds < 10){
-        text.text = minit+":0"+seconds.ToString();
-        }else{
-        text.text = minit+":"+seconds.ToString();
+        if(!isStopping && timer > 0 && minit <= 0 && seconds < 10){
+            if(warningSFX && !warningSFX.isPlaying){
+                warningSFX.Play();
+            }
         }
+    }
+
+    private static string Format(float t)
+    {
+        int total = Mathf.Max(0, Mathf.FloorToInt(t));
+        return (total / 60) + ":" + (total % 60).ToString("00");
     }
 }

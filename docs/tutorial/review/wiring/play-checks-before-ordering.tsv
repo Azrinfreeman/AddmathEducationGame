@@ -1,0 +1,63 @@
+PASS	PrasekolahQuiz timer references survive Start
+PASS	PrasekolahQuiz Check is visible and interactive on the final page
+PASS	PrasekolahQuiz final-action caption fits 540x960/0
+PASS	PrasekolahQuiz final-action caption fits 540x960/1
+PASS	PrasekolahQuiz final-action caption fits 960x540/0
+PASS	PrasekolahQuiz final-action caption fits 960x540/1
+PASS	PrasekolahQuiz final-action caption fits 360x800/0
+PASS	PrasekolahQuiz final-action caption fits 360x800/1
+PASS	PrasekolahQuiz final-action caption fits 800x360/0
+PASS	PrasekolahQuiz final-action caption fits 800x360/1
+PASS	PrasekolahQuiz final-action caption fits 768x1024/0
+PASS	PrasekolahQuiz final-action caption fits 768x1024/1
+PASS	PrasekolahQuiz final-action caption fits 1024x768/0
+PASS	PrasekolahQuiz final-action caption fits 1024x768/1
+PASS	PrasekolahQuiz final arrow opens confirmation over last page
+PASS	PrasekolahQuiz cancelling retains last page
+PASS	PrasekolahQuiz cancelling restores final-arrow focus
+PASS	PrasekolahQuiz existing confirmation calculates score and opens result
+PASS	PrasekolahQuiz timeout opens result and TimeUp without submit confirmation
+PASS	PrasekolahQuiz AudioPanelParent dropdown invokes its existing animator owner
+PASS	PrasekolahQuiz ProfilePanelParent dropdown invokes its existing animator owner
+PASS	Tahap1Quiz timer references survive Start
+PASS	Tahap1Quiz Check is visible and interactive on the final page
+PASS	Tahap1Quiz final-action caption fits 540x960/0
+PASS	Tahap1Quiz final-action caption fits 540x960/1
+PASS	Tahap1Quiz final-action caption fits 960x540/0
+PASS	Tahap1Quiz final-action caption fits 960x540/1
+PASS	Tahap1Quiz final-action caption fits 360x800/0
+PASS	Tahap1Quiz final-action caption fits 360x800/1
+PASS	Tahap1Quiz final-action caption fits 800x360/0
+PASS	Tahap1Quiz final-action caption fits 800x360/1
+PASS	Tahap1Quiz final-action caption fits 768x1024/0
+PASS	Tahap1Quiz final-action caption fits 768x1024/1
+PASS	Tahap1Quiz final-action caption fits 1024x768/0
+PASS	Tahap1Quiz final-action caption fits 1024x768/1
+PASS	Tahap1Quiz final arrow opens confirmation over last page
+PASS	Tahap1Quiz cancelling retains last page
+PASS	Tahap1Quiz cancelling restores final-arrow focus
+PASS	Tahap1Quiz existing confirmation calculates score and opens result
+PASS	Tahap1Quiz timeout opens result and TimeUp without submit confirmation
+PASS	Tahap1Quiz AudioPanelParent dropdown invokes its existing animator owner
+PASS	Tahap1Quiz ProfilePanelParent dropdown invokes its existing animator owner
+PASS	Tahap2Quiz timer references survive Start
+PASS	Tahap2Quiz Check is visible and interactive on the final page
+PASS	Tahap2Quiz final-action caption fits 540x960/0
+PASS	Tahap2Quiz final-action caption fits 540x960/1
+PASS	Tahap2Quiz final-action caption fits 960x540/0
+PASS	Tahap2Quiz final-action caption fits 960x540/1
+PASS	Tahap2Quiz final-action caption fits 360x800/0
+PASS	Tahap2Quiz final-action caption fits 360x800/1
+PASS	Tahap2Quiz final-action caption fits 800x360/0
+PASS	Tahap2Quiz final-action caption fits 800x360/1
+PASS	Tahap2Quiz final-action caption fits 768x1024/0
+PASS	Tahap2Quiz final-action caption fits 768x1024/1
+PASS	Tahap2Quiz final-action caption fits 1024x768/0
+PASS	Tahap2Quiz final-action caption fits 1024x768/1
+PASS	Tahap2Quiz final arrow opens confirmation over last page
+PASS	Tahap2Quiz cancelling retains last page
+PASS	Tahap2Quiz cancelling restores final-arrow focus
+PASS	Tahap2Quiz existing confirmation calculates score and opens result
+PASS	Tahap2Quiz timeout opens result and TimeUp without submit confirmation
+PASS	Tahap2Quiz AudioPanelParent dropdown invokes its existing animator owner
+PASS	Tahap2Quiz ProfilePanelParent dropdown invokes its existing animator owner

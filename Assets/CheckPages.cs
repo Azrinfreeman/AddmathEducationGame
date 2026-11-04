@@ -15,6 +15,8 @@ public class CheckPages : MonoBehaviour
     public string textLabel;
     TextMeshProUGUI text;
     public Slider slider;
+    private Transform previousPage;
+    private int previousLanguage = -1;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,18 +25,42 @@ public class CheckPages : MonoBehaviour
 
     
     public void setupPage(){
-            quizNumber = transform.GetChild(0).name;
+            if(transform.childCount == 0) return;
+            var page = transform.GetChild(0);
+            int language = PlayerPrefs.GetInt("EnglishLang", 0);
+            if (page == previousPage && language == previousLanguage && numberofPages == transform.childCount) return;
+            previousPage = page;
+            previousLanguage = language;
+            var layout = page.GetComponent<FunMath.UI.LessonPageLayout>();
+            if (layout)
+            {
+                text = layout.progressLabel as TextMeshProUGUI;
+                slider = layout.progressBar;
+            }
+            else
+            {
+                text = null;
+                foreach (var label in page.GetComponentsInChildren<TextMeshProUGUI>(true))
+                    if (label.name == "textLabel") { text = label; break; }
+                slider = page.GetComponentInChildren<Slider>(true);
+            }
+            quizNumber = page.name;
             numberofPages =  transform.childCount;
-            textLabel = quizNumber+ " daripada "+ numberofPages + " muka surat";
+            if(PlayerPrefs.GetInt("EnglishLang") == 1){
+                textLabel = "Page " + quizNumber + " of " + numberofPages;
+            }else{
+                textLabel = "Halaman " + quizNumber + " daripada " + numberofPages;
         
-            text = GameObject.Find("textLabel").GetComponent<TextMeshProUGUI>();
-            slider = GameObject.Find("Slider").GetComponent<Slider>();
+            }
+            
+            if(text == null || slider == null) return;
             text.text = textLabel;
 
-            slider.minValue = 1;
+            slider.minValue = 0;
             slider.maxValue = numberofPages;
 
-            slider.value = int.Parse(quizNumber);
+            int current;
+            if(int.TryParse(quizNumber, out current)) slider.value = current;
         
 
     }

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524a937ff27b0e349bd20bf7ae0fd1a4, type: 3}
+  m_Name: AvatarCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::FunMath.UI.AvatarCatalog
+  avatars:
+  - id: owl
+    malay: Burung hantu
+    english: Owl
+    artwork: {fileID: 5306476199207711423, guid: 0d119594990fabc42a4c991e50487806, type: 3}
+  - id: cat
+    malay: Kucing
+    english: Cat
+    artwork: {fileID: 2608099552351958462, guid: c543eaf2d67cc2c438b3e9801b83b969, type: 3}
+  - id: bear
+    malay: Beruang
+    english: Bear
+    artwork: {fileID: 1237556200896883623, guid: 77cab926b2d38d7488d93632fe4053ed, type: 3}
+  - id: fox
+    malay: Musang
+    english: Fox
+    artwork: {fileID: 1005147023378544134, guid: 02ec140da27b690458f13cac47a82408, type: 3}
+  - id: rabbit
+    malay: Arnab
+    english: Rabbit
+    artwork: {fileID: 4215889221636393075, guid: be776a530d141da439f714ada42a1347, type: 3}
+  - id: panda
+    malay: Panda
+    english: Panda
+    artwork: {fileID: 5041664732632987227, guid: 10bbbbf21e55c2544b87499e8e683a9a, type: 3}
+  - id: frog
+    malay: Katak
+    english: Frog
+    artwork: {fileID: 5090940938278077973, guid: 199f4c0a19152e644a6d1a5377cb2d08, type: 3}
+  - id: penguin
+    malay: Penguin
+    english: Penguin
+    artwork: {fileID: 7540200159934522833, guid: 50cdb1e23efe18f4989dcfe47cbd20e0, type: 3}

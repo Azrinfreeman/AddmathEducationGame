@@ -1,0 +1,169 @@
+scene	control	method	decision
+Assets/Scenes/AfterLogin/MainMenu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/AfterLogin/MainMenu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/AR/ARPerkaitanWaktu.unity	Canvas/2/Play	Play	Reconnect unique existing video player
+Assets/Scenes/AR/ARPerkaitanWaktu.unity	Canvas/2/Stop	Stop	Reconnect unique existing video player
+Assets/Scenes/AR/Pra/AROperasiTambahGunaJari.unity	Canvas/2/Play	Play	Reconnect unique existing video player
+Assets/Scenes/AR/Pra/AROperasiTambahGunaJari.unity	Canvas/2/Stop	Stop	Reconnect unique existing video player
+Assets/Scenes/Badges/BadgesPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Badges/BadgesPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/CreditPage.unity	Canvas/QuizController/1/nextButton	SetAsFirstSibling	Remove obsolete no-op on retained legacy control
+Assets/Scenes/CreditPage.unity	Canvas/QuizController/1/nextButton	SetActive	Remove obsolete no-op on retained legacy control
+Assets/Scenes/CreditPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/CreditPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/GameMenu.unity	Canvas/Button1 (3)		Remove obsolete no-op on retained legacy control
+Assets/Scenes/GameMenu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/GameMenu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/HowToPlay/Image/YesBtn	SetActive	UNRESOLVED
+Assets/Scenes/Games/AddingGae/Level1.unity	Canvas/HowToPlay/Image/YesBtn	QuitApp	UNRESOLVED
+Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl1.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl10.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl10.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl2.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl2.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl3.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl3.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl4.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl4.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl5.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl5.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl6.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl6.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl7.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl8.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/AlgorithmGame/algoLvl9.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/GamePrasekolah/GamePrasekolah.unity	Canvas/Prompted (2)/Image/YesBtn	CollectAndCheck	UNRESOLVED
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GameTahap1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level10.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level2.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level3.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level4.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level5.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level6.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level7.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level8.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/Header/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/Header/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/failPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/againPanel/Panel/AudioPanel/executeButton	loadScene	Remove obsolete no-op on retained legacy control
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Games/WhackAMole/GT1level9.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/LearningPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/LearningPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Prasekolah/1. PengalamanPranombor.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Prasekolah/2.memahamisiri.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Prasekolah/3.OperasiNombor.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/PrasekolahLesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/PrasekolahLesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap1/1.Kenali Minit.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap1/2.SebutDanTulisWaktu 1.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap1/3.RekodWaktu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap1/4. Pekaitan Waktu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap1Lesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap1Lesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap2/1. Perimeter.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap2/2 Luas.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap2/3. isipadu.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Lessons/Tahap2Lesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Lessons/Tahap2Lesson.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/PenghargaanPage.unity	Canvas/QuizController/1/nextButton	SetAsFirstSibling	Remove obsolete no-op on retained legacy control
+Assets/Scenes/PenghargaanPage.unity	Canvas/QuizController/1/nextButton	SetActive	Remove obsolete no-op on retained legacy control
+Assets/Scenes/PenghargaanPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/PenghargaanPage.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/Title/Timer	timeout	Bind existing results and TimeUp panels
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/QuizController/15/nextButton	SetAsFirstSibling	UNRESOLVED
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/QuizController/15/nextButton	SetActive	UNRESOLVED
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Quizzes/PrasekolahQuiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Quizzes/Quizzes.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Quizzes/Quizzes.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Canvas/Title/Timer	timeout	Bind existing results and TimeUp panels
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Canvas/QuizController/10/nextButton	final-page	Open existing submit confirmation; retain page for cancellation
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Quizzes/Tahap1Quiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/Title/Timer	timeout	Bind existing results and TimeUp panels
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/QuizController/15/nextButton	SetAsFirstSibling	UNRESOLVED
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/QuizController/15/nextButton	SetActive	UNRESOLVED
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown	isShowing	Reconnect unique existing AudioPanelParent
+Assets/Scenes/Quizzes/Tahap2Quiz.unity	Canvas/settingDrop/settingDrop/Dropdowns/Dropdown (1)	isShowing	Reconnect unique existing ProfilePanelParent

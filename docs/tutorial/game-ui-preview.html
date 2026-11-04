@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gameplay UI previews</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; color: #203a47; background: #fffdf7; font: 15px/1.45 system-ui, sans-serif; }
+  main { max-width: 1000px; margin: auto; }
+  h1 { font-size: 25px; line-height: 1.2; margin: 0 0 8px; }
+  p { margin: 0 0 22px; }
+  .gallery { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 24px; align-items: start; }
+  figure { margin: 0 0 20px; }
+  img { display: block; width: 100%; height: auto; }
+  figcaption { margin-top: 8px; }
+  a { color: inherit; }
+  @media (max-width: 650px) { .gallery { grid-template-columns: 1fr; } .portrait { max-width: 320px; } }
+</style>
+<main>
+  <h1>Gameplay UI</h1>
+  <p>Actual Unity Game view captures, 4 November 2026. Open an image to inspect it at full size.</p>
+  <div class="gallery">
+    <figure class="portrait">
+      <a href="screenshots/game-five-answers-portrait.png"><img src="screenshots/game-five-answers-portrait.png" alt="Portrait answer game with five large targets and a clock question"></a>
+      <figcaption>Answer targets, portrait</figcaption>
+    </figure>
+    <div>
+      <figure>
+        <a href="screenshots/game-algorithm-landscape.png"><img src="screenshots/game-algorithm-landscape.png" alt="Landscape algorithm game with a completed six-arrow route and large Run and Clear controls"></a>
+        <figcaption>Algorithm controls, landscape</figcaption>
+      </figure>
+      <figure>
+        <a href="screenshots/game-rocket-landscape.png"><img src="screenshots/game-rocket-landscape.png" alt="Landscape rocket game with separate question, score, and large direction controls"></a>
+        <figcaption>Rocket controls, landscape</figcaption>
+      </figure>
+    </div>
+  </div>
+</main>
+</html>

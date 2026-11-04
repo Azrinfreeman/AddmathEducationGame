@@ -12,10 +12,11 @@ public class LessonController : MonoBehaviour
         
         check = GetComponent<CheckPages>();
         
-        Invoke("GetNumber", 0.5f);
+        GetNumber();
     }
     public void GetNumber(){
-        noPages = new bool[check.numberofPages];
+        if (!check) check = GetComponent<CheckPages>();
+        noPages = new bool[transform.childCount];
     }
     // Update is called once per frame
     void Update()

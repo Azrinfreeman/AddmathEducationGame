@@ -23,6 +23,7 @@ public class AlgoController : MonoBehaviour
     private Transform winPanel;
     private Transform againPanel;
     public Vector2 startPosition;
+    private bool isRunning;
 
 
     // Start is called before the first frame update
@@ -51,12 +52,13 @@ public class AlgoController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(input[numInput-1].transform.gameObject.activeInHierarchy){
+        if(numInput > 0 && input[numInput-1].transform.gameObject.activeInHierarchy){
             transform.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
     public void RunTheProgram(){
+        numString = 0; // reset so pressing Run twice does not double the program
 
         //get the only active child in parent 
         for(int p = 0; p < numInput; p++){
@@ -99,19 +101,23 @@ public class AlgoController : MonoBehaviour
     private void MoveRight(){
         
         stickman.localPosition = new Vector2(stickman.localPosition.x + 100f, stickman.localPosition.y);
+        Physics2D.SyncTransforms();
     }
 
     private void MoveLeft(){
    
         stickman.localPosition = new Vector2(stickman.localPosition.x -100f, stickman.localPosition.y);
+        Physics2D.SyncTransforms();
     }
 
     private void MoveUp(){
         stickman.localPosition = new Vector2(stickman.localPosition.x, stickman.localPosition.y + 100);
+        Physics2D.SyncTransforms();
     }
   
     private void MoveDown(){
         stickman.localPosition = new Vector2(stickman.localPosition.x, stickman.localPosition.y - 100);
+        Physics2D.SyncTransforms();
     }
 
 
@@ -133,7 +139,7 @@ public class AlgoController : MonoBehaviour
        //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(1);
             
-            if(storeInput[i] != ""){
+            if(!string.IsNullOrEmpty(storeInput[i])){
                 if(storeInput[i] == "right"){
                     MoveRight();
                 }else if (storeInput[i] == "left"){
@@ -146,8 +152,6 @@ public class AlgoController : MonoBehaviour
                 if(!moveSound.isPlaying){
                     moveSound.Play();
                 }   
-                
-                    Debug.Log("i = "+i +" length = "+ storeInput.Length);
                 if(i == storeInput.Length-1){
                     yield return new WaitForSeconds(1.5f); // wait to get the isInside from sticknman
 
@@ -192,7 +196,8 @@ public class AlgoController : MonoBehaviour
 
     
     public void PlayCorrectAnimation(){
-     
+        if(isRunning) return;
+        isRunning = true;
         StartCoroutine(debugDelay());
         //gameObject.SetActive(false);
     }
