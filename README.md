@@ -1,8 +1,8 @@
-# FunMath — Interactive Mathematics Learning
+# MathFunEducational — Interactive Mathematics Learning
 
 **A Unity educational application combining mathematics lessons, quizzes, minigames, and image-target AR activities.**
 
-FunMath includes preschool number/addition content, time-reading lessons, and perimeter, area, and volume activities. It connects local player profiles with lesson completion, quiz results, game progression, and achievement badges. The repository remains named `AddmathEducationGame`; its configured Unity product name is `FunMathProject`.
+MathFunEducational includes preschool number/addition content, time-reading lessons, and perimeter, area, and volume activities. It connects local player profiles with lesson completion, quiz results, game progression, and achievement badges. The repository remains named `AddmathEducationGame`; its configured Unity product name is `MathFunEducational`. To change the app display name, edit **Project Settings > Player > Product Name** in Unity. The Android application identifier is `com.Techies.MathFunEducational`. Change it under **Project Settings > Player > Android > Other Settings > Identification > Package Name**. Android treats this identifier as a separate app from the previous `com.Techies.FunMathProject` package, so existing installs will not receive it as an update or automatically share local progress.
 
 ## Features in the source
 
