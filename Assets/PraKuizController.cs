@@ -12,12 +12,13 @@ public class PraKuizController : MonoBehaviour
         anim = GetComponent<Animator>();
 
         anim.SetBool("isClosing",false);
-        TimerController.instance.isStopping = true;
+        // AR scenes reuse this intro panel without a quiz timer.
+        if (TimerController.instance) TimerController.instance.isStopping = true;
     }
 
 
     public void StartTime(){
-         TimerController.instance.isStopping = false;
+         if (TimerController.instance) TimerController.instance.isStopping = false;
     }
     // Update is called once per frame
 
