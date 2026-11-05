@@ -4,6 +4,10 @@
 
 **[▶ Play the web demo on itch.io](https://azrinamran98.itch.io/math-fun-education)** · **[🎬 Watch the 40-second trailer](docs/media/trailer.mp4)** · **[📱 Download the Android app (APK)](https://github.com/Azrinfreeman/MathFunEducation/releases/latest)**
 
+**Windows:** [Download the installer](https://github.com/Azrinfreeman/MathFunEducation/releases/download/v1.0.0/MathFunEducational-Windows-Setup.exe) or [download the portable ZIP](https://github.com/Azrinfreeman/MathFunEducation/releases/download/v1.0.0/MathFunEducational-Windows-Portable.zip). For the portable version, extract the entire ZIP and run MathFunEducational.exe from the extracted folder.
+
+The Windows downloads were packaged from the existing local build; its exact source revision has not been verified. To rebuild the installer, first export a Windows build to `Publish/Windows`, then compile `Tools/windows-installer/MathFunEducational.iss` with Inno Setup 6.
+
 > The web demo runs in your browser. AR lessons and online account saving need the Android app.
 
 ## What makes it interesting
