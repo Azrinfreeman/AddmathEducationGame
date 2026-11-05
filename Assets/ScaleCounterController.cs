@@ -11,6 +11,7 @@ public class ScaleCounterController : MonoBehaviour
     public Transform losePanel;
 
     private bool decided;
+    private string recordedPlacement = "";   // placement already reported online
     public event System.Action PlacementChanged;
     private int displayedCount = -1;
 
@@ -43,7 +44,15 @@ public class ScaleCounterController : MonoBehaviour
     public void Confirming(){
         if(!AllPlaced()) return;
 
-        if(scale1.weight == scale2.weight){
+        // Report once per distinct placement, even if Confirming() is called again for the same balls.
+        bool balanced = scale1.weight == scale2.weight;
+        string placement = scale1.weight + "|" + scale2.weight;
+        if(placement != recordedPlacement){
+            recordedPlacement = placement;
+            MathFun.OnlineData.OnlineResults.Outcome(MathFun.OnlineData.OnlineResults.SceneActivity("game_balance_"), balanced);
+        }
+
+        if(balanced){
             winPanel.gameObject.SetActive(true);
             var celebration = winPanel.GetComponent<FunMath.UI.ResultCelebration>();
             if (celebration) celebration.Play();
@@ -66,6 +75,7 @@ public class ScaleCounterController : MonoBehaviour
             Confirming();
         }else if(!placed){
             decided = false;
+            recordedPlacement = "";   // balls were removed: the next full placement is a new attempt
         }
     }
 }

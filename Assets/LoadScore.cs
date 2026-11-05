@@ -20,6 +20,10 @@ public class LoadScore : MonoBehaviour
         var celebration = GetComponent<FunMath.UI.ResultCelebration>();
         if (celebration && quiz.score > 0) celebration.Play();
 
+        // Report the finished quiz online (saved locally first; uploaded when an adult is signed in).
+        string quizId = pra ? "quiz_preschool" : t1 ? "quiz_level1" : t2 ? "quiz_level2" : null;
+        if (quizId != null) MathFun.OnlineData.OnlineResults.Scored(quizId, quiz.score, CheckQuizNumber.instance.numberofQuizzes);
+
         if(quiz.score == CheckQuizNumber.instance.numberofQuizzes){
             if(pra){
                 PlayerPrefs.SetInt("High1_"+PlayerPrefs.GetInt("PlayerID"),1);

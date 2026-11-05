@@ -159,6 +159,7 @@ public class AlgoController : MonoBehaviour
                         Debug.Log(" notinside");
                     yield return new WaitForSeconds(1.5f);
                      stickman.localPosition = new Vector2(startPosition.x, startPosition.y);
+                     MathFun.OnlineData.OnlineResults.Outcome(MathFun.OnlineData.OnlineResults.SceneActivity("game_algorithm_", "algoLvl"), false);
                      failPanel.GetComponent<AudioController>().isShowing();
                      yield return new WaitForSeconds(2f);
                      failPanel.GetComponent<AudioController>().isHiding();
@@ -169,11 +170,11 @@ public class AlgoController : MonoBehaviour
                             yield return new WaitForSeconds(1.5f);
                           Debug.Log("istouching: "+stickman.GetComponent<stickmanProperty>().isTouchingTriangle);
                         if(stickman.GetComponent<stickmanProperty>().isTouchingTriangle){
-                            winPanel.GetComponent<AudioController>().isShowing();
+                            MathFun.OnlineData.OnlineResults.Outcome(MathFun.OnlineData.OnlineResults.SceneActivity("game_algorithm_", "algoLvl"), true); winPanel.GetComponent<AudioController>().isShowing();
                         }else if(stickman.GetComponent<stickmanProperty>().isTouchingCircle){
-                            winPanel.GetComponent<AudioController>().isShowing();
+                            MathFun.OnlineData.OnlineResults.Outcome(MathFun.OnlineData.OnlineResults.SceneActivity("game_algorithm_", "algoLvl"), true); winPanel.GetComponent<AudioController>().isShowing();
                         }else if(stickman.GetComponent<stickmanProperty>().isTouchingSquare){
-                            winPanel.GetComponent<AudioController>().isShowing();
+                            MathFun.OnlineData.OnlineResults.Outcome(MathFun.OnlineData.OnlineResults.SceneActivity("game_algorithm_", "algoLvl"), true); winPanel.GetComponent<AudioController>().isShowing();
                         }else{
                             againPanel.GetComponent<AudioController>().isShowing();
                             yield return new WaitForSeconds(2f);

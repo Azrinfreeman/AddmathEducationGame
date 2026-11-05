@@ -57,6 +57,7 @@ public class Game1Controller : MonoBehaviour
 
         if(isEnded && !isEnding){
             isEnding = true;
+            MathFun.OnlineData.OnlineResults.Scored(MathFun.OnlineData.OnlineResults.SceneActivity("game_tahap1_", "GT1level"), score, toCorrect);
             if(TimeGameController.instance != null) TimeGameController.instance.isStopping = true;
             StartCoroutine(showWin());
         }

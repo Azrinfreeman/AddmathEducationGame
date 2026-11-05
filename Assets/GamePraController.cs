@@ -60,6 +60,7 @@ public class GamePraController : MonoBehaviour
             Destroy(backgroundImage[0].GetComponent<Rigidbody2D>());
             Destroy(backgroundImage[1].GetComponent<Rigidbody2D>());
             EndPanel.gameObject.SetActive(true);
+            MathFun.OnlineData.OnlineResults.Scored("game_preschool", score, -1);
             var celebration = EndPanel.GetComponent<FunMath.UI.ResultCelebration>();
             if (celebration) celebration.Play();
             level = 10;

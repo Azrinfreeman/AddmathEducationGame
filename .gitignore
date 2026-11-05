@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Online player data (private server files)
+/Server/config/config.php
+/Server/logs/
+*.zip.generated
+/ServerUpload/
