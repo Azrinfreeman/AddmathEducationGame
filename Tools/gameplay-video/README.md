@@ -15,4 +15,4 @@ Review game asset rights and the preview before rendering or publishing a finish
 
 The game footage was captured from Unity's Game view at a 1920×1080 canvas; the
 recorded window was cropped and resized to 1280×720 for this draft. The crop and
-source ranges used are recorded in `docs/GAMEPLAY_VIDEO_IMPLEMENTATION.md`.
+source ranges are defined in `prepare_clips.py`.

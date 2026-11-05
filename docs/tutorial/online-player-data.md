@@ -152,4 +152,6 @@ The small dot on the **Online** button shows sync state: grey = not signed in, g
 
 ## 12. Not done yet
 
-See `IMPLEMENTATION.notes.md`. In short: the existing game scripts still read PlayerPrefs (the server holds a mirrored copy).
+The existing game scripts still read PlayerPrefs; the server holds a mirrored copy. Profile and flag changes reach the server through the scene-load mirror. The sign-in panel is built in code; migration preview and sync-status prefabs are not implemented.
+
+Deployment on cPanel, two-device restore, offline restart, and Android behaviour have not been verified. MySQL 8 and PHP 8.3 were not tested. Quiz score limits and activity IDs need an audit against the scenes before production use.

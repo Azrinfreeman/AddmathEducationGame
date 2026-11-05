@@ -1,6 +1,6 @@
 # Maintain the kids UI revamp
 
-The shared UI treatment is applied to 61 scenes. Eight navigation hubs have new responsive layouts, an illustrated owl, voice replay, and parent settings. The three playable quizzes, three account screens, ten lessons, and 22 games also have responsive layouts, frames, or HUDs. Physics-driven game boards retain their original geometry and fit-to-screen scaling. The complete design and device acceptance checklist in [UI_REVAMP_PLAN.md](../../UI_REVAMP_PLAN.md) remains open.
+The shared UI treatment is applied to 61 scenes. Eight navigation hubs have new responsive layouts, an illustrated owl, voice replay, and parent settings. The three playable quizzes, three account screens, ten lessons, and 22 games also have responsive layouts, frames, or HUDs. Physics-driven game boards retain their original geometry and fit-to-screen scaling. Device acceptance remains open; see [what was checked and what remains](#what-was-checked-and-what-remains).
 
 [Use the screens](#use-the-new-screens) · [Profiles and avatars](#maintain-profiles-and-avatars) · [Lesson paths and collections](#maintain-lesson-paths-and-collection-screens-2026-11-05) ? [Lesson layouts](#maintain-lesson-layouts) · [Quiz layouts](#maintain-quiz-layouts-and-result-confetti) · [Game layouts](#maintain-game-huds-pause-and-results) · [Lesson narration](#bundled-lesson-recordings-offline-voice-over-2026-11-04) ? [Verification](#what-was-checked-and-what-remains)
 
