@@ -1,0 +1,19 @@
+{
+  "name": "mathfun-gameplay-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "preview": "remotion render src/index.ts MathFunPreview out/preview.mp4 --codec=h264 --scale=0.5"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "remotion": "4.0.541",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -28,6 +28,14 @@ function handle_request(): void
     $route = '/' . trim((string) ($_GET['route'] ?? ''), '/');
     $uuid = '([0-9a-fA-F-]{36})';
 
+    // Browser pre-check before a cross-site call (WebGL build): answer "yes, allowed" with no body.
+    if ($method === 'OPTIONS') {
+        while (ob_get_level() > 0) { ob_end_clean(); }
+        http_response_code(204);
+        send_cors_headers();
+        exit;
+    }
+
     if ($method === 'GET' && $route === '/v1/health') {
         send_success(['status' => 'ok']);
     }

@@ -41,7 +41,14 @@ namespace MathFun.OnlineData
             ApiConfiguration found = Resources.Load<ApiConfiguration>(ResourcePath);
             if (found != null)
             {
+#if UNITY_WEBGL
+                // Web demo: visitors never create accounts or upload data. Progress stays in their browser.
+                ApiConfiguration demo = Instantiate(found);
+                demo.onlineEnabled = false;
+                return demo;
+#else
                 return found;
+#endif
             }
             Debug.LogWarning("MathFun: no ApiConfiguration asset found; online features are off.");
             ApiConfiguration fallback = CreateInstance<ApiConfiguration>();

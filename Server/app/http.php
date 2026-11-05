@@ -33,6 +33,19 @@ function request_id(): string
     return $id;
 }
 
+/**
+ * Lets the WebGL build (served from another site, e.g. itch.io) call this API from a browser.
+ * Safe with '*' because sign-in uses a token header, not cookies.
+ */
+function send_cors_headers(): void
+{
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+    header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Auth-Token');
+    header('Access-Control-Expose-Headers: Retry-After');
+    header('Access-Control-Max-Age: 86400');
+}
+
 /** Sends a JSON answer and ends the request. */
 function send_json(int $status, array $body, array $extraHeaders = []): void
 {
@@ -42,6 +55,7 @@ function send_json(int $status, array $body, array $extraHeaders = []): void
         ob_end_clean();
     }
     http_response_code($status);
+    send_cors_headers();
     header('Content-Type: application/json; charset=utf-8');
     header('Cache-Control: no-store');
     header('X-Content-Type-Options: nosniff');

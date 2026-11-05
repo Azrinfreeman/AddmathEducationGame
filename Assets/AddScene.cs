@@ -9,9 +9,15 @@ public class AddScene : MonoBehaviour
 
     public void AddARScene()
     {
+#if UNITY_WEBGL
+        // AR cannot run in a browser: explain instead of loading the AR scene.
+        WebGlArNotice.Show();
+        return;
+#else
         if(isLoading || SceneManager.GetSceneByName(name).isLoaded) return;
         isLoading = true;
         SceneManager.LoadSceneAsync(name, LoadSceneMode.Additive).completed += _ => isLoading = false;
+#endif
     }
 
     public void DeleteScene()

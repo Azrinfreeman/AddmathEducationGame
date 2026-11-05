@@ -57,8 +57,12 @@ namespace MathFun.OnlineData
 
         private static void SpawnIfMainMenu(Scene scene)
         {
+#if UNITY_WEBGL
+            return; // Web demo mode: no Online button (see ApiConfiguration.LoadOrDisabled).
+#else
             if (scene.name != SceneName || FindFirstObjectByType<OnlineAccountPanel>() != null) return;
             new GameObject("OnlineAccountPanel").AddComponent<OnlineAccountPanel>();
+#endif
         }
 
         private void Start()
