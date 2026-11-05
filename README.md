@@ -1,5 +1,21 @@
 # MathFunEducational — Interactive Mathematics Learning
 
+[![Fun Math](docs/media/poster.jpg)](https://azrinamran98.itch.io/math-fun-education)
+
+**[▶ Play the web demo on itch.io](https://azrinamran98.itch.io/math-fun-education)** · **[🎬 Watch the 40-second trailer](docs/media/trailer.mp4)**
+
+> The web demo runs in your browser. AR lessons and online account saving need the Android app.
+
+## What makes it interesting
+
+- **Built for small children, in two languages.** Malay and English text and voice-over, with a friendly owl guide, big buttons and a parent area behind a maths question.
+- **Maths you can touch.** Besides lessons and quizzes, kids play a rocket game, balance scales and a directional "algorithm" puzzle that teaches sequencing.
+- **AR on the phone.** Eleven Vuforia image-target lessons let children see addition, time, perimeter, area and volume on real objects.
+- **Works offline first.** Every result is saved on the device, then uploaded when a parent signs in. Nothing is lost without internet.
+- **A real backend, hand-written.** A plain PHP 8 and MySQL REST API (no framework) with hashed tokens, safe retries, deduplicated results and rate limiting. It has an end-to-end test suite and a deployment guide: [docs/tutorial/online-player-data.md](docs/tutorial/online-player-data.md).
+- **Privacy-minded.** Children have profiles under one adult account, deletions are honoured, and the server never logs names or passwords.
+- **One codebase, three targets.** Android app with AR, a WebGL demo with AR and accounts switched off, and a server that both talk to.
+
 **A Unity educational application combining mathematics lessons, quizzes, minigames, and image-target AR activities.**
 
 MathFunEducational includes preschool number/addition content, time-reading lessons, and perimeter, area, and volume activities. It connects local player profiles with lesson completion, quiz results, game progression, and achievement badges. The repository remains named `AddmathEducationGame`; its configured Unity product name is `MathFunEducational`. To change the app display name, edit **Project Settings > Player > Product Name** in Unity. The Android application identifier is `com.Techies.MathFunEducational`. Change it under **Project Settings > Player > Android > Other Settings > Identification > Package Name**. Android treats this identifier as a separate app from the previous `com.Techies.FunMathProject` package, so existing installs will not receive it as an update or automatically share local progress.
