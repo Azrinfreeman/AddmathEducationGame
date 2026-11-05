@@ -2,7 +2,7 @@
 
 [![Fun Math](docs/media/poster.jpg)](https://azrinamran98.itch.io/math-fun-education)
 
-**[▶ Play the web demo on itch.io](https://azrinamran98.itch.io/math-fun-education)** · **[🎬 Watch the 40-second trailer](docs/media/trailer.mp4)**
+**[▶ Play the web demo on itch.io](https://azrinamran98.itch.io/math-fun-education)** · **[🎬 Watch the 40-second trailer](docs/media/trailer.mp4)** · **[📱 Download the Android app (APK)](https://github.com/Azrinfreeman/MathFunEducation/releases/latest)**
 
 > The web demo runs in your browser. AR lessons and online account saving need the Android app.
 
